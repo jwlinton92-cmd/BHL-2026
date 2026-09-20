@@ -1,0 +1,63 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+
+    "draft": {
+      ".read": "auth != null",
+
+      "admin": {
+        ".write": "auth != null && !data.exists()",
+        ".validate": "newData.val() === auth.uid"
+      },
+
+      "config": {
+        ".write": "auth != null && root.child('draft/admin').val() === auth.uid",
+        "status":         { ".validate": "newData.isString()" },
+        "format":         { ".validate": "newData.isString()" },
+        "rounds":         { ".validate": "newData.isNumber()" },
+        "startedAt":      { ".validate": "newData.isNumber()" },
+        "clockStartedAt": { ".validate": "newData.isNumber()" },
+        "$other": { ".validate": false }
+      },
+
+      "order": {
+        ".write": "auth != null && root.child('draft/admin').val() === auth.uid",
+        "$i": { ".validate": "newData.isString()" }
+      },
+
+      "claims": {
+        "$teamId": {
+          ".write": "auth != null && (!data.exists() || data.child('uid').val() === auth.uid || root.child('draft/admin').val() === auth.uid)",
+          "uid": { ".validate": "newData.val() === auth.uid || root.child('draft/admin').val() === auth.uid" },
+          "at":  { ".validate": "newData.isNumber()" },
+          "$other": { ".validate": false }
+        }
+      },
+
+      "picks": {
+        "$n": {
+          "//": "A pick may only be created, never edited. Only the team on the clock (or the commissioner) may create it, and only while the draft is live.",
+          ".write": "auth != null && (root.child('draft/config/status').val() === 'live' || root.child('draft/admin').val() === auth.uid) && (!data.exists() ? (root.child('draft/claims/' + newData.child('teamId').val() + '/uid').val() === auth.uid || root.child('draft/admin').val() === auth.uid) : root.child('draft/admin').val() === auth.uid)",
+          ".validate": "!newData.exists() || (newData.hasChildren(['n','round','teamId','player','slot','at']) && newData.child('n').val() === ($n * 1))",
+          "n":      { ".validate": "newData.isNumber()" },
+          "round":  { ".validate": "newData.isNumber()" },
+          "teamId": { ".validate": "newData.isString()" },
+          "player": { ".validate": "newData.isString() && newData.val().length <= 80" },
+          "pos":    { ".validate": "newData.isString()" },
+          "slot":   { ".validate": "newData.isString()" },
+          "at":     { ".validate": "newData.isNumber()" },
+          "$other": { ".validate": false }
+        }
+      },
+
+      "presence": {
+        "$uid": {
+          ".write": "auth != null && $uid === auth.uid",
+          "at": { ".validate": "newData.isNumber()" },
+          "$other": { ".validate": false }
+        }
+      }
+    }
+  }
+}

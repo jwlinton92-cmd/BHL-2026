@@ -1,0 +1,121 @@
+/* Draft room — shares the league site's tokens, adds the board furniture. */
+
+.backlink{color:var(--accent); text-decoration:none; font-size:13px}
+.backlink:hover{text-decoration:underline}
+
+/* ---- setup / gate screens ---- */
+.gate{max-width:620px; margin:40px auto; text-align:left}
+.gate h2{font-family:var(--display); font-size:30px; text-transform:uppercase;
+  letter-spacing:.03em; margin:0 0 10px}
+.gate ol{padding-left:20px; line-height:1.75}
+.gate code{background:var(--panel-2); border:1px solid var(--line); border-radius:5px;
+  padding:1px 6px; font-family:var(--mono); font-size:12.5px}
+.gate .card{margin-top:18px}
+
+/* ---- on-the-clock banner ---- */
+.clockbar{
+  display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+  background:var(--panel); border:1px solid var(--line); border-left:4px solid var(--ink-faint);
+  border-radius:var(--radius); padding:14px 18px; margin-bottom:18px;
+}
+.clockbar.mine{border-left-color:var(--good); background:color-mix(in srgb,var(--good) 9%,var(--panel))}
+.clockbar.done{border-left-color:var(--accent)}
+.clockbar .who{font-family:var(--display); font-size:30px; line-height:1;
+  text-transform:uppercase; letter-spacing:.02em}
+.clockbar .meta{color:var(--ink-dim); font-size:13px; margin-top:3px}
+.timer{font-family:var(--mono); font-size:27px; font-variant-numeric:tabular-nums; font-weight:500}
+.timer.low{color:var(--bad)}
+
+/* ---- layout ---- */
+.draftgrid{display:grid; grid-template-columns:1.55fr 1fr; gap:18px; align-items:start}
+@media (max-width:860px){ .draftgrid{grid-template-columns:1fr} }
+
+/* ---- player pool ---- */
+.poolbar{display:flex; gap:8px; flex-wrap:wrap; padding:12px 14px; border-bottom:1px solid var(--line)}
+.poolbar input,.poolbar select{
+  background:var(--bg); border:1px solid var(--line); color:var(--ink);
+  border-radius:7px; padding:7px 10px; font:inherit; font-size:13.5px;
+}
+.poolbar input{flex:1 1 160px; min-width:0}
+.poolbar input:focus,.poolbar select:focus{outline:2px solid var(--accent-dim); border-color:var(--accent)}
+.poolwrap{max-height:560px; overflow-y:auto}
+.poolwrap table{width:100%}
+.poolwrap thead th{position:sticky; top:0; background:var(--panel-2); z-index:1}
+.pickbtn{
+  appearance:none; border:1px solid var(--accent); background:transparent; color:var(--accent);
+  border-radius:6px; padding:4px 12px; font:inherit; font-size:12.5px; font-weight:600; cursor:pointer;
+}
+.pickbtn:hover:not(:disabled){background:var(--accent); color:var(--bg)}
+.pickbtn:disabled{opacity:.3; cursor:not-allowed; border-color:var(--line); color:var(--ink-faint)}
+.poslabel{display:inline-block; min-width:22px; font-family:var(--mono); font-size:11px;
+  color:var(--ink-faint); font-weight:500}
+
+/* ---- my roster ---- */
+.slotrow{display:flex; justify-content:space-between; align-items:center; gap:10px;
+  padding:7px 0; border-bottom:1px solid var(--line)}
+.slotrow:last-child{border-bottom:0}
+.slotrow .sname{font-size:13.5px}
+.slotrow .empty{color:var(--ink-faint); font-style:italic}
+.slotneed{font-family:var(--mono); font-size:11px; color:var(--ink-faint);
+  text-transform:uppercase; letter-spacing:.06em; min-width:52px}
+.needpill{background:var(--panel-2); border:1px solid var(--line); border-radius:999px;
+  padding:3px 9px; font-size:11.5px; color:var(--ink-dim); font-family:var(--mono)}
+.needpill.urgent{border-color:var(--gold); color:var(--gold)}
+
+/* ---- board / feed ---- */
+.feed{max-height:300px; overflow-y:auto}
+.feeditem{display:flex; gap:10px; align-items:baseline; padding:7px 14px; border-bottom:1px solid var(--line)}
+.feeditem:last-child{border-bottom:0}
+.feedpick{font-family:var(--mono); font-size:11.5px; color:var(--ink-faint); min-width:46px}
+.feedteam{font-size:12px; color:var(--ink-dim); min-width:62px}
+.feedname{font-size:13.5px; font-weight:500}
+
+/* ---- claim screen ---- */
+.teamgrid{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; padding:14px}
+.teambtn{
+  appearance:none; background:var(--panel-2); border:1px solid var(--line); color:var(--ink);
+  border-radius:8px; padding:13px 12px; font:inherit; cursor:pointer; text-align:left;
+}
+.teambtn:hover:not(:disabled){border-color:var(--accent); color:var(--accent)}
+.teambtn:disabled{opacity:.45; cursor:not-allowed}
+.teambtn b{display:block; font-family:var(--display); font-size:20px; text-transform:uppercase;
+  letter-spacing:.02em; line-height:1.1}
+.teambtn span{font-size:11.5px; color:var(--ink-faint)}
+
+/* ---- presence + admin ---- */
+.peers{display:flex; gap:6px; flex-wrap:wrap; padding:12px 14px}
+.peer{background:var(--panel-2); border:1px solid var(--line); border-radius:999px;
+  padding:3px 10px; font-size:11.5px; color:var(--ink-dim)}
+.peer.on{border-color:var(--good); color:var(--ink)}
+.adminbar{display:flex; gap:8px; flex-wrap:wrap; padding:14px}
+.abtn{appearance:none; background:var(--panel-2); border:1px solid var(--line); color:var(--ink-dim);
+  border-radius:7px; padding:7px 12px; font:inherit; font-size:12.5px; cursor:pointer}
+.abtn:hover{border-color:var(--accent); color:var(--accent)}
+.abtn.danger:hover{border-color:var(--bad); color:var(--bad)}
+
+textarea.export{
+  width:100%; min-height:220px; background:var(--bg); color:var(--ink);
+  border:1px solid var(--line); border-radius:8px; padding:12px;
+  font-family:var(--mono); font-size:11.5px; line-height:1.5; resize:vertical;
+}
+.err{color:var(--bad); font-size:13px; padding:0 14px 12px}
+
+/* ---- slot chooser ---- */
+.modalwrap{position:fixed; inset:0; background:rgba(4,8,16,.72);
+  display:flex; align-items:center; justify-content:center; padding:18px; z-index:50}
+.modal{background:var(--panel); border:1px solid var(--line); border-radius:12px;
+  padding:22px; max-width:420px; width:100%; box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.modal h3{margin:0 0 4px; font-family:var(--display); font-size:24px;
+  text-transform:uppercase; letter-spacing:.02em}
+.slotpick{display:flex; flex-direction:column; gap:8px}
+.slotopt{display:flex; align-items:center; gap:11px; padding:11px 13px;
+  border:1px solid var(--line); border-radius:8px; cursor:pointer; background:var(--bg)}
+.slotopt:hover{border-color:var(--accent)}
+.slotopt:has(input:checked){border-color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 10%,var(--bg))}
+.slotopt span{display:flex; flex-direction:column; gap:1px}
+.slotopt b{font-size:13.5px; font-weight:600}
+.slotopt em{font-style:normal; font-size:11.5px; color:var(--ink-faint)}
+.onlyfit{display:flex; align-items:center; gap:6px; font-size:12.5px; color:var(--ink-dim);
+  white-space:nowrap; cursor:pointer}
+.poolcount{margin:0; padding:8px 14px 0; color:var(--ink-faint)}

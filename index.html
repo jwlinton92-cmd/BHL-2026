@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bush Hockey League</title>
+<meta name="description" content="Live standings and scoring for the BHL fantasy hockey league.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏒</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand">
+      <span class="puck" aria-hidden="true"></span>
+      <div>
+        <h1>Bush Hockey League</h1>
+        <p class="sub" id="seasonLine">Loading season…</p>
+      </div>
+    </div>
+    <div class="stamp">
+      <a href="draft.html" class="draftlink">Draft room →</a>
+      <span class="dot" id="freshDot"></span>
+      <span id="updatedLine">—</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs wrap" role="tablist">
+  <button class="tab active" data-view="standings" role="tab">Standings</button>
+  <button class="tab" data-view="teams" role="tab">Teams</button>
+  <button class="tab" data-view="players" role="tab">Players</button>
+  <button class="tab" data-view="rules" role="tab">Scoring</button>
+</nav>
+
+<main class="wrap" id="main">
+  <p class="loading">Loading league data…</p>
+</main>
+
+<footer class="wrap foot">
+  <p>Stats from the NHL public API, refreshed every morning during the season.
+     Scoring ported from <em>BHL 2026 Scoring.xlsx</em>.</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "skater": {
+    "goal": 2,
+    "assist": 1,
+    "plusMinus": 0.5,
+    "gameWinningGoal": 1
+  },
+  "goalie": {
+    "win": 2,
+    "otLoss": 1,
+    "save": 0.1,
+    "gaaBonus": [
+      {
+        "maxGaa": 2.0,
+        "points": 40
+      },
+      {
+        "maxGaa": 2.5,
+        "points": 25
+      },
+      {
+        "maxGaa": 3.0,
+        "points": 10
+      },
+      {
+        "maxGaa": null,
+        "points": 0
+      }
+    ]
+  },
+  "goon": {
+    "penaltyMinute": 0.25
+  },
+  "lineup": {
+    "forwardsCounted": 4,
+    "defenseCounted": 3,
+    "goaliesCounted": 1,
+    "goonCounted": 1,
+    "rookieCounted": 1
+  },
+  "notes": "Rookies score under skater rules. Goons score PIM only. Only the best goalie of two counts."
+}
