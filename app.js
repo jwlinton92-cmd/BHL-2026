@@ -1,4 +1,4 @@
-/* Bush Hockey League — reads data/standings.json and renders the site. */
+/* Burner Hockey League — reads data/standings.json and renders the site. */
 (function () {
   "use strict";
 
