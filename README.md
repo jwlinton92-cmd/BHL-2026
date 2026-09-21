@@ -1,4 +1,4 @@
-# Bush Hockey League
+# Burner Hockey League
 
 A self-updating website for the BHL fantasy hockey league. Scoring is ported
 directly from `BHL 2026 Scoring.xlsx` and verified to match it to the penny.
