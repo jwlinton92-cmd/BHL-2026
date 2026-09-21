@@ -19,7 +19,7 @@ export const firebaseConfig = {
 
 /* The word used to unlock commissioner controls. This is only an accidental-
    use guard, not a true secret, because this file is publicly readable. */
-export const COMMISSIONER_CODE = "replace-this-before-sharing";
+export const COMMISSIONER_CODE = "linton";
 
 /* Seconds on the clock per pick. Advisory only. */
 export const PICK_SECONDS = 120;
