@@ -11,20 +11,29 @@ there's no server to run and nothing to pay for.
 
 ## One-time setup (about 10 minutes)
 
+> **If the site is showing up as plain unstyled text**, the stylesheet didn't
+> upload alongside the page. Step 2 below explains how to avoid that.
+
+
 1. **Create the repo.** On GitHub, click **New repository**, name it `bhl`,
    make it **Public** (required for free GitHub Pages), and don't add a README.
 
-2. **Upload these files.** On the empty repo page click
-   **uploading an existing file**, drag in everything from this folder, and
-   commit. Make sure the `.github` folder comes along — if your browser hides
-   it, use the command line instead:
+2. **Upload the files.** Every file except the two workflows sits loose at the
+   top level — there are no subfolders to preserve, so you can select them all
+   and drag them straight into GitHub's **uploading an existing file** page.
 
-   ```bash
-   git init && git branch -M main
-   git add . && git commit -m "BHL site"
-   git remote add origin https://github.com/YOUR-USERNAME/bhl.git
-   git push -u origin main
+   The two workflow files are the exception: GitHub only runs them from a
+   folder called `.github/workflows`, and browsers won't upload a folder whose
+   name starts with a dot. Create each one by hand instead — click
+   **Add file → Create new file**, and for the filename type:
+
    ```
+   .github/workflows/update.yml
+   ```
+
+   Typing the slashes creates the folders for you. Paste in the contents of
+   `update.yml` from this bundle and commit. Repeat for
+   `.github/workflows/deploy.yml`.
 
 3. **Turn on Pages.** Repo **Settings → Pages → Build and deployment →
    Source: GitHub Actions**.
@@ -65,7 +74,7 @@ Do this once, before draft night:
    Your apps → Web** (the `</>` icon). Register the app, then copy the
    `firebaseConfig` object it shows you.
 
-6. **Paste it in.** Put those values into `assets/firebase-config.js`, change
+6. **Paste it in.** Put those values into `firebase-config.js`, change
    `COMMISSIONER_CODE` to something only you know, and commit.
 
 Until step 6 is done the draft page shows these instructions instead of a board,
@@ -88,7 +97,7 @@ so it's safe to deploy early.
    when it's you. Search or sort the pool, hit **Draft**, and it's locked in for
    everyone. Order snakes — 1 through 8, then 8 through 1.
 5. **When it ends**, the board shows a **Save the results** box. Copy that and
-   paste it over `data/rosters.json` in the repo. The standings rescore on their
+   paste it over `rosters.json` in the repo. The standings rescore on their
    own once you commit.
 
 A few things worth knowing:
@@ -112,7 +121,7 @@ A few things worth knowing:
 
 ### Changing a roster
 
-Edit **`data/rosters.json`** on GitHub (click the file, then the pencil icon)
+Edit **`rosters.json`** on GitHub (click the file, then the pencil icon)
 and commit. The standings rescore automatically within a minute or two — you
 don't need to wait for the next morning.
 
@@ -122,11 +131,11 @@ Spell names as the NHL does; accents and punctuation don't matter
 
 If a name doesn't match anything, that player scores zero and **a red banner
 appears at the top of the site** naming them, so a typo can't quietly cost
-someone a season. Fix the spelling, or add the mapping to `data/aliases.json`.
+someone a season. Fix the spelling, or add the mapping to `aliases.json`.
 
 ### Changing the scoring
 
-Edit **`data/scoring.json`**. Every value the league uses lives there — point
+Edit **`scoring.json`**. Every value the league uses lives there — point
 values, the GAA bonus bands, and how many players at each position count.
 
 ---
@@ -148,22 +157,26 @@ still show on the team page, greyed out, so you can see what you left out.
 
 ## Files
 
+Everything lives at the top level, so nothing breaks if the files get moved
+around during an upload.
+
 ```
-index.html                  the league site
-draft.html                  the live draft room
-assets/style.css            shared styling
-assets/app.js               league site rendering
-assets/draft.css            draft room styling
-assets/draft.js             draft room logic
-assets/firebase-config.js   ← paste your Firebase settings here
-database-rules.json         ← paste this into the Firebase Rules tab
-data/rosters.json           ← the file you edit between drafts
-data/scoring.json           ← point values and lineup rules
-data/aliases.json           name-spelling fixes
-data/players.json           generated draft pool — don't edit by hand
-data/standings.json         generated output — don't edit by hand
-scripts/update.py           the daily updater
-.github/workflows/          the daily cron and the Pages deploy
+index.html                    the league site
+draft.html                    the live draft room
+style.css                     shared styling
+app.js                        league site rendering
+draft.css                     draft room styling
+draft.js                      draft room logic
+firebase-config.js            ← paste your Firebase settings here
+database-rules.json           ← paste this into the Firebase Rules tab
+rosters.json                  ← the file you edit between drafts
+scoring.json                  ← point values and lineup rules
+aliases.json                  name-spelling fixes
+players.json                  generated draft pool — don't edit by hand
+standings.json                generated output — don't edit by hand
+update.py                     the daily updater
+.github/workflows/update.yml  the daily stats job
+.github/workflows/deploy.yml  publishes the site
 ```
 
 ## Notes
@@ -173,7 +186,7 @@ scripts/update.py           the daily updater
   its own once real games are played.
 - To preview locally: `python3 -m http.server 8000`, then open
   `http://localhost:8000`.
-- To rescore locally: `python scripts/update.py` (no dependencies beyond
+- To rescore locally: `python update.py` (no dependencies beyond
   Python 3).
 - The daily job runs at 7:15am Central, after West Coast games are final.
 - The draft pool ranks players by what they *would* have scored under BHL rules

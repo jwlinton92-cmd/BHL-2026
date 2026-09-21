@@ -21,8 +21,10 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
+# Everything lives side by side at the repo root, so the site keeps working
+# however the files get uploaded.
+ROOT = Path(__file__).resolve().parent
+DATA = ROOT
 
 NHL_STATS = "https://api.nhle.com/stats/rest/en"
 PAGE = 100

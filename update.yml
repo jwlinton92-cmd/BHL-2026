@@ -8,10 +8,10 @@ on:
   workflow_dispatch:        # lets you run it by hand from the Actions tab
   push:
     paths:
-      - "data/rosters.json" # re-score immediately when you edit a roster
-      - "data/scoring.json"
-      - "data/aliases.json"
-      - "scripts/update.py"
+      - "rosters.json"      # re-score immediately when you edit a roster
+      - "scoring.json"
+      - "aliases.json"
+      - "update.py"
 
 permissions:
   contents: write
@@ -31,13 +31,13 @@ jobs:
           python-version: "3.12"
 
       - name: Pull NHL stats and rescore the league
-        run: python scripts/update.py
+        run: python update.py
 
       - name: Commit updated standings
         run: |
           git config user.name  "BHL Bot"
           git config user.email "actions@github.com"
-          git add data/standings.json
+          git add standings.json players.json
           if git diff --staged --quiet; then
             echo "No scoring changes today."
           else

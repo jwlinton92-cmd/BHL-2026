@@ -111,8 +111,8 @@ async function boot() {
 
   try {
     const [pRes, rRes] = await Promise.all([
-      fetch("data/players.json?v=" + Date.now()),
-      fetch("data/rosters.json?v=" + Date.now()),
+      fetch("players.json?v=" + Date.now()),
+      fetch("rosters.json?v=" + Date.now()),
     ]);
     players = (await pRes.json()).players;
     teams = (await rRes.json()).teams.map((t) => ({ id: t.id, name: t.name }));
@@ -163,7 +163,7 @@ function renderSetup() {
               <b>Anonymous</b>.</li>
           <li>In <b>Project settings → General</b>, scroll to "Your apps", add a
               <b>Web</b> app, and copy the <code>firebaseConfig</code> values.</li>
-          <li>Paste them into <code>assets/firebase-config.js</code>, change
+          <li>Paste them into <code>firebase-config.js</code>, change
               <code>COMMISSIONER_CODE</code>, and commit.</li>
         </ol>
         <p class="tiny">Full instructions are in the README under
@@ -363,7 +363,7 @@ function renderExport() {
   })) };
   return `<div class="card"><h3>Save the results</h3><div class="pad">
     <p class="tiny" style="margin:0 0 10px">Copy this and paste it over
-    <code>data/rosters.json</code> in the repo. The standings rescore
+    <code>rosters.json</code> in the repo. The standings rescore
     automatically once you commit.</p>
     <textarea class="export" id="exportbox" readonly>${esc(JSON.stringify(out, null, 2))}</textarea>
     <div class="adminbar" style="padding:12px 0 0">

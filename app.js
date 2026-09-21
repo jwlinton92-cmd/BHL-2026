@@ -1,4 +1,4 @@
-/* Burner Hockey League — reads data/standings.json and renders the site. */
+/* Bush Hockey League — reads standings.json and renders the site. */
 (function () {
   "use strict";
 
@@ -78,7 +78,7 @@
     return '<div class="note warn"><b>' + D.unmatched.length +
       " roster name(s) didn't match any NHL player</b> and are scoring zero: " +
       D.unmatched.map(function (u) { return esc(u.name) + " (" + esc(u.team) + ")"; }).join(", ") +
-      ". Fix the spelling in <code>data/rosters.json</code> or add an entry to <code>data/aliases.json</code>.</div>";
+      ". Fix the spelling in <code>rosters.json</code> or add an entry to <code>aliases.json</code>.</div>";
   }
 
   /* ----------------------------------------------------------- teams */
@@ -275,7 +275,7 @@
     });
   });
 
-  fetch("data/standings.json?v=" + Date.now())
+  fetch("standings.json?v=" + Date.now())
     .then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.json();
