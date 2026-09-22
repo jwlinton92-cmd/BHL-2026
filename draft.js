@@ -1,12 +1,12 @@
 /* ---------------------------------------------------------------------------
    BHL live draft room.
 
-   State lives in Firebase Realtime Database so all eight owners see the same
+   State lives in Firebase Realtime Database so every owner sees the same
    board. The page is a pure function of that state: every render comes from a
    snapshot, never from local assumptions about what just happened.
 
    Database shape:
-     draft/config   {status, format, rounds, startedAt, clockStartedAt}
+     draft/config   {status, format, rounds, startedAt}
      draft/order    [teamId, ...]        randomized once, then fixed
      draft/picks/N  {n, round, teamId, player, pos, slot, at}
      draft/claims   {teamId: {uid, at}}
@@ -149,8 +149,8 @@ function renderSetup() {
   app.innerHTML = `
     <div class="gate">
       <h2>One setup step left</h2>
-      <p class="muted">The draft room needs a free Firebase project so all eight
-      owners stay in sync. It takes about ten minutes, once.</p>
+      <p class="muted">The draft room needs a free Firebase project so every
+      owner stays in sync. It takes about ten minutes, once.</p>
       <div class="card"><div class="pad">
         <ol>
           <li>Go to <code>console.firebase.google.com</code> and create a project.
@@ -249,6 +249,7 @@ function renderLobby() {
       ${isAdmin ? `<div class="card"><h3>Commissioner</h3><div class="adminbar">
         <button class="abtn" id="randomize">Randomize pick order</button>
         <button class="abtn" id="start" ${state.order.length ? "" : "disabled"}>Start draft</button>
+        <button class="abtn danger" id="release" ${Object.keys(state.claims).length ? "" : "disabled"}>Release a team</button>
         <button class="abtn danger" id="reset">Reset everything</button>
       </div>${state.order.length ? "" :
         `<p class="tiny" style="padding:0 14px 14px;margin:0">Randomize the order first.</p>`}
@@ -440,10 +441,17 @@ function paintFeed() {
   </div>`).join("") || `<p class="tiny" style="padding:12px 14px">No picks yet.</p>`;
 }
 
+/* The current pick's clock starts when the previous pick landed. */
+function clockStartedAt() {
+  const ps = Object.values(state.picks);
+  if (!ps.length) return state.config.startedAt || null;
+  return ps.reduce((m, p) => Math.max(m, p.at || 0), 0) || state.config.startedAt;
+}
+
 function paintTimer() {
   const el = document.getElementById("timer");
   if (!el) return;
-  const started = state.config.clockStartedAt || state.config.startedAt;
+  const started = clockStartedAt();
   if (!started) return;
   const left = Math.max(0, PICK_SECONDS - Math.floor((Date.now() - started) / 1000));
   const m = Math.floor(left / 60), s = left % 60;
@@ -525,18 +533,14 @@ function openSlotChooser(player, opts, done) {
    the same moment can't both land the pick — the rules reject the loser. */
 async function commitPick(n, cur, p, slot) {
   const ref = fb.ref(db, "draft/picks/" + n);
-  const res = await fb.runTransaction(ref, (existing) =>
+  await fb.runTransaction(ref, (existing) =>
     existing === null
       ? { n, round: cur.round, teamId: cur.teamId, player: p.name,
           pos: p.pos, slot, at: Date.now() }
       : undefined);
-  if (res.committed) {
-    const finished = n >= totalPicks();
-    await fb.update(fb.ref(db, "draft/config"), {
-      clockStartedAt: Date.now(),
-      ...(finished ? { status: "done" } : {}),
-    });
-  }
+  // Nothing else is written. The clock and the "draft is over" state are both
+  // derived from the picks themselves, so an ordinary owner never needs write
+  // access to the commissioner-only config node.
 }
 
 function wire() {
@@ -582,22 +586,24 @@ function wire() {
       `their turn comes. Start anyway?`)) return;
     await fb.update(fb.ref(db, "draft/config"), {
       status: "live", format: "snake", rounds: ROUNDS,
-      startedAt: Date.now(), clockStartedAt: Date.now(),
+      startedAt: Date.now(),
     });
   });
 
   on("reset", async () => {
     if (!confirm("Wipe every pick and start over? This cannot be undone.")) return;
-    await fb.update(fb.ref(db, "draft"), {
-      picks: null, config: { status: "setup" }, order: null,
-    });
+    // Each path is cleared on its own — a multi-path update rooted at "draft"
+    // asks for write permission on "draft" itself, which nothing grants.
+    await fb.remove(fb.ref(db, "draft/picks"));
+    await fb.remove(fb.ref(db, "draft/order"));
+    await fb.set(fb.ref(db, "draft/config"), { status: "setup" });
   });
 
   on("undo", async () => {
     const n = pickCount();
     if (!n) return;
     await fb.remove(fb.ref(db, "draft/picks/" + n));
-    await fb.update(fb.ref(db, "draft/config"), { status: "live", clockStartedAt: Date.now() });
+    await fb.update(fb.ref(db, "draft/config"), { status: "live" });
   });
 
   on("forcepick", async () => {
