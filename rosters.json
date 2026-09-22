@@ -494,12 +494,13 @@
         {
           "name": "Matthew Schaefer",
           "slot": "ROOKIE"
-      {
-  "id": "wolfe",
-  "name": "Wolfe",
-  "players": []
-}  }
+        }
       ]
+    },
+    {
+      "id": "wolfe",
+      "name": "Wolfe",
+      "players": []
     }
   ]
 }
