@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T17:19:59+00:00",
+ "updated": "2026-10-01T17:29:04+00:00",
  "seasonId": 20262027,
  "seasonLabel": "2026-27",
  "gamesPlayedMax": 2,
@@ -37,41 +37,45 @@
     {
      "name": "Matt Boldy",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "MIN",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Leo Carlsson",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "ANA",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Connor Bedard",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "CHI",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Brandon Hagel",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "TBL",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -113,21 +117,23 @@
     {
      "name": "Jackson LaCombe",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "ANA",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Philip Broberg",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "STL",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -151,11 +157,12 @@
     {
      "name": "Juuse Saros",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "NSH",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -197,10 +204,11 @@
      "name": "Ivan Stenberg",
      "slot": "ROOKIE",
      "nhlTeam": "\u2014",
+     "pos": "",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     }
    ],
@@ -221,11 +229,12 @@
     {
      "name": "Macklin Celebrini",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "SJS",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -249,11 +258,12 @@
     {
      "name": "Jack Hughes",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "NJD",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -277,31 +287,34 @@
     {
      "name": "Tim St\u00fctzle",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "OTT",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Will Smith",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "SJS",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Rasmus Dahlin",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "BUF",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -343,21 +356,23 @@
     {
      "name": "Justin Faulk",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DET",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Jesper Wallstedt",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "MIN",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -485,21 +500,23 @@
     {
      "name": "Mikko Rantanen",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DAL",
+     "pos": "R",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Brayden Point",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "TBL",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -577,21 +594,23 @@
     {
      "name": "Brandon Montour",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "SEA",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Logan Thompson",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WSH",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -632,11 +651,12 @@
     {
      "name": "Konsta Helenius",
      "slot": "ROOKIE",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "BUF",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     }
    ],
@@ -675,11 +695,12 @@
     {
      "name": "Mark Scheifele",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WPG",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -757,11 +778,12 @@
     {
      "name": "Quinn Hughes",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "MIN",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -785,11 +807,12 @@
     {
      "name": "Charlie McAvoy",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "BOS",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -832,31 +855,34 @@
     {
      "name": "Yaroslav Askarov",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "SJS",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Michael McCarron",
      "slot": "GOON",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "MIN",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Cole Hutson",
      "slot": "ROOKIE",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WSH",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     }
    ],
@@ -931,11 +957,12 @@
     {
      "name": "Jake Guentzel",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "TBL",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -959,51 +986,56 @@
     {
      "name": "Filip Forsberg",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "NSH",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Moritz Seider",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DET",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Roman Josi",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "NSH",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "John Carlson",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "ANA",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Thomas Harley",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DAL",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1047,11 +1079,12 @@
     {
      "name": "Tom Wilson",
      "slot": "GOON",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WSH",
+     "pos": "R",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1126,21 +1159,23 @@
     {
      "name": "Kyle Connor",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WPG",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Dylan Guenther",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "UTA",
+     "pos": "R",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1164,31 +1199,34 @@
     {
      "name": "Lucas Raymond",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DET",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Zach Werenski",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "CBJ",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Brock Faber",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "MIN",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1212,31 +1250,34 @@
     {
      "name": "MacKenzie Weegar",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "UTA",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Jake Oettinger",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DAL",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Connor Hellebuyck",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WPG",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1309,21 +1350,23 @@
     {
      "name": "Clayton Keller",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "UTA",
+     "pos": "R",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Alex DeBrincat",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DET",
+     "pos": "R",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1365,41 +1408,45 @@
     {
      "name": "Seth Jarvis",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "CAR",
+     "pos": "R",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Josh Morrissey",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WPG",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Jakob Chychrun",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WSH",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Mikhail Sergachev",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "UTA",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1423,11 +1470,12 @@
     {
      "name": "Andrei Vasilevskiy",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "TBL",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1450,23 +1498,25 @@
      }
     },
     {
-     "name": "A.J. Greer",
+     "name": "Anthony-John (AJ) Greer",
      "slot": "GOON",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "FLA",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Ilya Protas",
      "slot": "ROOKIE",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "WSH",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     }
    ],
@@ -1487,11 +1537,12 @@
     {
      "name": "Nikita Kucherov",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "TBL",
+     "pos": "R",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1515,31 +1566,34 @@
     {
      "name": "Tage Thompson",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "BUF",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Cutter Gauthier",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "ANA",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Robert Thomas",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "STL",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1617,21 +1671,23 @@
     {
      "name": "Dougie Hamilton",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "NJD",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Karel Vejmelka",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "UTA",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1705,31 +1761,34 @@
     {
      "name": "Kirill Kaprizov",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "MIN",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Jason Robertson",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DAL",
+     "pos": "L",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Wyatt Johnston",
      "slot": "F",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DAL",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1789,21 +1848,23 @@
     {
      "name": "Miro Heiskanen",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "DAL",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Jake Sanderson",
      "slot": "D",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "OTT",
+     "pos": "D",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -1845,31 +1906,34 @@
     {
      "name": "Scott Wedgewood",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "COL",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Ukko-Pekka Luukkonen",
      "slot": "G",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "BUF",
+     "pos": "G",
      "gp": 0,
      "points": 0,
      "counting": false,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
      "name": "Max Domi",
      "slot": "GOON",
-     "nhlTeam": "\u2014",
+     "nhlTeam": "TOR",
+     "pos": "C",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": true,
+     "missing": false,
      "line": {}
     },
     {
@@ -2806,7 +2870,8 @@
    "points": 1.5
   }
  ],
- "unmatched": [
+ "unmatched": [],
+ "notPlayed": [
   {
    "team": "Wolfe",
    "name": "Kyle Connor",
