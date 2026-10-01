@@ -2,259 +2,15 @@
   "season": "2026-27",
   "teams": [
     {
-      "id": "greedo",
-      "name": "Greedo",
+      "id": "wolfe",
+      "name": "Wolfe",
       "players": [
         {
-          "name": "Kirill Kaprizov",
+          "name": "Connor McDavid",
           "slot": "F"
         },
         {
-          "name": "Brayden Point",
-          "slot": "F"
-        },
-        {
-          "name": "Artemi Panarin",
-          "slot": "F"
-        },
-        {
-          "name": "Macklin Celebrini",
-          "slot": "F"
-        },
-        {
-          "name": "Tage Thompson",
-          "slot": "F"
-        },
-        {
-          "name": "Cole Caufield",
-          "slot": "F"
-        },
-        {
-          "name": "Brock Faber",
-          "slot": "D"
-        },
-        {
-          "name": "Jake Sanderson",
-          "slot": "D"
-        },
-        {
-          "name": "Brandon Montour",
-          "slot": "D"
-        },
-        {
-          "name": "Seth Jones",
-          "slot": "D"
-        },
-        {
-          "name": "Juuse Saros",
-          "slot": "G"
-        },
-        {
-          "name": "Thatcher Demko",
-          "slot": "G"
-        },
-        {
-          "name": "Mark Kastelic",
-          "slot": "GOON"
-        },
-        {
-          "name": "Ville Koivunen",
-          "slot": "ROOKIE"
-        }
-      ]
-    },
-    {
-      "id": "gahs",
-      "name": "Gahs",
-      "players": [
-        {
-          "name": "Auston Matthews",
-          "slot": "F"
-        },
-        {
-          "name": "Mikko Rantanen",
-          "slot": "F"
-        },
-        {
-          "name": "Jake Guentzel",
-          "slot": "F"
-        },
-        {
-          "name": "Jesper Bratt",
-          "slot": "F"
-        },
-        {
-          "name": "Alex DeBrincat",
-          "slot": "F"
-        },
-        {
-          "name": "Morgan Geekie",
-          "slot": "F"
-        },
-        {
-          "name": "Evan Bouchard",
-          "slot": "D"
-        },
-        {
-          "name": "Noah Dobson",
-          "slot": "D"
-        },
-        {
-          "name": "Mikhail Sergachev",
-          "slot": "D"
-        },
-        {
-          "name": "Erik Karlsson",
-          "slot": "D"
-        },
-        {
-          "name": "Scott Wedgewood",
-          "slot": "G"
-        },
-        {
-          "name": "Dustin Wolf",
-          "slot": "G"
-        },
-        {
-          "name": "Nikita Zadorov",
-          "slot": "GOON"
-        },
-        {
-          "name": "Ivan Demidov",
-          "slot": "ROOKIE"
-        }
-      ]
-    },
-    {
-      "id": "lints",
-      "name": "Linton",
-      "players": [
-        {
-          "name": "Leon Draisaitl",
-          "slot": "F"
-        },
-        {
-          "name": "Brady Tkachuk",
-          "slot": "F"
-        },
-        {
-          "name": "Matt Boldy",
-          "slot": "F"
-        },
-        {
-          "name": "Filip Forsberg",
-          "slot": "F"
-        },
-        {
-          "name": "Sebastian Aho",
-          "slot": "F"
-        },
-        {
-          "name": "Wyatt Johnston",
-          "slot": "F"
-        },
-        {
-          "name": "Rasmus Dahlin",
-          "slot": "D"
-        },
-        {
-          "name": "Jakob Chychrun",
-          "slot": "D"
-        },
-        {
-          "name": "John Carlson",
-          "slot": "D"
-        },
-        {
-          "name": "Shayne Gostisbehere",
-          "slot": "D"
-        },
-        {
-          "name": "Sergei Bobrovsky",
-          "slot": "G"
-        },
-        {
-          "name": "Adin Hill",
-          "slot": "G"
-        },
-        {
-          "name": "Brandon Duhaime",
-          "slot": "GOON"
-        },
-        {
-          "name": "Ryan Leonard",
-          "slot": "ROOKIE"
-        }
-      ]
-    },
-    {
-      "id": "rock",
-      "name": "Rock",
-      "players": [
-        {
-          "name": "Jack Eichel",
-          "slot": "F"
-        },
-        {
-          "name": "Sam Reinhart",
-          "slot": "F"
-        },
-        {
-          "name": "Jason Robertson",
-          "slot": "F"
-        },
-        {
-          "name": "Connor Bedard",
-          "slot": "F"
-        },
-        {
-          "name": "Dylan Guenther",
-          "slot": "F"
-        },
-        {
-          "name": "Trevor Zegras",
-          "slot": "F"
-        },
-        {
-          "name": "Cale Makar",
-          "slot": "D"
-        },
-        {
-          "name": "Quinn Hughes",
-          "slot": "D"
-        },
-        {
-          "name": "Lane Hutson",
-          "slot": "D"
-        },
-        {
-          "name": "Charlie McAvoy",
-          "slot": "D"
-        },
-        {
-          "name": "Igor Shesterkin",
-          "slot": "G"
-        },
-        {
-          "name": "Mackenzie Blackwood",
-          "slot": "G"
-        },
-        {
-          "name": "Tom Wilson",
-          "slot": "GOON"
-        },
-        {
-          "name": "Zeev Buium",
-          "slot": "ROOKIE"
-        }
-      ]
-    },
-    {
-      "id": "slobbin",
-      "name": "Slobbin",
-      "players": [
-        {
-          "name": "Nikita Kucherov",
+          "name": "William Nylander",
           "slot": "F"
         },
         {
@@ -262,65 +18,11 @@
           "slot": "F"
         },
         {
-          "name": "Brandon Hagel",
+          "name": "Dylan Guenther",
           "slot": "F"
         },
         {
-          "name": "Mark Scheifele",
-          "slot": "F"
-        },
-        {
-          "name": "Alex Ovechkin",
-          "slot": "F"
-        },
-        {
-          "name": "Jordan Kyrou",
-          "slot": "F"
-        },
-        {
-          "name": "Thomas Harley",
-          "slot": "D"
-        },
-        {
-          "name": "Ryan McDonagh",
-          "slot": "D"
-        },
-        {
-          "name": "Denton Mateychuk",
-          "slot": "D"
-        },
-        {
-          "name": "Darren Raddysh",
-          "slot": "D"
-        },
-        {
-          "name": "Andrei Vasilevskiy",
-          "slot": "G"
-        },
-        {
-          "name": "Jordan Binnington",
-          "slot": "G"
-        },
-        {
-          "name": "Emil Lilleberg",
-          "slot": "GOON"
-        },
-        {
-          "name": "Matt Savoie",
-          "slot": "ROOKIE"
-        }
-      ]
-    },
-    {
-      "id": "wookie",
-      "name": "Wookie",
-      "players": [
-        {
-          "name": "David Pastrnak",
-          "slot": "F"
-        },
-        {
-          "name": "Sidney Crosby",
+          "name": "Mika Zibanejad",
           "slot": "F"
         },
         {
@@ -328,47 +30,35 @@
           "slot": "F"
         },
         {
-          "name": "Leo Carlsson",
-          "slot": "F"
-        },
-        {
-          "name": "Kirill Marchenko",
-          "slot": "F"
-        },
-        {
-          "name": "Adrian Kempe",
-          "slot": "F"
-        },
-        {
           "name": "Zach Werenski",
           "slot": "D"
         },
         {
-          "name": "Miro Heiskanen",
+          "name": "Brock Faber",
           "slot": "D"
         },
         {
-          "name": "Justin Faulk",
+          "name": "Erik Karlsson",
           "slot": "D"
         },
         {
-          "name": "Roman Josi",
+          "name": "MacKenzie Weegar",
           "slot": "D"
+        },
+        {
+          "name": "Jake Oettinger",
+          "slot": "G"
         },
         {
           "name": "Connor Hellebuyck",
           "slot": "G"
         },
         {
-          "name": "Ilya Sorokin",
-          "slot": "G"
-        },
-        {
-          "name": "Mathieu Olivier",
+          "name": "Mark Kastelic",
           "slot": "GOON"
         },
         {
-          "name": "Jimmy Snuggerud",
+          "name": "Victor Eklund",
           "slot": "ROOKIE"
         }
       ]
@@ -382,27 +72,279 @@
           "slot": "F"
         },
         {
-          "name": "Mitch Marner",
+          "name": "Mark Scheifele",
           "slot": "F"
         },
         {
-          "name": "William Nylander",
+          "name": "Artemi Panarin",
           "slot": "F"
         },
         {
-          "name": "Jack Hughes",
+          "name": "Adrian Kempe",
           "slot": "F"
         },
+        {
+          "name": "Sidney Crosby",
+          "slot": "F"
+        },
+        {
+          "name": "Zach Hyman",
+          "slot": "F"
+        },
+        {
+          "name": "Quinn Hughes",
+          "slot": "D"
+        },
+        {
+          "name": "Matthew Schaefer",
+          "slot": "D"
+        },
+        {
+          "name": "Charlie McAvoy",
+          "slot": "D"
+        },
+        {
+          "name": "Travis Sanheim",
+          "slot": "D"
+        },
+        {
+          "name": "Ilya Sorokin",
+          "slot": "G"
+        },
+        {
+          "name": "Yaroslav Askarov",
+          "slot": "G"
+        },
+        {
+          "name": "Michael McCarron",
+          "slot": "GOON"
+        },
+        {
+          "name": "Cole Hutson",
+          "slot": "ROOKIE"
+        }
+      ]
+    },
+    {
+      "id": "slobbin",
+      "name": "Slobbin",
+      "players": [
+        {
+          "name": "Nikita Kucherov",
+          "slot": "F"
+        },
+        {
+          "name": "Nick Suzuki",
+          "slot": "F"
+        },
+        {
+          "name": "Tage Thompson",
+          "slot": "F"
+        },
+        {
+          "name": "Cutter Gauthier",
+          "slot": "F"
+        },
+        {
+          "name": "Robert Thomas",
+          "slot": "F"
+        },
+        {
+          "name": "Bo Horvat",
+          "slot": "F"
+        },
+        {
+          "name": "Lane Hutson",
+          "slot": "D"
+        },
+        {
+          "name": "Darren Raddysh",
+          "slot": "D"
+        },
+        {
+          "name": "Bowen Byram",
+          "slot": "D"
+        },
+        {
+          "name": "Dougie Hamilton",
+          "slot": "D"
+        },
+        {
+          "name": "Karel Vejmelka",
+          "slot": "G"
+        },
+        {
+          "name": "Mackenzie Blackwood",
+          "slot": "G"
+        },
+        {
+          "name": "Nikita Zadorov",
+          "slot": "GOON"
+        },
+        {
+          "name": "Gavin McKenna",
+          "slot": "ROOKIE"
+        }
+      ]
+    },
+    {
+      "id": "rock",
+      "name": "Rock",
+      "players": [
+        {
+          "name": "Auston Matthews",
+          "slot": "F"
+        },
+        {
+          "name": "Jack Eichel",
+          "slot": "F"
+        },
+        {
+          "name": "Sam Reinhart",
+          "slot": "F"
+        },
+        {
+          "name": "Jake Guentzel",
+          "slot": "F"
+        },
+        {
+          "name": "Ivan Demidov",
+          "slot": "F"
+        },
+        {
+          "name": "Filip Forsberg",
+          "slot": "F"
+        },
+        {
+          "name": "Moritz Seider",
+          "slot": "D"
+        },
+        {
+          "name": "Roman Josi",
+          "slot": "D"
+        },
+        {
+          "name": "John Carlson",
+          "slot": "D"
+        },
+        {
+          "name": "Thomas Harley",
+          "slot": "D"
+        },
+        {
+          "name": "Igor Shesterkin",
+          "slot": "G"
+        },
+        {
+          "name": "Sergei Bobrovsky",
+          "slot": "G"
+        },
+        {
+          "name": "Tom Wilson",
+          "slot": "GOON"
+        },
+        {
+          "name": "Anton Frondell",
+          "slot": "ROOKIE"
+        }
+      ]
+    },
+    {
+      "id": "lints",
+      "name": "Linton",
+      "players": [
         {
           "name": "Martin Necas",
           "slot": "F"
         },
         {
-          "name": "Mark Stone",
+          "name": "Clayton Keller",
           "slot": "F"
         },
         {
-          "name": "Adam Fox",
+          "name": "Alex DeBrincat",
+          "slot": "F"
+        },
+        {
+          "name": "Sebastian Aho",
+          "slot": "F"
+        },
+        {
+          "name": "Morgan Geekie",
+          "slot": "F"
+        },
+        {
+          "name": "Seth Jarvis",
+          "slot": "F"
+        },
+        {
+          "name": "Josh Morrissey",
+          "slot": "D"
+        },
+        {
+          "name": "Jakob Chychrun",
+          "slot": "D"
+        },
+        {
+          "name": "Mikhail Sergachev",
+          "slot": "D"
+        },
+        {
+          "name": "Brent Burns",
+          "slot": "D"
+        },
+        {
+          "name": "Andrei Vasilevskiy",
+          "slot": "G"
+        },
+        {
+          "name": "Spencer Knight",
+          "slot": "G"
+        },
+        {
+          "name": "A.J. Greer",
+          "slot": "GOON"
+        },
+        {
+          "name": "Ilya Protas",
+          "slot": "ROOKIE"
+        }
+      ]
+    },
+    {
+      "id": "greedo",
+      "name": "Greedo",
+      "players": [
+        {
+          "name": "David Pastrnak",
+          "slot": "F"
+        },
+        {
+          "name": "Brady Tkachuk",
+          "slot": "F"
+        },
+        {
+          "name": "Aleksander Barkov",
+          "slot": "F"
+        },
+        {
+          "name": "Mikko Rantanen",
+          "slot": "F"
+        },
+        {
+          "name": "Brayden Point",
+          "slot": "F"
+        },
+        {
+          "name": "John Tavares",
+          "slot": "F"
+        },
+        {
+          "name": "Cale Makar",
+          "slot": "D"
+        },
+        {
+          "name": "Jaccob Slavin",
           "slot": "D"
         },
         {
@@ -410,19 +352,139 @@
           "slot": "D"
         },
         {
+          "name": "Brandon Montour",
+          "slot": "D"
+        },
+        {
+          "name": "Logan Thompson",
+          "slot": "G"
+        },
+        {
+          "name": "Jakub Dobes",
+          "slot": "G"
+        },
+        {
+          "name": "Matt Rempe",
+          "slot": "GOON"
+        },
+        {
+          "name": "Konsta Helenius",
+          "slot": "ROOKIE"
+        }
+      ]
+    },
+    {
+      "id": "wookie",
+      "name": "Wookie",
+      "players": [
+        {
+          "name": "Macklin Celebrini",
+          "slot": "F"
+        },
+        {
+          "name": "Leon Draisaitl",
+          "slot": "F"
+        },
+        {
+          "name": "Jack Hughes",
+          "slot": "F"
+        },
+        {
+          "name": "Mitch Marner",
+          "slot": "F"
+        },
+        {
+          "name": "Tim Stützle",
+          "slot": "F"
+        },
+        {
+          "name": "Will Smith",
+          "slot": "F"
+        },
+        {
+          "name": "Rasmus Dahlin",
+          "slot": "D"
+        },
+        {
+          "name": "Adam Fox",
+          "slot": "D"
+        },
+        {
+          "name": "Shayne Gostisbehere",
+          "slot": "D"
+        },
+        {
+          "name": "Justin Faulk",
+          "slot": "D"
+        },
+        {
+          "name": "Jesper Wallstedt",
+          "slot": "G"
+        },
+        {
+          "name": "Jeremy Swayman",
+          "slot": "G"
+        },
+        {
+          "name": "Arber Xhekaj",
+          "slot": "GOON"
+        },
+        {
+          "name": "James Hagens",
+          "slot": "ROOKIE"
+        }
+      ]
+    },
+    {
+      "id": "miller",
+      "name": "Miller",
+      "players": [
+        {
+          "name": "Cole Caufield",
+          "slot": "F"
+        },
+        {
+          "name": "Matt Boldy",
+          "slot": "F"
+        },
+        {
+          "name": "Leo Carlsson",
+          "slot": "F"
+        },
+        {
+          "name": "Connor Bedard",
+          "slot": "F"
+        },
+        {
+          "name": "Brandon Hagel",
+          "slot": "F"
+        },
+        {
+          "name": "Jackson Blake",
+          "slot": "F"
+        },
+        {
+          "name": "Evan Bouchard",
+          "slot": "D"
+        },
+        {
           "name": "Jackson LaCombe",
           "slot": "D"
         },
         {
-          "name": "Luke Hughes",
+          "name": "Philip Broberg",
           "slot": "D"
         },
         {
-          "name": "Filip Gustavsson",
+          "name": "Sam Malinski",
+          "slot": "D"
+        },
+        {
+          "name": "Juuse Saros",
           "slot": "G"
         },
         {
-          "name": "Sam Montembeault",
+          "name": "Brandon Bussi",
           "slot": "G"
         },
         {
@@ -430,7 +492,7 @@
           "slot": "GOON"
         },
         {
-          "name": "Beckett Sennecke",
+          "name": "Ivan Stenberg",
           "slot": "ROOKIE"
         }
       ]
@@ -440,67 +502,62 @@
       "name": "Marlin",
       "players": [
         {
-          "name": "Connor McDavid",
+          "name": "Kirill Kaprizov",
           "slot": "F"
         },
         {
-          "name": "Clayton Keller",
+          "name": "Jason Robertson",
           "slot": "F"
         },
         {
-          "name": "Nick Suzuki",
+          "name": "Wyatt Johnston",
           "slot": "F"
         },
         {
-          "name": "Tim Stutzle",
+          "name": "Matthew Tkachuk",
           "slot": "F"
         },
         {
-          "name": "Brad Marchand",
+          "name": "Kirill Marchenko",
           "slot": "F"
         },
         {
-          "name": "Nico Hischier",
+          "name": "Juraj Slafkovský",
           "slot": "F"
         },
         {
-          "name": "Josh Morrissey",
+          "name": "Miro Heiskanen",
           "slot": "D"
         },
         {
-          "name": "Shea Theodore",
+          "name": "Jake Sanderson",
           "slot": "D"
         },
         {
-          "name": "Moritz Seider",
+          "name": "Brandt Clarke",
           "slot": "D"
         },
         {
-          "name": "Morgan Rielly",
+          "name": "Zeev Buium",
           "slot": "D"
         },
         {
-          "name": "Jake Oettinger",
+          "name": "Scott Wedgewood",
           "slot": "G"
         },
         {
-          "name": "Darcy Kuemper",
+          "name": "Ukko-Pekka Luukkonen",
           "slot": "G"
         },
         {
-          "name": "A.J. Greer",
+          "name": "Max Domi",
           "slot": "GOON"
         },
         {
-          "name": "Matthew Schaefer",
+          "name": "Porter Martone",
           "slot": "ROOKIE"
         }
       ]
-    },
-    {
-      "id": "wolfe",
-      "name": "Wolfe",
-      "players": []
     }
   ]
 }
