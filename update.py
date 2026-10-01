@@ -100,10 +100,16 @@ def resolve_season() -> int:
         y = now.year if now.month >= 9 else now.year - 1
         current = int(f"{y}{y + 1}")
 
-    probe = fetch_json(
-        f"{NHL_STATS}/skater/summary?isAggregate=false&isGame=false&start=0&limit=1"
-        f"&cayenneExp=seasonId={current} and gameTypeId=2"
-    )
+    # urlencode the query — the cayenneExp filter contains spaces, which a raw
+    # f-string leaves in the URL and urllib then rejects as control characters.
+    probe_params = urllib.parse.urlencode({
+        "isAggregate": "false",
+        "isGame": "false",
+        "start": "0",
+        "limit": "1",
+        "cayenneExp": f"seasonId={current} and gameTypeId=2",
+    })
+    probe = fetch_json(f"{NHL_STATS}/skater/summary?{probe_params}")
     if probe.get("total", 0) > 0:
         log(f"season: {current} (live)")
         return current
