@@ -1,0 +1,46 @@
+name: Update standings
+
+on:
+  schedule:
+    - cron: "15 12 * * *"        # daily, 7:15am Central
+  push:
+    branches: [main]
+    paths:
+      - rosters.json
+      - scoring.json
+      - aliases.json
+      - update.py
+  workflow_dispatch: {}          # adds a "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-standings
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull NHL stats and rescore
+        run: python update.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "bhl-bot"
+          git config user.email "bhl-bot@users.noreply.github.com"
+          git add standings.json players.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update standings $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push
+          fi
