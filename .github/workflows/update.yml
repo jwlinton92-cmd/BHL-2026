@@ -2,7 +2,7 @@ name: Update standings
 
 on:
   schedule:
-    - cron: "15 12 * * *"        # daily, 7:15am Central
+    - cron: "37 11 * * *"        # daily ~6:37am Central; off-peak minute, GitHub often runs it late
   push:
     branches: [main]
     paths:
@@ -14,7 +14,7 @@ on:
 
 permissions:
   contents: write
-  pages: write          # lets the job ask GitHub Pages to republish
+  actions: write        # lets the job kick off the Pages deploy workflow
 
 concurrency:
   group: update-standings
@@ -48,10 +48,11 @@ jobs:
             echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # Commits made by this job don't reliably trigger a Pages rebuild on
-      # their own, so request one explicitly whenever new data was pushed.
+      # Pushes made with the built-in token never trigger other workflows,
+      # so the Pages deploy (main.yml) won't run on its own. Start it directly
+      # (workflow_dispatch is the one trigger this token is allowed to fire).
       - name: Republish the site
         if: steps.commit.outputs.pushed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Could not request a Pages build; it may still rebuild on its own."
+        run: gh workflow run main.yml --repo "${{ github.repository }}" --ref main
