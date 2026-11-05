@@ -1,6 +1,6 @@
 {
  "seasonId": 20262027,
- "updated": "2026-11-04T18:47:20+00:00",
+ "updated": "2026-11-05T18:54:43+00:00",
  "players": [
   {
    "name": "Jesper Wallstedt",
@@ -280,19 +280,6 @@
    "goonFp": 0
   },
   {
-   "name": "Yaroslav Askarov",
-   "team": "SJS",
-   "pos": "G",
-   "slot": "G",
-   "gp": 10,
-   "w": 4,
-   "otl": 0,
-   "sv": 264,
-   "gaa": 2.9162,
-   "fp": 44.4,
-   "goonFp": 0
-  },
-  {
    "name": "Auston Matthews",
    "team": "TOR",
    "pos": "C",
@@ -305,6 +292,19 @@
    "gwg": 2,
    "fp": 43.5,
    "goonFp": 1.0
+  },
+  {
+   "name": "Spencer Knight",
+   "team": "CHI",
+   "pos": "G",
+   "slot": "G",
+   "gp": 13,
+   "w": 4,
+   "otl": 0,
+   "sv": 353,
+   "gaa": 3.34088,
+   "fp": 43.3,
+   "goonFp": 0
   },
   {
    "name": "Michael DiPietro",
@@ -330,19 +330,6 @@
    "sv": 18,
    "gaa": 1.84757,
    "fp": 42.8,
-   "goonFp": 0
-  },
-  {
-   "name": "Spencer Knight",
-   "team": "CHI",
-   "pos": "G",
-   "slot": "G",
-   "gp": 12,
-   "w": 4,
-   "otl": 0,
-   "sv": 329,
-   "gaa": 3.28221,
-   "fp": 40.9,
    "goonFp": 0
   },
   {
@@ -478,6 +465,19 @@
    "goonFp": 0
   },
   {
+   "name": "Yaroslav Askarov",
+   "team": "SJS",
+   "pos": "G",
+   "slot": "G",
+   "gp": 11,
+   "w": 4,
+   "otl": 0,
+   "sv": 283,
+   "gaa": 3.28934,
+   "fp": 36.3,
+   "goonFp": 0
+  },
+  {
    "name": "Anthony Stolarz",
    "team": "TOR",
    "pos": "G",
@@ -502,6 +502,20 @@
    "gaa": 2.68999,
    "fp": 36.0,
    "goonFp": 0
+  },
+  {
+   "name": "Tim St\u00fctzle",
+   "team": "OTT",
+   "pos": "C",
+   "slot": "F",
+   "gp": 17,
+   "g": 9,
+   "a": 13,
+   "pm": 6,
+   "pim": 4,
+   "gwg": 1,
+   "fp": 35.0,
+   "goonFp": 1.0
   },
   {
    "name": "Sebastian Aho",
@@ -532,20 +546,6 @@
    "goonFp": 2.25
   },
   {
-   "name": "Tim St\u00fctzle",
-   "team": "OTT",
-   "pos": "C",
-   "slot": "F",
-   "gp": 16,
-   "g": 9,
-   "a": 12,
-   "pm": 6,
-   "pim": 4,
-   "gwg": 1,
-   "fp": 34.0,
-   "goonFp": 1.0
-  },
-  {
    "name": "Jack Hughes",
    "team": "NJD",
    "pos": "C",
@@ -570,6 +570,19 @@
    "sv": 228,
    "gaa": 3.40215,
    "fp": 33.8,
+   "goonFp": 0
+  },
+  {
+   "name": "Jacob Markstrom",
+   "team": "FLA",
+   "pos": "G",
+   "slot": "G",
+   "gp": 8,
+   "w": 4,
+   "otl": 1,
+   "sv": 146,
+   "gaa": 2.56785,
+   "fp": 33.6,
    "goonFp": 0
   },
   {
@@ -613,6 +626,19 @@
    "goonFp": 0
   },
   {
+   "name": "Darcy Kuemper",
+   "team": "LAK",
+   "pos": "G",
+   "slot": "G",
+   "gp": 9,
+   "w": 5,
+   "otl": 1,
+   "sv": 224,
+   "gaa": 3.45729,
+   "fp": 33.4,
+   "goonFp": 0
+  },
+  {
    "name": "Jack Eichel",
    "team": "VGK",
    "pos": "C",
@@ -652,6 +678,20 @@
    "gwg": 0,
    "fp": 32.5,
    "goonFp": 0.5
+  },
+  {
+   "name": "Tage Thompson",
+   "team": "BUF",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 10,
+   "a": 8,
+   "pm": 6,
+   "pim": 6,
+   "gwg": 1,
+   "fp": 32.0,
+   "goonFp": 1.5
   },
   {
    "name": "David Pastrnak",
@@ -723,20 +763,6 @@
    "goonFp": 4.25
   },
   {
-   "name": "Tage Thompson",
-   "team": "BUF",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 10,
-   "a": 7,
-   "pm": 5,
-   "pim": 6,
-   "gwg": 1,
-   "fp": 30.5,
-   "goonFp": 1.5
-  },
-  {
    "name": "William Nylander",
    "team": "TOR",
    "pos": "R",
@@ -776,6 +802,20 @@
    "gaa": 3.55561,
    "fp": 30.1,
    "goonFp": 0
+  },
+  {
+   "name": "Drake Batherson",
+   "team": "OTT",
+   "pos": "R",
+   "slot": "F",
+   "gp": 17,
+   "g": 9,
+   "a": 9,
+   "pm": 4,
+   "pim": 10,
+   "gwg": 1,
+   "fp": 30.0,
+   "goonFp": 2.5
   },
   {
    "name": "Kyle Connor",
@@ -819,19 +859,6 @@
    "goonFp": 0
   },
   {
-   "name": "Jacob Markstrom",
-   "team": "FLA",
-   "pos": "G",
-   "slot": "G",
-   "gp": 7,
-   "w": 3,
-   "otl": 1,
-   "sv": 129,
-   "gaa": 2.50032,
-   "fp": 29.9,
-   "goonFp": 0
-  },
-  {
    "name": "Jake Allen",
    "team": "NJD",
    "pos": "G",
@@ -843,20 +870,6 @@
    "gaa": 3.11235,
    "fp": 29.6,
    "goonFp": 0
-  },
-  {
-   "name": "Drake Batherson",
-   "team": "OTT",
-   "pos": "R",
-   "slot": "F",
-   "gp": 16,
-   "g": 9,
-   "a": 9,
-   "pm": 3,
-   "pim": 10,
-   "gwg": 1,
-   "fp": 29.5,
-   "goonFp": 2.5
   },
   {
    "name": "Devon Levi",
@@ -883,6 +896,33 @@
    "gaa": 3.45781,
    "fp": 29.2,
    "goonFp": 0
+  },
+  {
+   "name": "Colten Ellis",
+   "team": "BUF",
+   "pos": "G",
+   "slot": "G",
+   "gp": 6,
+   "w": 3,
+   "otl": 0,
+   "sv": 131,
+   "gaa": 2.92163,
+   "fp": 29.1,
+   "goonFp": 0
+  },
+  {
+   "name": "Carter Verhaeghe",
+   "team": "FLA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 16,
+   "g": 9,
+   "a": 6,
+   "pm": 6,
+   "pim": 8,
+   "gwg": 2,
+   "fp": 29.0,
+   "goonFp": 2.0
   },
   {
    "name": "Jackson Blake",
@@ -913,16 +953,29 @@
    "goonFp": 1.0
   },
   {
-   "name": "Darcy Kuemper",
-   "team": "LAK",
+   "name": "Dustin Wolf",
+   "team": "CGY",
+   "pos": "G",
+   "slot": "G",
+   "gp": 9,
+   "w": 3,
+   "otl": 1,
+   "sv": 214,
+   "gaa": 3.70954,
+   "fp": 28.4,
+   "goonFp": 0
+  },
+  {
+   "name": "Joey Daccord",
+   "team": "SEA",
    "pos": "G",
    "slot": "G",
    "gp": 8,
    "w": 4,
-   "otl": 1,
-   "sv": 194,
-   "gaa": 3.65386,
-   "fp": 28.4,
+   "otl": 0,
+   "sv": 201,
+   "gaa": 3.53121,
+   "fp": 28.1,
    "goonFp": 0
   },
   {
@@ -1023,6 +1076,34 @@
    "goonFp": 0.5
   },
   {
+   "name": "Matthew Tkachuk",
+   "team": "FLA",
+   "pos": "L",
+   "slot": "F",
+   "gp": 16,
+   "g": 4,
+   "a": 18,
+   "pm": 0,
+   "pim": 14,
+   "gwg": 1,
+   "fp": 27.0,
+   "goonFp": 3.5
+  },
+  {
+   "name": "Sam Reinhart",
+   "team": "FLA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 16,
+   "g": 9,
+   "a": 7,
+   "pm": 3,
+   "pim": 0,
+   "gwg": 0,
+   "fp": 26.5,
+   "goonFp": 0.0
+  },
+  {
    "name": "Joseph Woll",
    "team": "PHI",
    "pos": "G",
@@ -1076,20 +1157,6 @@
    "gwg": 0,
    "fp": 26.0,
    "goonFp": 1.5
-  },
-  {
-   "name": "Matthew Tkachuk",
-   "team": "FLA",
-   "pos": "L",
-   "slot": "F",
-   "gp": 15,
-   "g": 4,
-   "a": 17,
-   "pm": 0,
-   "pim": 14,
-   "gwg": 1,
-   "fp": 26.0,
-   "goonFp": 3.5
   },
   {
    "name": "Nico Daws",
@@ -1147,31 +1214,18 @@
    "goonFp": 4.25
   },
   {
-   "name": "Carter Verhaeghe",
-   "team": "FLA",
-   "pos": "C",
+   "name": "Artemi Panarin",
+   "team": "LAK",
+   "pos": "L",
    "slot": "F",
-   "gp": 15,
+   "gp": 14,
    "g": 8,
-   "a": 5,
-   "pm": 4,
+   "a": 9,
+   "pm": -2,
    "pim": 8,
-   "gwg": 2,
+   "gwg": 1,
    "fp": 25.0,
    "goonFp": 2.0
-  },
-  {
-   "name": "Dustin Wolf",
-   "team": "CGY",
-   "pos": "G",
-   "slot": "G",
-   "gp": 8,
-   "w": 3,
-   "otl": 0,
-   "sv": 187,
-   "gaa": 3.9416,
-   "fp": 24.7,
-   "goonFp": 0
   },
   {
    "name": "Andrei Svechnikov",
@@ -1186,6 +1240,20 @@
    "gwg": 2,
    "fp": 24.5,
    "goonFp": 3.0
+  },
+  {
+   "name": "Seth Jones",
+   "team": "FLA",
+   "pos": "D",
+   "slot": "D",
+   "gp": 16,
+   "g": 3,
+   "a": 16,
+   "pm": 3,
+   "pim": 2,
+   "gwg": 1,
+   "fp": 24.5,
+   "goonFp": 0.5
   },
   {
    "name": "Beckett Sennecke",
@@ -1272,6 +1340,20 @@
    "goonFp": 1.0
   },
   {
+   "name": "Brady Tkachuk",
+   "team": "FLA",
+   "pos": "L",
+   "slot": "F",
+   "gp": 16,
+   "g": 8,
+   "a": 9,
+   "pm": -4,
+   "pim": 19,
+   "gwg": 1,
+   "fp": 24.0,
+   "goonFp": 4.75
+  },
+  {
    "name": "Cutter Gauthier",
    "team": "ANA",
    "pos": "L",
@@ -1312,33 +1394,6 @@
    "goonFp": 0
   },
   {
-   "name": "Joey Daccord",
-   "team": "SEA",
-   "pos": "G",
-   "slot": "G",
-   "gp": 7,
-   "w": 3,
-   "otl": 0,
-   "sv": 176,
-   "gaa": 3.95749,
-   "fp": 23.6,
-   "goonFp": 0
-  },
-  {
-   "name": "Brady Tkachuk",
-   "team": "FLA",
-   "pos": "L",
-   "slot": "F",
-   "gp": 15,
-   "g": 8,
-   "a": 8,
-   "pm": -3,
-   "pim": 17,
-   "gwg": 1,
-   "fp": 23.5,
-   "goonFp": 4.25
-  },
-  {
    "name": "Lucas Raymond",
    "team": "DET",
    "pos": "L",
@@ -1351,20 +1406,6 @@
    "gwg": 2,
    "fp": 23.5,
    "goonFp": 1.5
-  },
-  {
-   "name": "Jack Quinn",
-   "team": "BUF",
-   "pos": "R",
-   "slot": "F",
-   "gp": 14,
-   "g": 8,
-   "a": 6,
-   "pm": 3,
-   "pim": 11,
-   "gwg": 0,
-   "fp": 23.5,
-   "goonFp": 2.75
   },
   {
    "name": "Elias Lindholm",
@@ -1395,18 +1436,32 @@
    "goonFp": 0.5
   },
   {
-   "name": "Seth Jones",
-   "team": "FLA",
-   "pos": "D",
-   "slot": "D",
+   "name": "Jack Quinn",
+   "team": "BUF",
+   "pos": "R",
+   "slot": "F",
+   "gp": 15,
+   "g": 8,
+   "a": 6,
+   "pm": 2,
+   "pim": 11,
+   "gwg": 0,
+   "fp": 23.0,
+   "goonFp": 2.75
+  },
+  {
+   "name": "Zach Benson",
+   "team": "BUF",
+   "pos": "L",
+   "slot": "F",
    "gp": 15,
    "g": 2,
-   "a": 16,
-   "pm": 3,
-   "pim": 2,
+   "a": 12,
+   "pm": 11,
+   "pim": 12,
    "gwg": 1,
    "fp": 22.5,
-   "goonFp": 0.5
+   "goonFp": 3.0
   },
   {
    "name": "Emmitt Finnie",
@@ -1618,32 +1673,18 @@
    "goonFp": 1.0
   },
   {
-   "name": "Zach Benson",
-   "team": "BUF",
-   "pos": "L",
-   "slot": "F",
-   "gp": 14,
-   "g": 2,
-   "a": 11,
-   "pm": 10,
-   "pim": 12,
-   "gwg": 1,
-   "fp": 21.0,
-   "goonFp": 3.0
-  },
-  {
-   "name": "Sam Reinhart",
-   "team": "FLA",
+   "name": "Macklin Celebrini",
+   "team": "SJS",
    "pos": "C",
    "slot": "F",
    "gp": 15,
-   "g": 8,
-   "a": 5,
-   "pm": 0,
-   "pim": 0,
-   "gwg": 0,
+   "g": 6,
+   "a": 11,
+   "pm": -6,
+   "pim": 10,
+   "gwg": 1,
    "fp": 21.0,
-   "goonFp": 0.0
+   "goonFp": 2.5
   },
   {
    "name": "Clayton Keller",
@@ -1762,7 +1803,7 @@
    "team": "CGY",
    "pos": "L",
    "slot": "F",
-   "gp": 15,
+   "gp": 16,
    "g": 5,
    "a": 10,
    "pm": -2,
@@ -1780,20 +1821,6 @@
    "g": 2,
    "a": 16,
    "pm": -2,
-   "pim": 6,
-   "gwg": 1,
-   "fp": 20.0,
-   "goonFp": 1.5
-  },
-  {
-   "name": "Artemi Panarin",
-   "team": "LAK",
-   "pos": "L",
-   "slot": "F",
-   "gp": 13,
-   "g": 8,
-   "a": 5,
-   "pm": -4,
    "pim": 6,
    "gwg": 1,
    "fp": 20.0,
@@ -1840,6 +1867,19 @@
    "goonFp": 0
   },
   {
+   "name": "Samuel Ersson",
+   "team": "OTT",
+   "pos": "G",
+   "slot": "G",
+   "gp": 8,
+   "w": 2,
+   "otl": 1,
+   "sv": 147,
+   "gaa": 3.32747,
+   "fp": 19.7,
+   "goonFp": 0
+  },
+  {
    "name": "Kevin Lankinen",
    "team": "VAN",
    "pos": "G",
@@ -1851,20 +1891,6 @@
    "gaa": 6.03273,
    "fp": 19.7,
    "goonFp": 0
-  },
-  {
-   "name": "Macklin Celebrini",
-   "team": "SJS",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 5,
-   "a": 11,
-   "pm": -5,
-   "pim": 6,
-   "gwg": 1,
-   "fp": 19.5,
-   "goonFp": 1.5
   },
   {
    "name": "Casey Mittelstadt",
@@ -1922,6 +1948,20 @@
    "goonFp": 3.0
   },
   {
+   "name": "Mackie Samoskevich",
+   "team": "SEA",
+   "pos": "R",
+   "slot": "F",
+   "gp": 14,
+   "g": 6,
+   "a": 5,
+   "pm": 0,
+   "pim": 2,
+   "gwg": 2,
+   "fp": 19.0,
+   "goonFp": 0.5
+  },
+  {
    "name": "Tommy Novak",
    "team": "PIT",
    "pos": "C",
@@ -1934,6 +1974,20 @@
    "gwg": 1,
    "fp": 19.0,
    "goonFp": 1.5
+  },
+  {
+   "name": "Adrian Kempe",
+   "team": "LAK",
+   "pos": "R",
+   "slot": "F",
+   "gp": 13,
+   "g": 6,
+   "a": 6,
+   "pm": 2,
+   "pim": 8,
+   "gwg": 0,
+   "fp": 19.0,
+   "goonFp": 2.0
   },
   {
    "name": "Matvei Michkov",
@@ -1977,6 +2031,20 @@
    "goonFp": 2.5
   },
   {
+   "name": "Berkly Catton",
+   "team": "SEA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 5,
+   "a": 7,
+   "pm": 3,
+   "pim": 6,
+   "gwg": 0,
+   "fp": 18.5,
+   "goonFp": 1.5
+  },
+  {
    "name": "Kirill Marchenko",
    "team": "TOR",
    "pos": "R",
@@ -1989,6 +2057,20 @@
    "gwg": 0,
    "fp": 18.5,
    "goonFp": 2.0
+  },
+  {
+   "name": "Brandon Montour",
+   "team": "SEA",
+   "pos": "D",
+   "slot": "D",
+   "gp": 14,
+   "g": 3,
+   "a": 8,
+   "pm": 6,
+   "pim": 29,
+   "gwg": 1,
+   "fp": 18.0,
+   "goonFp": 7.25
   },
   {
    "name": "Dylan Strome",
@@ -2107,7 +2189,7 @@
    "team": "OTT",
    "pos": "R",
    "slot": "F",
-   "gp": 16,
+   "gp": 17,
    "g": 3,
    "a": 7,
    "pm": 7,
@@ -2115,6 +2197,20 @@
    "gwg": 1,
    "fp": 17.5,
    "goonFp": 0.5
+  },
+  {
+   "name": "Shane Pinto",
+   "team": "OTT",
+   "pos": "C",
+   "slot": "F",
+   "gp": 17,
+   "g": 6,
+   "a": 6,
+   "pm": -1,
+   "pim": 8,
+   "gwg": 0,
+   "fp": 17.5,
+   "goonFp": 2.0
   },
   {
    "name": "Luke Hughes",
@@ -2131,20 +2227,6 @@
    "goonFp": 2.0
   },
   {
-   "name": "Mackie Samoskevich",
-   "team": "SEA",
-   "pos": "R",
-   "slot": "F",
-   "gp": 13,
-   "g": 6,
-   "a": 4,
-   "pm": -1,
-   "pim": 2,
-   "gwg": 2,
-   "fp": 17.5,
-   "goonFp": 0.5
-  },
-  {
    "name": "Nick Robertson",
    "team": "PIT",
    "pos": "L",
@@ -2153,20 +2235,6 @@
    "g": 6,
    "a": 0,
    "pm": 7,
-   "pim": 4,
-   "gwg": 2,
-   "fp": 17.5,
-   "goonFp": 1.0
-  },
-  {
-   "name": "Owen Power",
-   "team": "BUF",
-   "pos": "D",
-   "slot": "D",
-   "gp": 14,
-   "g": 2,
-   "a": 9,
-   "pm": 5,
    "pim": 4,
    "gwg": 2,
    "fp": 17.5,
@@ -2201,18 +2269,18 @@
    "goonFp": 0.5
   },
   {
-   "name": "Freddy Gaudreau",
-   "team": "SEA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 7,
-   "a": 3,
-   "pm": -2,
-   "pim": 0,
-   "gwg": 1,
+   "name": "Owen Power",
+   "team": "BUF",
+   "pos": "D",
+   "slot": "D",
+   "gp": 15,
+   "g": 2,
+   "a": 9,
+   "pm": 4,
+   "pim": 6,
+   "gwg": 2,
    "fp": 17.0,
-   "goonFp": 0.0
+   "goonFp": 1.5
   },
   {
    "name": "Oliver Bjorkstrand",
@@ -2227,20 +2295,6 @@
    "gwg": 2,
    "fp": 16.5,
    "goonFp": 1.25
-  },
-  {
-   "name": "Brandon Montour",
-   "team": "SEA",
-   "pos": "D",
-   "slot": "D",
-   "gp": 13,
-   "g": 3,
-   "a": 7,
-   "pm": 5,
-   "pim": 27,
-   "gwg": 1,
-   "fp": 16.5,
-   "goonFp": 6.75
   },
   {
    "name": "Trevor Zegras",
@@ -2285,6 +2339,20 @@
    "goonFp": 1.5
   },
   {
+   "name": "Freddy Gaudreau",
+   "team": "SEA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 7,
+   "a": 3,
+   "pm": -3,
+   "pim": 0,
+   "gwg": 1,
+   "fp": 16.5,
+   "goonFp": 0.0
+  },
+  {
    "name": "Jackson LaCombe",
    "team": "ANA",
    "pos": "D",
@@ -2326,19 +2394,6 @@
    "goonFp": 0
   },
   {
-   "name": "Colten Ellis",
-   "team": "BUF",
-   "pos": "G",
-   "slot": "G",
-   "gp": 5,
-   "w": 3,
-   "otl": 0,
-   "sv": 103,
-   "gaa": 3.10919,
-   "fp": 16.3,
-   "goonFp": 0
-  },
-  {
    "name": "Jordan Kyrou",
    "team": "WSH",
    "pos": "R",
@@ -2367,20 +2422,6 @@
    "goonFp": 1.0
   },
   {
-   "name": "Noah Ostlund",
-   "team": "BUF",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 4,
-   "a": 5,
-   "pm": 4,
-   "pim": 6,
-   "gwg": 1,
-   "fp": 16.0,
-   "goonFp": 1.5
-  },
-  {
    "name": "Jaden Schwartz",
    "team": "COL",
    "pos": "L",
@@ -2407,6 +2448,20 @@
    "gwg": 1,
    "fp": 16.0,
    "goonFp": 1.5
+  },
+  {
+   "name": "Matty Beniers",
+   "team": "SEA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 4,
+   "a": 4,
+   "pm": 6,
+   "pim": 0,
+   "gwg": 1,
+   "fp": 16.0,
+   "goonFp": 0.0
   },
   {
    "name": "Miro Heiskanen",
@@ -2451,20 +2506,6 @@
    "goonFp": 1.0
   },
   {
-   "name": "Berkly Catton",
-   "team": "SEA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 4,
-   "a": 7,
-   "pm": 2,
-   "pim": 6,
-   "gwg": 0,
-   "fp": 16.0,
-   "goonFp": 1.5
-  },
-  {
    "name": "Brayden McNabb",
    "team": "VGK",
    "pos": "D",
@@ -2491,6 +2532,20 @@
    "gwg": 1,
    "fp": 15.5,
    "goonFp": 0.5
+  },
+  {
+   "name": "Noah Ostlund",
+   "team": "BUF",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 4,
+   "a": 5,
+   "pm": 3,
+   "pim": 6,
+   "gwg": 1,
+   "fp": 15.5,
+   "goonFp": 1.5
   },
   {
    "name": "Zach Werenski",
@@ -2521,19 +2576,6 @@
    "goonFp": 0.0
   },
   {
-   "name": "Samuel Ersson",
-   "team": "OTT",
-   "pos": "G",
-   "slot": "G",
-   "gp": 7,
-   "w": 1,
-   "otl": 1,
-   "sv": 123,
-   "gaa": 3.78193,
-   "fp": 15.3,
-   "goonFp": 0
-  },
-  {
    "name": "Michal Postava",
    "team": "DET",
    "pos": "G",
@@ -2555,20 +2597,6 @@
    "g": 3,
    "a": 8,
    "pm": 2,
-   "pim": 8,
-   "gwg": 0,
-   "fp": 15.0,
-   "goonFp": 2.0
-  },
-  {
-   "name": "Shane Pinto",
-   "team": "OTT",
-   "pos": "C",
-   "slot": "F",
-   "gp": 16,
-   "g": 5,
-   "a": 6,
-   "pm": -2,
    "pim": 8,
    "gwg": 0,
    "fp": 15.0,
@@ -2673,6 +2701,20 @@
    "goonFp": 4.0
   },
   {
+   "name": "Connor Bedard",
+   "team": "CHI",
+   "pos": "C",
+   "slot": "F",
+   "gp": 10,
+   "g": 4,
+   "a": 8,
+   "pm": -2,
+   "pim": 8,
+   "gwg": 0,
+   "fp": 15.0,
+   "goonFp": 2.0
+  },
+  {
    "name": "Scott Wedgewood",
    "team": "COL",
    "pos": "G",
@@ -2714,16 +2756,16 @@
    "goonFp": 0.5
   },
   {
-   "name": "Matvei Gridin",
-   "team": "CGY",
+   "name": "Kaapo Kakko",
+   "team": "SEA",
    "pos": "R",
    "slot": "F",
    "gp": 15,
-   "g": 5,
-   "a": 5,
-   "pm": -5,
+   "g": 2,
+   "a": 10,
+   "pm": 1,
    "pim": 2,
-   "gwg": 2,
+   "gwg": 0,
    "fp": 14.5,
    "goonFp": 0.5
   },
@@ -2754,20 +2796,6 @@
    "gwg": 0,
    "fp": 14.5,
    "goonFp": 2.0
-  },
-  {
-   "name": "Matt Coronato",
-   "team": "CGY",
-   "pos": "R",
-   "slot": "F",
-   "gp": 15,
-   "g": 3,
-   "a": 11,
-   "pm": -5,
-   "pim": 11,
-   "gwg": 0,
-   "fp": 14.5,
-   "goonFp": 2.75
   },
   {
    "name": "Jared McCann",
@@ -2802,7 +2830,7 @@
    "team": "OTT",
    "pos": "C",
    "slot": "F",
-   "gp": 16,
+   "gp": 17,
    "g": 4,
    "a": 6,
    "pm": 1,
@@ -2824,6 +2852,20 @@
    "gwg": 1,
    "fp": 14.5,
    "goonFp": 1.0
+  },
+  {
+   "name": "Michael Amadio",
+   "team": "OTT",
+   "pos": "R",
+   "slot": "F",
+   "gp": 17,
+   "g": 5,
+   "a": 3,
+   "pm": 0,
+   "pim": 8,
+   "gwg": 1,
+   "fp": 14.0,
+   "goonFp": 2.0
   },
   {
    "name": "Blake Coleman",
@@ -2866,6 +2908,34 @@
    "gwg": 0,
    "fp": 14.0,
    "goonFp": 3.5
+  },
+  {
+   "name": "Matvei Gridin",
+   "team": "CGY",
+   "pos": "R",
+   "slot": "F",
+   "gp": 16,
+   "g": 5,
+   "a": 5,
+   "pm": -6,
+   "pim": 2,
+   "gwg": 2,
+   "fp": 14.0,
+   "goonFp": 0.5
+  },
+  {
+   "name": "Matt Coronato",
+   "team": "CGY",
+   "pos": "R",
+   "slot": "F",
+   "gp": 16,
+   "g": 3,
+   "a": 11,
+   "pm": -6,
+   "pim": 11,
+   "gwg": 0,
+   "fp": 14.0,
+   "goonFp": 2.75
   },
   {
    "name": "Cole Hutson",
@@ -2951,6 +3021,34 @@
    "goonFp": 2.0
   },
   {
+   "name": "Brandt Clarke",
+   "team": "LAK",
+   "pos": "D",
+   "slot": "D",
+   "gp": 14,
+   "g": 3,
+   "a": 8,
+   "pm": -3,
+   "pim": 21,
+   "gwg": 1,
+   "fp": 13.5,
+   "goonFp": 5.25
+  },
+  {
+   "name": "Alex Laferriere",
+   "team": "LAK",
+   "pos": "R",
+   "slot": "F",
+   "gp": 14,
+   "g": 2,
+   "a": 8,
+   "pm": 3,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 13.5,
+   "goonFp": 1.0
+  },
+  {
    "name": "Eeli Tolvanen",
    "team": "NYR",
    "pos": "R",
@@ -3019,20 +3117,6 @@
    "gwg": 2,
    "fp": 13.5,
    "goonFp": 0.0
-  },
-  {
-   "name": "Lars Eller",
-   "team": "FLA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 1,
-   "a": 7,
-   "pm": 7,
-   "pim": 4,
-   "gwg": 1,
-   "fp": 13.5,
-   "goonFp": 1.0
   },
   {
    "name": "Linus Karlsson",
@@ -3105,32 +3189,32 @@
    "goonFp": 0.0
   },
   {
-   "name": "Kaapo Kakko",
-   "team": "SEA",
-   "pos": "R",
-   "slot": "F",
-   "gp": 14,
-   "g": 2,
-   "a": 9,
-   "pm": 0,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 13.0,
-   "goonFp": 0.5
-  },
-  {
    "name": "Rasmus Dahlin",
    "team": "BUF",
    "pos": "D",
    "slot": "D",
-   "gp": 11,
+   "gp": 12,
    "g": 2,
    "a": 7,
    "pm": 4,
-   "pim": 6,
+   "pim": 8,
    "gwg": 0,
    "fp": 13.0,
-   "goonFp": 1.5
+   "goonFp": 2.0
+  },
+  {
+   "name": "Drew Doughty",
+   "team": "LAK",
+   "pos": "D",
+   "slot": "D",
+   "gp": 13,
+   "g": 1,
+   "a": 7,
+   "pm": 8,
+   "pim": 12,
+   "gwg": 0,
+   "fp": 13.0,
+   "goonFp": 3.0
   },
   {
    "name": "Mika Zibanejad",
@@ -3173,6 +3257,20 @@
    "gwg": 1,
    "fp": 13.0,
    "goonFp": 2.0
+  },
+  {
+   "name": "Lars Eller",
+   "team": "FLA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 16,
+   "g": 1,
+   "a": 7,
+   "pm": 6,
+   "pim": 4,
+   "gwg": 1,
+   "fp": 13.0,
+   "goonFp": 1.0
   },
   {
    "name": "Clay Stevenson",
@@ -3220,7 +3318,7 @@
    "team": "OTT",
    "pos": "D",
    "slot": "D",
-   "gp": 8,
+   "gp": 9,
    "g": 1,
    "a": 9,
    "pm": 1,
@@ -3272,20 +3370,6 @@
    "goonFp": 3.0
   },
   {
-   "name": "Matty Beniers",
-   "team": "SEA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 3,
-   "a": 4,
-   "pm": 5,
-   "pim": 0,
-   "gwg": 0,
-   "fp": 12.5,
-   "goonFp": 0.0
-  },
-  {
    "name": "Sidney Crosby",
    "team": "PIT",
    "pos": "C",
@@ -3312,34 +3396,6 @@
    "gwg": 0,
    "fp": 12.5,
    "goonFp": 0.0
-  },
-  {
-   "name": "Sam Bennett",
-   "team": "FLA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 4,
-   "a": 3,
-   "pm": 3,
-   "pim": 11,
-   "gwg": 0,
-   "fp": 12.5,
-   "goonFp": 2.75
-  },
-  {
-   "name": "Connor Bedard",
-   "team": "CHI",
-   "pos": "C",
-   "slot": "F",
-   "gp": 9,
-   "g": 4,
-   "a": 6,
-   "pm": -3,
-   "pim": 6,
-   "gwg": 0,
-   "fp": 12.5,
-   "goonFp": 1.5
   },
   {
    "name": "Justin Barron",
@@ -3495,6 +3551,20 @@
    "goonFp": 1.0
   },
   {
+   "name": "Sam Bennett",
+   "team": "FLA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 16,
+   "g": 4,
+   "a": 3,
+   "pm": 2,
+   "pim": 13,
+   "gwg": 0,
+   "fp": 12.0,
+   "goonFp": 3.25
+  },
+  {
    "name": "Fedor Svechkov",
    "team": "COL",
    "pos": "C",
@@ -3527,7 +3597,7 @@
    "team": "BUF",
    "pos": "D",
    "slot": "D",
-   "gp": 14,
+   "gp": 15,
    "g": 2,
    "a": 7,
    "pm": 2,
@@ -3549,6 +3619,20 @@
    "gwg": 0,
    "fp": 12.0,
    "goonFp": 3.0
+  },
+  {
+   "name": "Roman Kantserov",
+   "team": "CHI",
+   "pos": "R",
+   "slot": "F",
+   "gp": 16,
+   "g": 7,
+   "a": 2,
+   "pm": -8,
+   "pim": 6,
+   "gwg": 0,
+   "fp": 12.0,
+   "goonFp": 1.5
   },
   {
    "name": "Vincent Trocheck",
@@ -3621,6 +3705,20 @@
    "goonFp": 1.0
   },
   {
+   "name": "Thomas Chabot",
+   "team": "OTT",
+   "pos": "D",
+   "slot": "D",
+   "gp": 13,
+   "g": 1,
+   "a": 6,
+   "pm": 7,
+   "pim": 12,
+   "gwg": 0,
+   "fp": 11.5,
+   "goonFp": 3.0
+  },
+  {
    "name": "Will Cuylle",
    "team": "NYR",
    "pos": "L",
@@ -3633,34 +3731,6 @@
    "gwg": 0,
    "fp": 11.5,
    "goonFp": 6.0
-  },
-  {
-   "name": "Alex Laferriere",
-   "team": "LAK",
-   "pos": "R",
-   "slot": "F",
-   "gp": 13,
-   "g": 2,
-   "a": 7,
-   "pm": 1,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 11.5,
-   "goonFp": 1.0
-  },
-  {
-   "name": "Drew Doughty",
-   "team": "LAK",
-   "pos": "D",
-   "slot": "D",
-   "gp": 12,
-   "g": 1,
-   "a": 6,
-   "pm": 7,
-   "pim": 12,
-   "gwg": 0,
-   "fp": 11.5,
-   "goonFp": 3.0
   },
   {
    "name": "Mathieu Joseph",
@@ -3681,7 +3751,7 @@
    "team": "SEA",
    "pos": "R",
    "slot": "F",
-   "gp": 14,
+   "gp": 15,
    "g": 4,
    "a": 6,
    "pm": -5,
@@ -3695,7 +3765,7 @@
    "team": "SEA",
    "pos": "D",
    "slot": "D",
-   "gp": 14,
+   "gp": 15,
    "g": 3,
    "a": 4,
    "pm": 3,
@@ -3747,6 +3817,20 @@
    "goonFp": 1.5
   },
   {
+   "name": "Sandis Vilmanis",
+   "team": "FLA",
+   "pos": "L",
+   "slot": "F",
+   "gp": 15,
+   "g": 3,
+   "a": 4,
+   "pm": 1,
+   "pim": 0,
+   "gwg": 1,
+   "fp": 11.5,
+   "goonFp": 0.0
+  },
+  {
    "name": "Luke Evangelista",
    "team": "NJD",
    "pos": "R",
@@ -3759,34 +3843,6 @@
    "gwg": 0,
    "fp": 11.5,
    "goonFp": 1.5
-  },
-  {
-   "name": "Michael Amadio",
-   "team": "OTT",
-   "pos": "R",
-   "slot": "F",
-   "gp": 16,
-   "g": 4,
-   "a": 3,
-   "pm": 0,
-   "pim": 8,
-   "gwg": 0,
-   "fp": 11.0,
-   "goonFp": 2.0
-  },
-  {
-   "name": "Brandt Clarke",
-   "team": "LAK",
-   "pos": "D",
-   "slot": "D",
-   "gp": 13,
-   "g": 3,
-   "a": 7,
-   "pm": -6,
-   "pim": 21,
-   "gwg": 1,
-   "fp": 11.0,
-   "goonFp": 5.25
   },
   {
    "name": "Arttu Hyry",
@@ -3803,20 +3859,6 @@
    "goonFp": 1.75
   },
   {
-   "name": "Will Smith",
-   "team": "SJS",
-   "pos": "C",
-   "slot": "F",
-   "gp": 16,
-   "g": 6,
-   "a": 4,
-   "pm": -10,
-   "pim": 6,
-   "gwg": 0,
-   "fp": 11.0,
-   "goonFp": 1.5
-  },
-  {
    "name": "Mason Lohrei",
    "team": "BOS",
    "pos": "D",
@@ -3829,20 +3871,6 @@
    "gwg": 1,
    "fp": 11.0,
    "goonFp": 0.0
-  },
-  {
-   "name": "Adrian Kempe",
-   "team": "LAK",
-   "pos": "R",
-   "slot": "F",
-   "gp": 12,
-   "g": 3,
-   "a": 5,
-   "pm": 0,
-   "pim": 6,
-   "gwg": 0,
-   "fp": 11.0,
-   "goonFp": 1.5
   },
   {
    "name": "Damon Severson",
@@ -3926,6 +3954,34 @@
    "goonFp": 0
   },
   {
+   "name": "Peyton Krebs",
+   "team": "BUF",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 1,
+   "a": 7,
+   "pm": 3,
+   "pim": 11,
+   "gwg": 0,
+   "fp": 10.5,
+   "goonFp": 2.75
+  },
+  {
+   "name": "Erik Haula",
+   "team": "LAK",
+   "pos": "L",
+   "slot": "F",
+   "gp": 14,
+   "g": 3,
+   "a": 4,
+   "pm": 1,
+   "pim": 12,
+   "gwg": 0,
+   "fp": 10.5,
+   "goonFp": 3.0
+  },
+  {
    "name": "Charle-Edouard D'Astous",
    "team": "TBL",
    "pos": "D",
@@ -3968,6 +4024,20 @@
    "goonFp": 3.0
   },
   {
+   "name": "Will Smith",
+   "team": "SJS",
+   "pos": "C",
+   "slot": "F",
+   "gp": 17,
+   "g": 6,
+   "a": 4,
+   "pm": -11,
+   "pim": 6,
+   "gwg": 0,
+   "fp": 10.5,
+   "goonFp": 1.5
+  },
+  {
    "name": "Anders Lee",
    "team": "UTA",
    "pos": "L",
@@ -3980,20 +4050,6 @@
    "gwg": 0,
    "fp": 10.5,
    "goonFp": 0.0
-  },
-  {
-   "name": "Chandler Stephenson",
-   "team": "SEA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 2,
-   "a": 10,
-   "pm": -7,
-   "pim": 10,
-   "gwg": 0,
-   "fp": 10.5,
-   "goonFp": 2.5
   },
   {
    "name": "Victor Hedman",
@@ -4042,7 +4098,7 @@
    "team": "SEA",
    "pos": "C",
    "slot": "F",
-   "gp": 14,
+   "gp": 15,
    "g": 2,
    "a": 4,
    "pm": 5,
@@ -4052,32 +4108,18 @@
    "goonFp": 2.25
   },
   {
-   "name": "Tyler Toffoli",
-   "team": "SJS",
-   "pos": "C",
-   "slot": "F",
-   "gp": 16,
-   "g": 4,
-   "a": 5,
-   "pm": -5,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 10.5,
-   "goonFp": 0.5
-  },
-  {
-   "name": "Jacob Trouba",
-   "team": "SJS",
+   "name": "Niko Mikkola",
+   "team": "FLA",
    "pos": "D",
    "slot": "D",
    "gp": 16,
    "g": 2,
-   "a": 8,
-   "pm": -3,
-   "pim": 13,
-   "gwg": 0,
-   "fp": 10.5,
-   "goonFp": 3.25
+   "a": 2,
+   "pm": 6,
+   "pim": 16,
+   "gwg": 1,
+   "fp": 10.0,
+   "goonFp": 4.0
   },
   {
    "name": "Taylor Hall",
@@ -4122,34 +4164,6 @@
    "goonFp": 0.0
   },
   {
-   "name": "Thomas Chabot",
-   "team": "OTT",
-   "pos": "D",
-   "slot": "D",
-   "gp": 12,
-   "g": 1,
-   "a": 5,
-   "pm": 6,
-   "pim": 12,
-   "gwg": 0,
-   "fp": 10.0,
-   "goonFp": 3.0
-  },
-  {
-   "name": "Olen Zellweger",
-   "team": "BUF",
-   "pos": "D",
-   "slot": "D",
-   "gp": 13,
-   "g": 3,
-   "a": 3,
-   "pm": 0,
-   "pim": 10,
-   "gwg": 1,
-   "fp": 10.0,
-   "goonFp": 2.5
-  },
-  {
    "name": "Connor Brown",
    "team": "NJD",
    "pos": "R",
@@ -4162,6 +4176,34 @@
    "gwg": 0,
    "fp": 10.0,
    "goonFp": 0.0
+  },
+  {
+   "name": "Chandler Stephenson",
+   "team": "SEA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 2,
+   "a": 10,
+   "pm": -8,
+   "pim": 10,
+   "gwg": 0,
+   "fp": 10.0,
+   "goonFp": 2.5
+  },
+  {
+   "name": "Tyler Toffoli",
+   "team": "SJS",
+   "pos": "C",
+   "slot": "F",
+   "gp": 17,
+   "g": 4,
+   "a": 5,
+   "pm": -6,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 10.0,
+   "goonFp": 1.0
   },
   {
    "name": "Christian Dvorak",
@@ -4248,6 +4290,20 @@
    "goonFp": 1.5
   },
   {
+   "name": "Olen Zellweger",
+   "team": "BUF",
+   "pos": "D",
+   "slot": "D",
+   "gp": 14,
+   "g": 3,
+   "a": 3,
+   "pm": -1,
+   "pim": 10,
+   "gwg": 1,
+   "fp": 9.5,
+   "goonFp": 2.5
+  },
+  {
    "name": "Dylan Samberg",
    "team": "WPG",
    "pos": "D",
@@ -4290,18 +4346,18 @@
    "goonFp": 2.5
   },
   {
-   "name": "Roman Kantserov",
-   "team": "CHI",
-   "pos": "R",
+   "name": "Morgan Frost",
+   "team": "CGY",
+   "pos": "C",
    "slot": "F",
-   "gp": 15,
-   "g": 6,
-   "a": 2,
+   "gp": 16,
+   "g": 4,
+   "a": 6,
    "pm": -9,
-   "pim": 6,
+   "pim": 4,
    "gwg": 0,
    "fp": 9.5,
-   "goonFp": 1.5
+   "goonFp": 1.0
   },
   {
    "name": "A.J. Greer",
@@ -4332,6 +4388,20 @@
    "goonFp": 0.0
   },
   {
+   "name": "Jacob Trouba",
+   "team": "SJS",
+   "pos": "D",
+   "slot": "D",
+   "gp": 17,
+   "g": 2,
+   "a": 8,
+   "pm": -5,
+   "pim": 13,
+   "gwg": 0,
+   "fp": 9.5,
+   "goonFp": 3.25
+  },
+  {
    "name": "Parker Kelly",
    "team": "COL",
    "pos": "C",
@@ -4344,6 +4414,20 @@
    "gwg": 1,
    "fp": 9.5,
    "goonFp": 2.25
+  },
+  {
+   "name": "Michael Misa",
+   "team": "SJS",
+   "pos": "C",
+   "slot": "F",
+   "gp": 17,
+   "g": 3,
+   "a": 7,
+   "pm": -7,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 9.5,
+   "goonFp": 1.0
   },
   {
    "name": "Emil Heineman",
@@ -4402,20 +4486,6 @@
    "goonFp": 1.0
   },
   {
-   "name": "Niko Mikkola",
-   "team": "FLA",
-   "pos": "D",
-   "slot": "D",
-   "gp": 15,
-   "g": 2,
-   "a": 2,
-   "pm": 4,
-   "pim": 16,
-   "gwg": 1,
-   "fp": 9.0,
-   "goonFp": 4.0
-  },
-  {
    "name": "Ridly Greig",
    "team": "OTT",
    "pos": "C",
@@ -4428,6 +4498,20 @@
    "gwg": 0,
    "fp": 9.0,
    "goonFp": 3.75
+  },
+  {
+   "name": "Fabian Zetterlund",
+   "team": "OTT",
+   "pos": "L",
+   "slot": "F",
+   "gp": 17,
+   "g": 1,
+   "a": 6,
+   "pm": 2,
+   "pim": 2,
+   "gwg": 0,
+   "fp": 9.0,
+   "goonFp": 0.5
   },
   {
    "name": "Jamie Benn",
@@ -4448,7 +4532,7 @@
    "team": "SEA",
    "pos": "C",
    "slot": "F",
-   "gp": 12,
+   "gp": 13,
    "g": 1,
    "a": 5,
    "pm": 4,
@@ -4484,6 +4568,20 @@
    "gwg": 0,
    "fp": 9.0,
    "goonFp": 1.0
+  },
+  {
+   "name": "Joel Armia",
+   "team": "LAK",
+   "pos": "R",
+   "slot": "F",
+   "gp": 14,
+   "g": 3,
+   "a": 3,
+   "pm": 0,
+   "pim": 10,
+   "gwg": 0,
+   "fp": 9.0,
+   "goonFp": 2.5
   },
   {
    "name": "Phillip Danault",
@@ -4640,6 +4738,20 @@
    "goonFp": 0.5
   },
   {
+   "name": "Quinton Byfield",
+   "team": "LAK",
+   "pos": "R",
+   "slot": "F",
+   "gp": 12,
+   "g": 4,
+   "a": 2,
+   "pm": -7,
+   "pim": 0,
+   "gwg": 2,
+   "fp": 8.5,
+   "goonFp": 0.0
+  },
+  {
    "name": "William Carrier",
    "team": "CAR",
    "pos": "L",
@@ -4738,20 +4850,6 @@
    "goonFp": 1.5
   },
   {
-   "name": "Morgan Frost",
-   "team": "CGY",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 4,
-   "a": 5,
-   "pm": -9,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 8.5,
-   "goonFp": 0.5
-  },
-  {
    "name": "Nicolas Roy",
    "team": "COL",
    "pos": "C",
@@ -4766,25 +4864,11 @@
    "goonFp": 1.0
   },
   {
-   "name": "Anton Lundell",
-   "team": "FLA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 4,
-   "a": 2,
-   "pm": -3,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 8.5,
-   "goonFp": 1.0
-  },
-  {
    "name": "Artem Zub",
    "team": "OTT",
    "pos": "D",
    "slot": "D",
-   "gp": 9,
+   "gp": 10,
    "g": 0,
    "a": 4,
    "pm": 9,
@@ -4792,34 +4876,6 @@
    "gwg": 0,
    "fp": 8.5,
    "goonFp": 3.0
-  },
-  {
-   "name": "Michael Misa",
-   "team": "SJS",
-   "pos": "C",
-   "slot": "F",
-   "gp": 16,
-   "g": 3,
-   "a": 5,
-   "pm": -5,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 8.5,
-   "goonFp": 1.0
-  },
-  {
-   "name": "Vince Dunn",
-   "team": "SEA",
-   "pos": "D",
-   "slot": "D",
-   "gp": 14,
-   "g": 2,
-   "a": 7,
-   "pm": -7,
-   "pim": 6,
-   "gwg": 1,
-   "fp": 8.5,
-   "goonFp": 1.5
   },
   {
    "name": "William Karlsson",
@@ -4834,34 +4890,6 @@
    "gwg": 1,
    "fp": 8.0,
    "goonFp": 0.0
-  },
-  {
-   "name": "Peyton Krebs",
-   "team": "BUF",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 0,
-   "a": 7,
-   "pm": 2,
-   "pim": 11,
-   "gwg": 0,
-   "fp": 8.0,
-   "goonFp": 2.75
-  },
-  {
-   "name": "Fabian Zetterlund",
-   "team": "OTT",
-   "pos": "L",
-   "slot": "F",
-   "gp": 16,
-   "g": 1,
-   "a": 5,
-   "pm": 2,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 8.0,
-   "goonFp": 0.5
   },
   {
    "name": "T.J. Hughes",
@@ -4920,20 +4948,6 @@
    "goonFp": 1.0
   },
   {
-   "name": "Anton Frondell",
-   "team": "CHI",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 3,
-   "a": 5,
-   "pm": -6,
-   "pim": 0,
-   "gwg": 0,
-   "fp": 8.0,
-   "goonFp": 0.0
-  },
-  {
    "name": "Anthony Mantha",
    "team": "NJD",
    "pos": "R",
@@ -4976,6 +4990,20 @@
    "goonFp": 0.5
   },
   {
+   "name": "Anton Lundell",
+   "team": "FLA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 16,
+   "g": 4,
+   "a": 2,
+   "pm": -4,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 8.0,
+   "goonFp": 1.0
+  },
+  {
    "name": "Logan Stanley",
    "team": "NYI",
    "pos": "D",
@@ -4988,6 +5016,20 @@
    "gwg": 0,
    "fp": 8.0,
    "goonFp": 7.5
+  },
+  {
+   "name": "Vince Dunn",
+   "team": "SEA",
+   "pos": "D",
+   "slot": "D",
+   "gp": 15,
+   "g": 2,
+   "a": 7,
+   "pm": -8,
+   "pim": 6,
+   "gwg": 1,
+   "fp": 8.0,
+   "goonFp": 1.5
   },
   {
    "name": "Laurent Brossoit",
@@ -5058,18 +5100,18 @@
    "goonFp": 0.0
   },
   {
-   "name": "Kiefer Sherwood",
-   "team": "SJS",
-   "pos": "L",
-   "slot": "F",
-   "gp": 16,
-   "g": 2,
-   "a": 6,
-   "pm": -5,
-   "pim": 18,
-   "gwg": 0,
+   "name": "Erik Gustafsson",
+   "team": "LAK",
+   "pos": "D",
+   "slot": "D",
+   "gp": 12,
+   "g": 1,
+   "a": 4,
+   "pm": 1,
+   "pim": 4,
+   "gwg": 1,
    "fp": 7.5,
-   "goonFp": 4.5
+   "goonFp": 1.0
   },
   {
    "name": "Colton Dach",
@@ -5090,7 +5132,7 @@
    "team": "CGY",
    "pos": "R",
    "slot": "F",
-   "gp": 15,
+   "gp": 16,
    "g": 3,
    "a": 3,
    "pm": -3,
@@ -5156,18 +5198,18 @@
    "goonFp": 1.0
   },
   {
-   "name": "Teuvo Teravainen",
+   "name": "Anton Frondell",
    "team": "CHI",
    "pos": "C",
    "slot": "F",
-   "gp": 12,
-   "g": 2,
-   "a": 4,
-   "pm": -3,
-   "pim": 4,
-   "gwg": 1,
+   "gp": 16,
+   "g": 3,
+   "a": 5,
+   "pm": -7,
+   "pim": 0,
+   "gwg": 0,
    "fp": 7.5,
-   "goonFp": 1.0
+   "goonFp": 0.0
   },
   {
    "name": "Noah Hanifin",
@@ -5268,20 +5310,6 @@
    "goonFp": 1.0
   },
   {
-   "name": "Pavel Dorofeyev",
-   "team": "NYR",
-   "pos": "R",
-   "slot": "F",
-   "gp": 16,
-   "g": 4,
-   "a": 5,
-   "pm": -14,
-   "pim": 2,
-   "gwg": 1,
-   "fp": 7.0,
-   "goonFp": 0.5
-  },
-  {
    "name": "Jeff Malott",
    "team": "ANA",
    "pos": "L",
@@ -5296,18 +5324,32 @@
    "goonFp": 5.5
   },
   {
+   "name": "Pavel Dorofeyev",
+   "team": "NYR",
+   "pos": "R",
+   "slot": "F",
+   "gp": 16,
+   "g": 4,
+   "a": 5,
+   "pm": -14,
+   "pim": 2,
+   "gwg": 1,
+   "fp": 7.0,
+   "goonFp": 0.5
+  },
+  {
    "name": "Martin Pospisil",
    "team": "CGY",
    "pos": "C",
    "slot": "F",
-   "gp": 15,
+   "gp": 16,
    "g": 3,
    "a": 3,
    "pm": -6,
-   "pim": 10,
+   "pim": 16,
    "gwg": 1,
    "fp": 7.0,
-   "goonFp": 2.5
+   "goonFp": 4.0
   },
   {
    "name": "Alex Newhook",
@@ -5322,6 +5364,20 @@
    "gwg": 0,
    "fp": 7.0,
    "goonFp": 2.5
+  },
+  {
+   "name": "Kiefer Sherwood",
+   "team": "SJS",
+   "pos": "L",
+   "slot": "F",
+   "gp": 17,
+   "g": 2,
+   "a": 6,
+   "pm": -6,
+   "pim": 18,
+   "gwg": 0,
+   "fp": 7.0,
+   "goonFp": 4.5
   },
   {
    "name": "Braeden Bowman",
@@ -5450,6 +5506,20 @@
    "goonFp": 4.0
   },
   {
+   "name": "Ivar Stenberg",
+   "team": "SJS",
+   "pos": "L",
+   "slot": "F",
+   "gp": 17,
+   "g": 4,
+   "a": 6,
+   "pm": -14,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 7.0,
+   "goonFp": 1.0
+  },
+  {
    "name": "Morgan Barron",
    "team": "WPG",
    "pos": "C",
@@ -5524,14 +5594,14 @@
    "team": "LAK",
    "pos": "C",
    "slot": "F",
-   "gp": 13,
+   "gp": 14,
    "g": 2,
    "a": 3,
    "pm": 0,
-   "pim": 13,
+   "pim": 15,
    "gwg": 0,
    "fp": 7.0,
-   "goonFp": 3.25
+   "goonFp": 3.75
   },
   {
    "name": "Alex Iafallo",
@@ -5552,7 +5622,7 @@
    "team": "CGY",
    "pos": "L",
    "slot": "F",
-   "gp": 12,
+   "gp": 13,
    "g": 4,
    "a": 1,
    "pm": -5,
@@ -5576,18 +5646,18 @@
    "goonFp": 0.0
   },
   {
-   "name": "Erik Haula",
-   "team": "LAK",
-   "pos": "L",
+   "name": "Yegor Sharangovich",
+   "team": "CGY",
+   "pos": "C",
    "slot": "F",
-   "gp": 13,
-   "g": 2,
-   "a": 3,
-   "pm": -1,
-   "pim": 12,
-   "gwg": 0,
+   "gp": 16,
+   "g": 3,
+   "a": 2,
+   "pm": -5,
+   "pim": 2,
+   "gwg": 1,
    "fp": 6.5,
-   "goonFp": 3.0
+   "goonFp": 0.5
   },
   {
    "name": "Tanner Jeannot",
@@ -5692,7 +5762,7 @@
    "team": "CGY",
    "pos": "C",
    "slot": "F",
-   "gp": 13,
+   "gp": 14,
    "g": 2,
    "a": 3,
    "pm": -1,
@@ -5702,11 +5772,25 @@
    "goonFp": 1.5
   },
   {
+   "name": "Teuvo Teravainen",
+   "team": "CHI",
+   "pos": "C",
+   "slot": "F",
+   "gp": 13,
+   "g": 2,
+   "a": 4,
+   "pm": -5,
+   "pim": 4,
+   "gwg": 1,
+   "fp": 6.5,
+   "goonFp": 1.0
+  },
+  {
    "name": "Stephen Halliday",
    "team": "OTT",
    "pos": "C",
    "slot": "F",
-   "gp": 16,
+   "gp": 17,
    "g": 3,
    "a": 2,
    "pm": -7,
@@ -5714,6 +5798,20 @@
    "gwg": 2,
    "fp": 6.5,
    "goonFp": 0.0
+  },
+  {
+   "name": "Frank Nazar",
+   "team": "CHI",
+   "pos": "C",
+   "slot": "F",
+   "gp": 14,
+   "g": 5,
+   "a": 2,
+   "pm": -11,
+   "pim": 19,
+   "gwg": 0,
+   "fp": 6.5,
+   "goonFp": 4.75
   },
   {
    "name": "J.T. Compher",
@@ -5758,6 +5856,20 @@
    "goonFp": 4.25
   },
   {
+   "name": "Bobby McMann",
+   "team": "SEA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 3,
+   "a": 2,
+   "pm": -3,
+   "pim": 2,
+   "gwg": 0,
+   "fp": 6.5,
+   "goonFp": 0.5
+  },
+  {
    "name": "Kris Letang",
    "team": "PIT",
    "pos": "D",
@@ -5790,7 +5902,7 @@
    "team": "CGY",
    "pos": "C",
    "slot": "F",
-   "gp": 15,
+   "gp": 16,
    "g": 3,
    "a": 3,
    "pm": -5,
@@ -5856,20 +5968,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Frank Vatrano",
-   "team": "ANA",
-   "pos": "R",
-   "slot": "F",
-   "gp": 8,
-   "g": 2,
-   "a": 1,
-   "pm": 2,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 6.0,
-   "goonFp": 0.5
-  },
-  {
    "name": "Anton Johansson",
    "team": "DET",
    "pos": "D",
@@ -5882,6 +5980,20 @@
    "gwg": 0,
    "fp": 6.0,
    "goonFp": 3.0
+  },
+  {
+   "name": "Frank Vatrano",
+   "team": "ANA",
+   "pos": "R",
+   "slot": "F",
+   "gp": 8,
+   "g": 2,
+   "a": 1,
+   "pm": 2,
+   "pim": 2,
+   "gwg": 0,
+   "fp": 6.0,
+   "goonFp": 0.5
   },
   {
    "name": "Noah Dobson",
@@ -5898,20 +6010,6 @@
    "goonFp": 3.0
   },
   {
-   "name": "Joel Armia",
-   "team": "LAK",
-   "pos": "R",
-   "slot": "F",
-   "gp": 13,
-   "g": 2,
-   "a": 3,
-   "pm": -2,
-   "pim": 6,
-   "gwg": 0,
-   "fp": 6.0,
-   "goonFp": 1.5
-  },
-  {
    "name": "Raphael Lavoie",
    "team": "VGK",
    "pos": "C",
@@ -5924,20 +6022,6 @@
    "gwg": 1,
    "fp": 6.0,
    "goonFp": 2.5
-  },
-  {
-   "name": "Eetu Luostarinen",
-   "team": "FLA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 2,
-   "a": 2,
-   "pm": 0,
-   "pim": 8,
-   "gwg": 0,
-   "fp": 6.0,
-   "goonFp": 2.0
   },
   {
    "name": "Ryan Shea",
@@ -6052,20 +6136,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Bobby McMann",
-   "team": "SEA",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 3,
-   "a": 2,
-   "pm": -4,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 6.0,
-   "goonFp": 0.5
-  },
-  {
    "name": "Anthony Beauvillier",
    "team": "WSH",
    "pos": "R",
@@ -6092,6 +6162,20 @@
    "gwg": 0,
    "fp": 5.5,
    "goonFp": 2.5
+  },
+  {
+   "name": "Jordan Spence",
+   "team": "OTT",
+   "pos": "D",
+   "slot": "D",
+   "gp": 17,
+   "g": 1,
+   "a": 2,
+   "pm": 3,
+   "pim": 6,
+   "gwg": 0,
+   "fp": 5.5,
+   "goonFp": 1.5
   },
   {
    "name": "Spencer Stastney",
@@ -6126,7 +6210,7 @@
    "team": "LAK",
    "pos": "L",
    "slot": "F",
-   "gp": 11,
+   "gp": 12,
    "g": 1,
    "a": 2,
    "pm": 3,
@@ -6150,6 +6234,20 @@
    "goonFp": 0.5
   },
   {
+   "name": "Joel Edmundson",
+   "team": "LAK",
+   "pos": "D",
+   "slot": "D",
+   "gp": 14,
+   "g": 1,
+   "a": 1,
+   "pm": 5,
+   "pim": 9,
+   "gwg": 0,
+   "fp": 5.5,
+   "goonFp": 2.25
+  },
+  {
    "name": "Noah Cates",
    "team": "PHI",
    "pos": "L",
@@ -6162,6 +6260,20 @@
    "gwg": 0,
    "fp": 5.5,
    "goonFp": 1.5
+  },
+  {
+   "name": "Eetu Luostarinen",
+   "team": "FLA",
+   "pos": "C",
+   "slot": "F",
+   "gp": 16,
+   "g": 2,
+   "a": 2,
+   "pm": -1,
+   "pim": 10,
+   "gwg": 0,
+   "fp": 5.5,
+   "goonFp": 2.5
   },
   {
    "name": "Timo Meier",
@@ -6234,20 +6346,6 @@
    "goonFp": 2.5
   },
   {
-   "name": "Ivar Stenberg",
-   "team": "SJS",
-   "pos": "L",
-   "slot": "F",
-   "gp": 16,
-   "g": 3,
-   "a": 6,
-   "pm": -13,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 5.5,
-   "goonFp": 1.0
-  },
-  {
    "name": "Brandon Duhaime",
    "team": "TOR",
    "pos": "L",
@@ -6260,20 +6358,6 @@
    "gwg": 0,
    "fp": 5.5,
    "goonFp": 2.0
-  },
-  {
-   "name": "Mason Marchment",
-   "team": "SJS",
-   "pos": "L",
-   "slot": "F",
-   "gp": 16,
-   "g": 4,
-   "a": 2,
-   "pm": -11,
-   "pim": 10,
-   "gwg": 1,
-   "fp": 5.5,
-   "goonFp": 2.5
   },
   {
    "name": "Joel Kiviranta",
@@ -6349,7 +6433,7 @@
    "team": "CHI",
    "pos": "C",
    "slot": "F",
-   "gp": 15,
+   "gp": 16,
    "g": 2,
    "a": 2,
    "pm": -2,
@@ -6373,6 +6457,20 @@
    "goonFp": 0.0
   },
   {
+   "name": "Josh Mahura",
+   "team": "SEA",
+   "pos": "D",
+   "slot": "D",
+   "gp": 12,
+   "g": 1,
+   "a": 2,
+   "pm": 2,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 5.0,
+   "goonFp": 1.0
+  },
+  {
    "name": "Evan Rodrigues",
    "team": "NJD",
    "pos": "C",
@@ -6391,7 +6489,7 @@
    "team": "LAK",
    "pos": "L",
    "slot": "F",
-   "gp": 13,
+   "gp": 14,
    "g": 2,
    "a": 3,
    "pm": -4,
@@ -6399,34 +6497,6 @@
    "gwg": 0,
    "fp": 5.0,
    "goonFp": 0.0
-  },
-  {
-   "name": "Wyatt Kaiser",
-   "team": "CHI",
-   "pos": "D",
-   "slot": "D",
-   "gp": 15,
-   "g": 2,
-   "a": 4,
-   "pm": -8,
-   "pim": 8,
-   "gwg": 1,
-   "fp": 5.0,
-   "goonFp": 2.0
-  },
-  {
-   "name": "Jordan Spence",
-   "team": "OTT",
-   "pos": "D",
-   "slot": "D",
-   "gp": 16,
-   "g": 1,
-   "a": 2,
-   "pm": 2,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 5.0,
-   "goonFp": 1.0
   },
   {
    "name": "Jamie Oleksiak",
@@ -6441,20 +6511,6 @@
    "gwg": 0,
    "fp": 5.0,
    "goonFp": 3.25
-  },
-  {
-   "name": "Joel Edmundson",
-   "team": "LAK",
-   "pos": "D",
-   "slot": "D",
-   "gp": 13,
-   "g": 1,
-   "a": 1,
-   "pm": 4,
-   "pim": 9,
-   "gwg": 0,
-   "fp": 5.0,
-   "goonFp": 2.25
   },
   {
    "name": "Jack McBain",
@@ -6483,20 +6539,6 @@
    "gwg": 0,
    "fp": 5.0,
    "goonFp": 2.0
-  },
-  {
-   "name": "Josh Doan",
-   "team": "BUF",
-   "pos": "R",
-   "slot": "F",
-   "gp": 14,
-   "g": 2,
-   "a": 1,
-   "pm": 0,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 5.0,
-   "goonFp": 1.0
   },
   {
    "name": "William Wallinder",
@@ -6531,12 +6573,26 @@
    "team": "OTT",
    "pos": "D",
    "slot": "D",
-   "gp": 14,
+   "gp": 15,
    "g": 0,
    "a": 3,
    "pm": 4,
-   "pim": 10,
+   "pim": 12,
    "gwg": 0,
+   "fp": 5.0,
+   "goonFp": 3.0
+  },
+  {
+   "name": "Mason Marchment",
+   "team": "SJS",
+   "pos": "L",
+   "slot": "F",
+   "gp": 17,
+   "g": 4,
+   "a": 2,
+   "pm": -12,
+   "pim": 10,
+   "gwg": 1,
    "fp": 5.0,
    "goonFp": 2.5
   },
@@ -6559,7 +6615,7 @@
    "team": "CHI",
    "pos": "L",
    "slot": "F",
-   "gp": 15,
+   "gp": 16,
    "g": 2,
    "a": 4,
    "pm": -6,
@@ -6625,32 +6681,18 @@
    "goonFp": 0.0
   },
   {
-   "name": "Yegor Sharangovich",
-   "team": "CGY",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 2,
-   "a": 2,
-   "pm": -5,
-   "pim": 2,
-   "gwg": 1,
-   "fp": 4.5,
-   "goonFp": 0.5
-  },
-  {
-   "name": "Josh Mahura",
-   "team": "SEA",
+   "name": "Wyatt Kaiser",
+   "team": "CHI",
    "pos": "D",
    "slot": "D",
-   "gp": 11,
-   "g": 1,
-   "a": 2,
-   "pm": 1,
-   "pim": 4,
-   "gwg": 0,
+   "gp": 16,
+   "g": 2,
+   "a": 4,
+   "pm": -9,
+   "pim": 8,
+   "gwg": 1,
    "fp": 4.5,
-   "goonFp": 1.0
+   "goonFp": 2.0
   },
   {
    "name": "Jack St. Ivany",
@@ -6751,20 +6793,6 @@
    "goonFp": 2.0
   },
   {
-   "name": "Ryan Donato",
-   "team": "CHI",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 2,
-   "a": 3,
-   "pm": -5,
-   "pim": 5,
-   "gwg": 0,
-   "fp": 4.5,
-   "goonFp": 1.25
-  },
-  {
    "name": "Casey Cizikas",
    "team": "NYI",
    "pos": "C",
@@ -6783,7 +6811,7 @@
    "team": "LAK",
    "pos": "D",
    "slot": "D",
-   "gp": 13,
+   "gp": 14,
    "g": 2,
    "a": 1,
    "pm": -1,
@@ -6821,11 +6849,25 @@
    "goonFp": 1.0
   },
   {
+   "name": "Philip Tomasino",
+   "team": "OTT",
+   "pos": "R",
+   "slot": "F",
+   "gp": 3,
+   "g": 1,
+   "a": 2,
+   "pm": 1,
+   "pim": 0,
+   "gwg": 0,
+   "fp": 4.5,
+   "goonFp": 0.0
+  },
+  {
    "name": "Collin Graf",
    "team": "SJS",
    "pos": "R",
    "slot": "F",
-   "gp": 16,
+   "gp": 17,
    "g": 2,
    "a": 1,
    "pm": -3,
@@ -6867,7 +6909,7 @@
    "team": "CGY",
    "pos": "L",
    "slot": "F",
-   "gp": 1,
+   "gp": 2,
    "g": 1,
    "a": 0,
    "pm": 2,
@@ -6887,20 +6929,6 @@
    "pm": 4,
    "pim": 2,
    "gwg": 0,
-   "fp": 4.0,
-   "goonFp": 0.5
-  },
-  {
-   "name": "Erik Gustafsson",
-   "team": "LAK",
-   "pos": "D",
-   "slot": "D",
-   "gp": 11,
-   "g": 1,
-   "a": 2,
-   "pm": -2,
-   "pim": 2,
-   "gwg": 1,
    "fp": 4.0,
    "goonFp": 0.5
   },
@@ -6941,6 +6969,34 @@
    "g": 2,
    "a": 2,
    "pm": -4,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 4.0,
+   "goonFp": 1.0
+  },
+  {
+   "name": "Ryan Donato",
+   "team": "CHI",
+   "pos": "C",
+   "slot": "F",
+   "gp": 16,
+   "g": 2,
+   "a": 3,
+   "pm": -6,
+   "pim": 5,
+   "gwg": 0,
+   "fp": 4.0,
+   "goonFp": 1.25
+  },
+  {
+   "name": "Josh Doan",
+   "team": "BUF",
+   "pos": "R",
+   "slot": "F",
+   "gp": 15,
+   "g": 2,
+   "a": 1,
+   "pm": -2,
    "pim": 4,
    "gwg": 0,
    "fp": 4.0,
@@ -7031,20 +7087,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Quinton Byfield",
-   "team": "LAK",
-   "pos": "R",
-   "slot": "F",
-   "gp": 11,
-   "g": 2,
-   "a": 2,
-   "pm": -7,
-   "pim": 0,
-   "gwg": 1,
-   "fp": 3.5,
-   "goonFp": 0.0
-  },
-  {
    "name": "Oliver Bonk",
    "team": "PHI",
    "pos": "D",
@@ -7129,14 +7171,28 @@
    "goonFp": 0.5
   },
   {
-   "name": "Oliver Moore",
-   "team": "CHI",
-   "pos": "C",
-   "slot": "F",
+   "name": "Ville Ottavainen",
+   "team": "SEA",
+   "pos": "D",
+   "slot": "D",
+   "gp": 9,
+   "g": 1,
+   "a": 0,
+   "pm": 3,
+   "pim": 2,
+   "gwg": 0,
+   "fp": 3.5,
+   "goonFp": 0.5
+  },
+  {
+   "name": "Aaron Ekblad",
+   "team": "FLA",
+   "pos": "D",
+   "slot": "D",
    "gp": 14,
-   "g": 2,
-   "a": 1,
-   "pm": -3,
+   "g": 1,
+   "a": 4,
+   "pm": -5,
    "pim": 10,
    "gwg": 0,
    "fp": 3.5,
@@ -7255,20 +7311,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Artyom Levshunov",
-   "team": "CHI",
-   "pos": "D",
-   "slot": "D",
-   "gp": 15,
-   "g": 1,
-   "a": 2,
-   "pm": -4,
-   "pim": 10,
-   "gwg": 1,
-   "fp": 3.0,
-   "goonFp": 2.5
-  },
-  {
    "name": "Declan Chisholm",
    "team": "NJD",
    "pos": "D",
@@ -7295,6 +7337,20 @@
    "gwg": 0,
    "fp": 3.0,
    "goonFp": 0.5
+  },
+  {
+   "name": "Brian Dumoulin",
+   "team": "LAK",
+   "pos": "D",
+   "slot": "D",
+   "gp": 14,
+   "g": 1,
+   "a": 2,
+   "pm": -2,
+   "pim": 10,
+   "gwg": 0,
+   "fp": 3.0,
+   "goonFp": 2.5
   },
   {
    "name": "Tyler Myers",
@@ -7325,34 +7381,6 @@
    "goonFp": 1.5
   },
   {
-   "name": "Matthew Wood",
-   "team": "NSH",
-   "pos": "R",
-   "slot": "F",
-   "gp": 14,
-   "g": 1,
-   "a": 2,
-   "pm": -2,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 3.0,
-   "goonFp": 1.0
-  },
-  {
-   "name": "Ville Ottavainen",
-   "team": "SEA",
-   "pos": "D",
-   "slot": "D",
-   "gp": 8,
-   "g": 1,
-   "a": 0,
-   "pm": 2,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 3.0,
-   "goonFp": 0.5
-  },
-  {
    "name": "Tom Willander",
    "team": "VAN",
    "pos": "D",
@@ -7367,14 +7395,28 @@
    "goonFp": 1.0
   },
   {
-   "name": "Aaron Ekblad",
-   "team": "FLA",
-   "pos": "D",
-   "slot": "D",
-   "gp": 13,
+   "name": "Cole Smith",
+   "team": "CHI",
+   "pos": "R",
+   "slot": "F",
+   "gp": 16,
    "g": 1,
-   "a": 4,
-   "pm": -6,
+   "a": 2,
+   "pm": -4,
+   "pim": 8,
+   "gwg": 1,
+   "fp": 3.0,
+   "goonFp": 2.0
+  },
+  {
+   "name": "Oliver Moore",
+   "team": "CHI",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 2,
+   "a": 1,
+   "pm": -4,
    "pim": 10,
    "gwg": 0,
    "fp": 3.0,
@@ -7399,7 +7441,7 @@
    "team": "CGY",
    "pos": "C",
    "slot": "F",
-   "gp": 12,
+   "gp": 13,
    "g": 0,
    "a": 3,
    "pm": 0,
@@ -7407,6 +7449,20 @@
    "gwg": 0,
    "fp": 3.0,
    "goonFp": 3.0
+  },
+  {
+   "name": "Dmitry Orlov",
+   "team": "SJS",
+   "pos": "D",
+   "slot": "D",
+   "gp": 17,
+   "g": 2,
+   "a": 6,
+   "pm": -14,
+   "pim": 8,
+   "gwg": 0,
+   "fp": 3.0,
+   "goonFp": 2.0
   },
   {
    "name": "Cody Glass",
@@ -7427,7 +7483,7 @@
    "team": "CGY",
    "pos": "D",
    "slot": "D",
-   "gp": 15,
+   "gp": 16,
    "g": 1,
    "a": 1,
    "pm": 0,
@@ -7449,20 +7505,6 @@
    "gwg": 0,
    "fp": 3.0,
    "goonFp": 0.5
-  },
-  {
-   "name": "Frank Nazar",
-   "team": "CHI",
-   "pos": "C",
-   "slot": "F",
-   "gp": 13,
-   "g": 3,
-   "a": 2,
-   "pm": -10,
-   "pim": 19,
-   "gwg": 0,
-   "fp": 3.0,
-   "goonFp": 4.75
   },
   {
    "name": "Konsta Helenius",
@@ -7491,6 +7533,20 @@
    "gwg": 0,
    "fp": 3.0,
    "goonFp": 7.0
+  },
+  {
+   "name": "Sam Rinzel",
+   "team": "CHI",
+   "pos": "D",
+   "slot": "D",
+   "gp": 15,
+   "g": 1,
+   "a": 3,
+   "pm": -4,
+   "pim": 10,
+   "gwg": 0,
+   "fp": 3.0,
+   "goonFp": 2.5
   },
   {
    "name": "Adam Engstrom",
@@ -7533,34 +7589,6 @@
    "gwg": 0,
    "fp": 3.0,
    "goonFp": 2.75
-  },
-  {
-   "name": "Sandis Vilmanis",
-   "team": "FLA",
-   "pos": "L",
-   "slot": "F",
-   "gp": 14,
-   "g": 1,
-   "a": 2,
-   "pm": -2,
-   "pim": 0,
-   "gwg": 0,
-   "fp": 3.0,
-   "goonFp": 0.0
-  },
-  {
-   "name": "Philip Tomasino",
-   "team": "OTT",
-   "pos": "R",
-   "slot": "F",
-   "gp": 2,
-   "g": 1,
-   "a": 1,
-   "pm": 0,
-   "pim": 0,
-   "gwg": 0,
-   "fp": 3.0,
-   "goonFp": 0.0
   },
   {
    "name": "Arsenii Sergeev",
@@ -7632,18 +7660,18 @@
    "goonFp": 0.5
   },
   {
-   "name": "Zayne Parekh",
-   "team": "CGY",
+   "name": "Pavel Mintyukov",
+   "team": "ANA",
    "pos": "D",
    "slot": "D",
-   "gp": 15,
-   "g": 1,
-   "a": 4,
-   "pm": -9,
-   "pim": 14,
-   "gwg": 1,
+   "gp": 11,
+   "g": 0,
+   "a": 3,
+   "pm": -1,
+   "pim": 2,
+   "gwg": 0,
    "fp": 2.5,
-   "goonFp": 3.5
+   "goonFp": 0.5
   },
   {
    "name": "Dominic James",
@@ -7658,20 +7686,6 @@
    "gwg": 0,
    "fp": 2.5,
    "goonFp": 1.0
-  },
-  {
-   "name": "Pavel Mintyukov",
-   "team": "ANA",
-   "pos": "D",
-   "slot": "D",
-   "gp": 11,
-   "g": 0,
-   "a": 3,
-   "pm": -1,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 2.5,
-   "goonFp": 0.5
   },
   {
    "name": "Josh Morrissey",
@@ -7700,6 +7714,20 @@
    "gwg": 0,
    "fp": 2.5,
    "goonFp": 0.5
+  },
+  {
+   "name": "Artyom Levshunov",
+   "team": "CHI",
+   "pos": "D",
+   "slot": "D",
+   "gp": 16,
+   "g": 1,
+   "a": 2,
+   "pm": -5,
+   "pim": 10,
+   "gwg": 1,
+   "fp": 2.5,
+   "goonFp": 2.5
   },
   {
    "name": "Patrick Kane",
@@ -7814,32 +7842,18 @@
    "goonFp": 1.0
   },
   {
-   "name": "Darnell Nurse",
-   "team": "SJS",
-   "pos": "D",
-   "slot": "D",
-   "gp": 15,
-   "g": 1,
-   "a": 1,
-   "pm": -3,
-   "pim": 11,
-   "gwg": 1,
-   "fp": 2.5,
-   "goonFp": 2.75
-  },
-  {
-   "name": "Cole Smith",
-   "team": "CHI",
+   "name": "Matthew Wood",
+   "team": "SEA",
    "pos": "R",
    "slot": "F",
    "gp": 15,
    "g": 1,
-   "a": 1,
+   "a": 2,
    "pm": -3,
-   "pim": 8,
-   "gwg": 1,
+   "pim": 4,
+   "gwg": 0,
    "fp": 2.5,
-   "goonFp": 2.0
+   "goonFp": 1.0
   },
   {
    "name": "Jeremy Lauzon",
@@ -7868,20 +7882,6 @@
    "gwg": 0,
    "fp": 2.5,
    "goonFp": 1.0
-  },
-  {
-   "name": "Sam Dickinson",
-   "team": "SJS",
-   "pos": "D",
-   "slot": "D",
-   "gp": 14,
-   "g": 1,
-   "a": 2,
-   "pm": -3,
-   "pim": 8,
-   "gwg": 0,
-   "fp": 2.5,
-   "goonFp": 2.0
   },
   {
    "name": "Max Crozier",
@@ -7966,20 +7966,6 @@
    "gwg": 0,
    "fp": 2.5,
    "goonFp": 0.5
-  },
-  {
-   "name": "Zack Ostapchuk",
-   "team": "SJS",
-   "pos": "C",
-   "slot": "F",
-   "gp": 15,
-   "g": 1,
-   "a": 0,
-   "pm": 1,
-   "pim": 16,
-   "gwg": 0,
-   "fp": 2.5,
-   "goonFp": 4.0
   },
   {
    "name": "Radek Faksa",
@@ -8094,20 +8080,6 @@
    "goonFp": 2.25
   },
   {
-   "name": "Scott Sabourin",
-   "team": "TBL",
-   "pos": "R",
-   "slot": "F",
-   "gp": 3,
-   "g": 0,
-   "a": 1,
-   "pm": 2,
-   "pim": 7,
-   "gwg": 0,
-   "fp": 2.0,
-   "goonFp": 1.75
-  },
-  {
    "name": "Ryan Hartman",
    "team": "MIN",
    "pos": "R",
@@ -8120,6 +8092,34 @@
    "gwg": 0,
    "fp": 2.0,
    "goonFp": 1.5
+  },
+  {
+   "name": "Zayne Parekh",
+   "team": "CGY",
+   "pos": "D",
+   "slot": "D",
+   "gp": 16,
+   "g": 1,
+   "a": 4,
+   "pm": -10,
+   "pim": 14,
+   "gwg": 1,
+   "fp": 2.0,
+   "goonFp": 3.5
+  },
+  {
+   "name": "Scott Sabourin",
+   "team": "TBL",
+   "pos": "R",
+   "slot": "F",
+   "gp": 3,
+   "g": 0,
+   "a": 1,
+   "pm": 2,
+   "pim": 7,
+   "gwg": 0,
+   "fp": 2.0,
+   "goonFp": 1.75
   },
   {
    "name": "Marshall Rifai",
@@ -8140,7 +8140,7 @@
    "team": "BUF",
    "pos": "C",
    "slot": "F",
-   "gp": 14,
+   "gp": 15,
    "g": 2,
    "a": 1,
    "pm": -6,
@@ -8148,6 +8148,20 @@
    "gwg": 0,
    "fp": 2.0,
    "goonFp": 1.5
+  },
+  {
+   "name": "Kenny Connors",
+   "team": "LAK",
+   "pos": "C",
+   "slot": "F",
+   "gp": 1,
+   "g": 0,
+   "a": 1,
+   "pm": 2,
+   "pim": 0,
+   "gwg": 0,
+   "fp": 2.0,
+   "goonFp": 0.0
   },
   {
    "name": "Tony DeAngelo",
@@ -8178,20 +8192,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Brian Dumoulin",
-   "team": "LAK",
-   "pos": "D",
-   "slot": "D",
-   "gp": 13,
-   "g": 1,
-   "a": 1,
-   "pm": -2,
-   "pim": 10,
-   "gwg": 0,
-   "fp": 2.0,
-   "goonFp": 2.5
-  },
-  {
    "name": "Timothy Liljegren",
    "team": "WSH",
    "pos": "D",
@@ -8218,6 +8218,20 @@
    "gwg": 0,
    "fp": 2.0,
    "goonFp": 1.0
+  },
+  {
+   "name": "Darnell Nurse",
+   "team": "SJS",
+   "pos": "D",
+   "slot": "D",
+   "gp": 16,
+   "g": 1,
+   "a": 1,
+   "pm": -4,
+   "pim": 11,
+   "gwg": 1,
+   "fp": 2.0,
+   "goonFp": 2.75
   },
   {
    "name": "Kirby Dach",
@@ -8252,7 +8266,7 @@
    "team": "FLA",
    "pos": "D",
    "slot": "D",
-   "gp": 14,
+   "gp": 15,
    "g": 1,
    "a": 1,
    "pm": -4,
@@ -8290,25 +8304,25 @@
    "goonFp": 2.0
   },
   {
-   "name": "Sam Rinzel",
-   "team": "CHI",
-   "pos": "D",
-   "slot": "D",
-   "gp": 14,
+   "name": "Zack Ostapchuk",
+   "team": "SJS",
+   "pos": "C",
+   "slot": "F",
+   "gp": 16,
    "g": 1,
-   "a": 2,
-   "pm": -4,
-   "pim": 10,
+   "a": 0,
+   "pm": 0,
+   "pim": 18,
    "gwg": 0,
    "fp": 2.0,
-   "goonFp": 2.5
+   "goonFp": 4.5
   },
   {
    "name": "Carter Yakemchuk",
    "team": "OTT",
    "pos": "D",
    "slot": "D",
-   "gp": 13,
+   "gp": 14,
    "g": 1,
    "a": 2,
    "pm": -6,
@@ -8433,7 +8447,7 @@
    "team": "BUF",
    "pos": "L",
    "slot": "F",
-   "gp": 14,
+   "gp": 15,
    "g": 0,
    "a": 2,
    "pm": -1,
@@ -8469,34 +8483,6 @@
    "gwg": 0,
    "fp": 1.5,
    "goonFp": 1.5
-  },
-  {
-   "name": "Simon Nemec",
-   "team": "CGY",
-   "pos": "D",
-   "slot": "D",
-   "gp": 15,
-   "g": 0,
-   "a": 5,
-   "pm": -7,
-   "pim": 0,
-   "gwg": 0,
-   "fp": 1.5,
-   "goonFp": 0.0
-  },
-  {
-   "name": "Uvis Balinskis",
-   "team": "FLA",
-   "pos": "D",
-   "slot": "D",
-   "gp": 7,
-   "g": 0,
-   "a": 1,
-   "pm": 1,
-   "pim": 9,
-   "gwg": 0,
-   "fp": 1.5,
-   "goonFp": 2.25
   },
   {
    "name": "Gavin Brindley",
@@ -8567,20 +8553,6 @@
    "gwg": 0,
    "fp": 1.5,
    "goonFp": 2.0
-  },
-  {
-   "name": "Adam Larsson",
-   "team": "SEA",
-   "pos": "D",
-   "slot": "D",
-   "gp": 14,
-   "g": 0,
-   "a": 2,
-   "pm": -1,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 1.5,
-   "goonFp": 1.0
   },
   {
    "name": "Alex Turcotte",
@@ -8681,34 +8653,6 @@
    "goonFp": 6.25
   },
   {
-   "name": "Alex Vlasic",
-   "team": "CHI",
-   "pos": "D",
-   "slot": "D",
-   "gp": 15,
-   "g": 0,
-   "a": 2,
-   "pm": -1,
-   "pim": 8,
-   "gwg": 0,
-   "fp": 1.5,
-   "goonFp": 2.0
-  },
-  {
-   "name": "Dmitry Orlov",
-   "team": "SJS",
-   "pos": "D",
-   "slot": "D",
-   "gp": 16,
-   "g": 2,
-   "a": 4,
-   "pm": -13,
-   "pim": 8,
-   "gwg": 0,
-   "fp": 1.5,
-   "goonFp": 2.0
-  },
-  {
    "name": "Ross Johnston",
    "team": "STL",
    "pos": "L",
@@ -8735,6 +8679,20 @@
    "gwg": 0,
    "fp": 1.5,
    "goonFp": 0.0
+  },
+  {
+   "name": "Sam Dickinson",
+   "team": "SJS",
+   "pos": "D",
+   "slot": "D",
+   "gp": 15,
+   "g": 1,
+   "a": 2,
+   "pm": -5,
+   "pim": 8,
+   "gwg": 0,
+   "fp": 1.5,
+   "goonFp": 2.0
   },
   {
    "name": "Rasmus Ristolainen",
@@ -8848,20 +8806,6 @@
    "goonFp": 0
   },
   {
-   "name": "Matt Roy",
-   "team": "WSH",
-   "pos": "D",
-   "slot": "D",
-   "gp": 8,
-   "g": 0,
-   "a": 1,
-   "pm": 0,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 1.0,
-   "goonFp": 1.0
-  },
-  {
    "name": "Nic Dowd",
    "team": "VGK",
    "pos": "C",
@@ -8876,18 +8820,18 @@
    "goonFp": 3.25
   },
   {
-   "name": "Jason Zucker",
-   "team": "BUF",
-   "pos": "L",
-   "slot": "F",
-   "gp": 5,
-   "g": 1,
-   "a": 0,
-   "pm": -2,
-   "pim": 2,
+   "name": "Matt Roy",
+   "team": "WSH",
+   "pos": "D",
+   "slot": "D",
+   "gp": 8,
+   "g": 0,
+   "a": 1,
+   "pm": 0,
+   "pim": 4,
    "gwg": 0,
    "fp": 1.0,
-   "goonFp": 0.5
+   "goonFp": 1.0
   },
   {
    "name": "Vinni Lettieri",
@@ -8902,6 +8846,34 @@
    "gwg": 0,
    "fp": 1.0,
    "goonFp": 3.5
+  },
+  {
+   "name": "Simon Nemec",
+   "team": "CGY",
+   "pos": "D",
+   "slot": "D",
+   "gp": 16,
+   "g": 0,
+   "a": 5,
+   "pm": -8,
+   "pim": 0,
+   "gwg": 0,
+   "fp": 1.0,
+   "goonFp": 0.0
+  },
+  {
+   "name": "Uvis Balinskis",
+   "team": "FLA",
+   "pos": "D",
+   "slot": "D",
+   "gp": 8,
+   "g": 0,
+   "a": 1,
+   "pm": 0,
+   "pim": 9,
+   "gwg": 0,
+   "fp": 1.0,
+   "goonFp": 2.25
   },
   {
    "name": "David Spacek",
@@ -8936,7 +8908,7 @@
    "team": "BUF",
    "pos": "D",
    "slot": "D",
-   "gp": 12,
+   "gp": 13,
    "g": 0,
    "a": 2,
    "pm": -2,
@@ -8944,6 +8916,20 @@
    "gwg": 0,
    "fp": 1.0,
    "goonFp": 1.25
+  },
+  {
+   "name": "Adam Larsson",
+   "team": "SEA",
+   "pos": "D",
+   "slot": "D",
+   "gp": 15,
+   "g": 0,
+   "a": 2,
+   "pm": -2,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 1.0,
+   "goonFp": 1.0
   },
   {
    "name": "Aatu R\u00e4ty",
@@ -8964,7 +8950,7 @@
    "team": "FLA",
    "pos": "D",
    "slot": "D",
-   "gp": 15,
+   "gp": 16,
    "g": 0,
    "a": 2,
    "pm": -2,
@@ -9034,7 +9020,7 @@
    "team": "BUF",
    "pos": "C",
    "slot": "F",
-   "gp": 6,
+   "gp": 7,
    "g": 1,
    "a": 0,
    "pm": -2,
@@ -9048,7 +9034,7 @@
    "team": "CHI",
    "pos": "L",
    "slot": "F",
-   "gp": 14,
+   "gp": 15,
    "g": 1,
    "a": 0,
    "pm": -2,
@@ -9056,20 +9042,6 @@
    "gwg": 0,
    "fp": 1.0,
    "goonFp": 0.5
-  },
-  {
-   "name": "Barclay Goodrow",
-   "team": "SJS",
-   "pos": "C",
-   "slot": "F",
-   "gp": 16,
-   "g": 0,
-   "a": 1,
-   "pm": 0,
-   "pim": 15,
-   "gwg": 0,
-   "fp": 1.0,
-   "goonFp": 3.75
   },
   {
    "name": "Kevin Korchinski",
@@ -9104,7 +9076,7 @@
    "team": "LAK",
    "pos": "R",
    "slot": "F",
-   "gp": 11,
+   "gp": 12,
    "g": 1,
    "a": 1,
    "pm": -4,
@@ -9146,7 +9118,7 @@
    "team": "OTT",
    "pos": "C",
    "slot": "F",
-   "gp": 16,
+   "gp": 17,
    "g": 1,
    "a": 1,
    "pm": -4,
@@ -9154,20 +9126,6 @@
    "gwg": 0,
    "fp": 1.0,
    "goonFp": 10.5
-  },
-  {
-   "name": "Ryan McLeod",
-   "team": "BUF",
-   "pos": "C",
-   "slot": "F",
-   "gp": 14,
-   "g": 1,
-   "a": 2,
-   "pm": -6,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 1.0,
-   "goonFp": 1.0
   },
   {
    "name": "Keegan Kolesar",
@@ -9212,20 +9170,6 @@
    "goonFp": 1.0
   },
   {
-   "name": "Jacob Gaucher",
-   "team": "PHI",
-   "pos": "C",
-   "slot": "F",
-   "gp": 4,
-   "g": 0,
-   "a": 0,
-   "pm": 1,
-   "pim": 6,
-   "gwg": 0,
-   "fp": 0.5,
-   "goonFp": 1.5
-  },
-  {
    "name": "Jayden Struble",
    "team": "NSH",
    "pos": "D",
@@ -9238,6 +9182,20 @@
    "gwg": 0,
    "fp": 0.5,
    "goonFp": 1.75
+  },
+  {
+   "name": "Jacob Gaucher",
+   "team": "PHI",
+   "pos": "C",
+   "slot": "F",
+   "gp": 4,
+   "g": 0,
+   "a": 0,
+   "pm": 1,
+   "pim": 6,
+   "gwg": 0,
+   "fp": 0.5,
+   "goonFp": 1.5
   },
   {
    "name": "Dakota Mermis",
@@ -9324,11 +9282,25 @@
    "goonFp": 2.0
   },
   {
+   "name": "Jason Zucker",
+   "team": "BUF",
+   "pos": "L",
+   "slot": "F",
+   "gp": 6,
+   "g": 1,
+   "a": 0,
+   "pm": -3,
+   "pim": 2,
+   "gwg": 0,
+   "fp": 0.5,
+   "goonFp": 0.5
+  },
+  {
    "name": "Jani Nyman",
    "team": "SEA",
    "pos": "R",
    "slot": "F",
-   "gp": 1,
+   "gp": 2,
    "g": 0,
    "a": 0,
    "pm": 1,
@@ -9464,6 +9436,34 @@
    "goonFp": 3.0
   },
   {
+   "name": "Alex Vlasic",
+   "team": "CHI",
+   "pos": "D",
+   "slot": "D",
+   "gp": 16,
+   "g": 0,
+   "a": 2,
+   "pm": -3,
+   "pim": 10,
+   "gwg": 0,
+   "fp": 0.5,
+   "goonFp": 2.5
+  },
+  {
+   "name": "Ethan Del Mastro",
+   "team": "CHI",
+   "pos": "D",
+   "slot": "D",
+   "gp": 7,
+   "g": 0,
+   "a": 2,
+   "pm": -3,
+   "pim": 2,
+   "gwg": 0,
+   "fp": 0.5,
+   "goonFp": 0.5
+  },
+  {
    "name": "Axel Sandin-Pellikka",
    "team": "DET",
    "pos": "D",
@@ -9478,18 +9478,18 @@
    "goonFp": 1.0
   },
   {
-   "name": "Michael Kesselring",
+   "name": "Barclay Goodrow",
    "team": "SJS",
-   "pos": "D",
-   "slot": "D",
-   "gp": 16,
+   "pos": "C",
+   "slot": "F",
+   "gp": 17,
    "g": 0,
-   "a": 3,
-   "pm": -5,
-   "pim": 13,
+   "a": 1,
+   "pm": -1,
+   "pim": 15,
    "gwg": 0,
    "fp": 0.5,
-   "goonFp": 3.25
+   "goonFp": 3.75
   },
   {
    "name": "Justin Danforth",
@@ -9532,6 +9532,20 @@
    "gwg": 0,
    "fp": 0.5,
    "goonFp": 0.0
+  },
+  {
+   "name": "Ryan McLeod",
+   "team": "BUF",
+   "pos": "C",
+   "slot": "F",
+   "gp": 15,
+   "g": 1,
+   "a": 2,
+   "pm": -7,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 0.5,
+   "goonFp": 1.0
   },
   {
    "name": "Shakir Mukhamadullin",
@@ -9887,7 +9901,7 @@
    "team": "BUF",
    "pos": "C",
    "slot": "F",
-   "gp": 6,
+   "gp": 7,
    "g": 0,
    "a": 1,
    "pm": -2,
@@ -9895,6 +9909,20 @@
    "gwg": 0,
    "fp": 0.0,
    "goonFp": 1.0
+  },
+  {
+   "name": "Dillon Boucher",
+   "team": "CHI",
+   "pos": "L",
+   "slot": "F",
+   "gp": 1,
+   "g": 0,
+   "a": 0,
+   "pm": 0,
+   "pim": 0,
+   "gwg": 0,
+   "fp": 0.0,
+   "goonFp": 0.0
   },
   {
    "name": "Ben Jones",
@@ -9923,20 +9951,6 @@
    "gwg": 0,
    "fp": 0.0,
    "goonFp": 0.0
-  },
-  {
-   "name": "Yan Kuznetsov",
-   "team": "CGY",
-   "pos": "D",
-   "slot": "D",
-   "gp": 14,
-   "g": 0,
-   "a": 2,
-   "pm": -4,
-   "pim": 6,
-   "gwg": 0,
-   "fp": 0.0,
-   "goonFp": 1.5
   },
   {
    "name": "Connor Zary",
@@ -10009,18 +10023,18 @@
    "goonFp": 0.0
   },
   {
-   "name": "Marco Kasper",
-   "team": "DET",
-   "pos": "C",
-   "slot": "F",
-   "gp": 1,
+   "name": "Michael Kesselring",
+   "team": "SJS",
+   "pos": "D",
+   "slot": "D",
+   "gp": 17,
    "g": 0,
-   "a": 0,
-   "pm": 0,
-   "pim": 5,
+   "a": 3,
+   "pm": -6,
+   "pim": 13,
    "gwg": 0,
    "fp": 0.0,
-   "goonFp": 1.25
+   "goonFp": 3.25
   },
   {
    "name": "Dakota Joshua",
@@ -10040,6 +10054,20 @@
    "name": "Martin Chromiak",
    "team": "LAK",
    "pos": "R",
+   "slot": "F",
+   "gp": 2,
+   "g": 0,
+   "a": 0,
+   "pm": 0,
+   "pim": 0,
+   "gwg": 0,
+   "fp": 0.0,
+   "goonFp": 0.0
+  },
+  {
+   "name": "Samuel Blais",
+   "team": "OTT",
+   "pos": "L",
    "slot": "F",
    "gp": 1,
    "g": 0,
@@ -10077,6 +10105,20 @@
    "gwg": 0,
    "fp": 0.0,
    "goonFp": 0.5
+  },
+  {
+   "name": "Jacob Middleton",
+   "team": "CGY",
+   "pos": "D",
+   "slot": "D",
+   "gp": 16,
+   "g": 1,
+   "a": 1,
+   "pm": -6,
+   "pim": 24,
+   "gwg": 0,
+   "fp": 0.0,
+   "goonFp": 6.0
   },
   {
    "name": "Avery Hayes",
@@ -10265,14 +10307,14 @@
    "team": "CHI",
    "pos": "D",
    "slot": "D",
-   "gp": 15,
+   "gp": 16,
    "g": 0,
    "a": 0,
    "pm": -1,
-   "pim": 4,
+   "pim": 6,
    "gwg": 0,
    "fp": -0.5,
-   "goonFp": 1.0
+   "goonFp": 1.5
   },
   {
    "name": "David Jiricek",
@@ -10321,7 +10363,7 @@
    "team": "OTT",
    "pos": "R",
    "slot": "F",
-   "gp": 5,
+   "gp": 6,
    "g": 0,
    "a": 0,
    "pm": -1,
@@ -10415,11 +10457,25 @@
    "goonFp": 0.5
   },
   {
+   "name": "Zach Whitecloud",
+   "team": "CGY",
+   "pos": "D",
+   "slot": "D",
+   "gp": 16,
+   "g": 0,
+   "a": 2,
+   "pm": -5,
+   "pim": 0,
+   "gwg": 0,
+   "fp": -0.5,
+   "goonFp": 0.0
+  },
+  {
    "name": "Garnet Hathaway",
    "team": "FLA",
    "pos": "R",
    "slot": "F",
-   "gp": 15,
+   "gp": 16,
    "g": 0,
    "a": 1,
    "pm": -3,
@@ -10485,6 +10541,20 @@
    "goonFp": 1.25
   },
   {
+   "name": "Yan Kuznetsov",
+   "team": "CGY",
+   "pos": "D",
+   "slot": "D",
+   "gp": 15,
+   "g": 0,
+   "a": 2,
+   "pm": -5,
+   "pim": 6,
+   "gwg": 0,
+   "fp": -0.5,
+   "goonFp": 1.5
+  },
+  {
    "name": "Helge Grans",
    "team": "PHI",
    "pos": "D",
@@ -10541,18 +10611,18 @@
    "goonFp": 0.0
   },
   {
-   "name": "Jacob Middleton",
-   "team": "CGY",
+   "name": "Eric Pohlkamp",
+   "team": "SJS",
    "pos": "D",
    "slot": "D",
-   "gp": 15,
-   "g": 1,
-   "a": 1,
-   "pm": -7,
-   "pim": 24,
+   "gp": 1,
+   "g": 0,
+   "a": 0,
+   "pm": -1,
+   "pim": 0,
    "gwg": 0,
    "fp": -0.5,
-   "goonFp": 6.0
+   "goonFp": 0.0
   },
   {
    "name": "Matt Rempe",
@@ -10779,20 +10849,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Filip Bystedt",
-   "team": "SJS",
-   "pos": "C",
-   "slot": "F",
-   "gp": 3,
-   "g": 0,
-   "a": 0,
-   "pm": -2,
-   "pim": 0,
-   "gwg": 0,
-   "fp": -1.0,
-   "goonFp": 0.0
-  },
-  {
    "name": "Luke Glendening",
    "team": "NYR",
    "pos": "C",
@@ -10835,20 +10891,6 @@
    "goonFp": 0.0
   },
   {
-   "name": "Ty Dellandrea",
-   "team": "SJS",
-   "pos": "C",
-   "slot": "F",
-   "gp": 8,
-   "g": 0,
-   "a": 1,
-   "pm": -4,
-   "pim": 6,
-   "gwg": 0,
-   "fp": -1.0,
-   "goonFp": 1.5
-  },
-  {
    "name": "Cole Reinhardt",
    "team": "FLA",
    "pos": "L",
@@ -10881,7 +10923,7 @@
    "team": "BUF",
    "pos": "D",
    "slot": "D",
-   "gp": 14,
+   "gp": 15,
    "g": 0,
    "a": 1,
    "pm": -4,
@@ -11003,6 +11045,20 @@
    "goonFp": 1.0
   },
   {
+   "name": "Filip Bystedt",
+   "team": "SJS",
+   "pos": "C",
+   "slot": "F",
+   "gp": 4,
+   "g": 0,
+   "a": 0,
+   "pm": -3,
+   "pim": 2,
+   "gwg": 0,
+   "fp": -1.5,
+   "goonFp": 0.5
+  },
+  {
    "name": "Colin Blackwell",
    "team": "DAL",
    "pos": "C",
@@ -11043,6 +11099,20 @@
    "gwg": 0,
    "fp": -1.5,
    "goonFp": 1.0
+  },
+  {
+   "name": "Ty Dellandrea",
+   "team": "SJS",
+   "pos": "C",
+   "slot": "F",
+   "gp": 9,
+   "g": 0,
+   "a": 1,
+   "pm": -5,
+   "pim": 6,
+   "gwg": 0,
+   "fp": -1.5,
+   "goonFp": 1.5
   },
   {
    "name": "Connor Murphy",
@@ -11115,20 +11185,6 @@
    "goonFp": 1.5
   },
   {
-   "name": "Zach Whitecloud",
-   "team": "CGY",
-   "pos": "D",
-   "slot": "D",
-   "gp": 15,
-   "g": 0,
-   "a": 1,
-   "pm": -6,
-   "pim": 0,
-   "gwg": 0,
-   "fp": -2.0,
-   "goonFp": 0.0
-  },
-  {
    "name": "Zach Dean",
    "team": "STL",
    "pos": "C",
@@ -11161,7 +11217,7 @@
    "team": "FLA",
    "pos": "R",
    "slot": "F",
-   "gp": 6,
+   "gp": 7,
    "g": 0,
    "a": 0,
    "pm": -4,
@@ -11189,7 +11245,7 @@
    "team": "FLA",
    "pos": "L",
    "slot": "F",
-   "gp": 15,
+   "gp": 16,
    "g": 0,
    "a": 0,
    "pm": -5,
@@ -11239,20 +11295,6 @@
    "gwg": 0,
    "fp": -2.5,
    "goonFp": 0.0
-  },
-  {
-   "name": "Ethan Del Mastro",
-   "team": "CHI",
-   "pos": "D",
-   "slot": "D",
-   "gp": 6,
-   "g": 0,
-   "a": 0,
-   "pm": -5,
-   "pim": 2,
-   "gwg": 0,
-   "fp": -2.5,
-   "goonFp": 0.5
   },
   {
    "name": "Bowen Byram",
