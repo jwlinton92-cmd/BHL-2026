@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-15T17:55:58+00:00",
+ "updated": "2026-11-16T21:11:32+00:00",
  "seasonId": 20262027,
  "seasonLabel": "2026-27",
- "gamesPlayedMax": 22,
+ "gamesPlayedMax": 23,
  "teams": [
   {
    "id": "wookie",
    "name": "Wookie",
-   "total": 407.8,
+   "total": 419.8,
    "breakdown": {
-    "forwards": 190.0,
+    "forwards": 202.0,
     "defense": 71.0,
     "goalie": 117.3,
     "goon": 8.0,
@@ -21,17 +21,17 @@
      "slot": "F",
      "nhlTeam": "SJS",
      "pos": "C",
-     "gp": 20,
-     "points": 31.5,
+     "gp": 21,
+     "points": 37.0,
      "counting": true,
      "missing": false,
      "line": {
-      "G": 8,
-      "A": 16,
-      "+/-": -3,
+      "G": 9,
+      "A": 18,
+      "+/-": 0,
       "GWG": 1,
-      "PIM": 16,
-      "SOG": 83
+      "PIM": 18,
+      "SOG": 88
      }
     },
     {
@@ -39,17 +39,17 @@
      "slot": "F",
      "nhlTeam": "EDM",
      "pos": "C",
-     "gp": 21,
-     "points": 69.5,
+     "gp": 22,
+     "points": 76.0,
      "counting": true,
      "missing": false,
      "line": {
-      "G": 18,
-      "A": 20,
-      "+/-": 21,
+      "G": 20,
+      "A": 21,
+      "+/-": 24,
       "GWG": 3,
-      "PIM": 4,
-      "SOG": 82
+      "PIM": 6,
+      "SOG": 85
      }
     },
     {
@@ -75,17 +75,17 @@
      "slot": "F",
      "nhlTeam": "VGK",
      "pos": "R",
-     "gp": 19,
-     "points": 28.0,
+     "gp": 20,
+     "points": 29.0,
      "counting": false,
      "missing": false,
      "line": {
       "G": 3,
-      "A": 21,
-      "+/-": 0,
+      "A": 23,
+      "+/-": -2,
       "GWG": 1,
       "PIM": 6,
-      "SOG": 45
+      "SOG": 48
      }
     },
     {
@@ -111,17 +111,17 @@
      "slot": "F",
      "nhlTeam": "SJS",
      "pos": "C",
-     "gp": 22,
-     "points": 17.0,
+     "gp": 23,
+     "points": 22.5,
      "counting": false,
      "missing": false,
      "line": {
-      "G": 7,
-      "A": 8,
-      "+/-": -10,
+      "G": 8,
+      "A": 10,
+      "+/-": -7,
       "GWG": 0,
       "PIM": 8,
-      "SOG": 54
+      "SOG": 57
      }
     },
     {
@@ -183,18 +183,11 @@
      "slot": "D",
      "nhlTeam": "DET",
      "pos": "D",
-     "gp": 21,
-     "points": 12.5,
+     "gp": 0,
+     "points": 0,
      "counting": false,
      "missing": false,
-     "line": {
-      "G": 3,
-      "A": 6,
-      "+/-": -1,
-      "GWG": 1,
-      "PIM": 12,
-      "SOG": 30
-     }
+     "line": {}
     },
     {
      "name": "Jesper Wallstedt",
@@ -274,13 +267,13 @@
   {
    "id": "miller",
    "name": "Miller",
-   "total": 362.9,
+   "total": 374.0,
    "breakdown": {
     "forwards": 154.5,
-    "defense": 104.5,
-    "goalie": 82.9,
+    "defense": 108.0,
+    "goalie": 85.0,
     "goon": 8.5,
-    "rookie": 12.5
+    "rookie": 18.0
    },
    "players": [
     {
@@ -324,7 +317,7 @@
      "slot": "F",
      "nhlTeam": "ANA",
      "pos": "C",
-     "gp": 20,
+     "gp": 21,
      "points": 33.0,
      "counting": false,
      "missing": false,
@@ -334,7 +327,7 @@
       "+/-": -2,
       "GWG": 1,
       "PIM": 8,
-      "SOG": 34
+      "SOG": 37
      }
     },
     {
@@ -396,17 +389,17 @@
      "slot": "D",
      "nhlTeam": "EDM",
      "pos": "D",
-     "gp": 21,
-     "points": 64.0,
+     "gp": 22,
+     "points": 66.5,
      "counting": true,
      "missing": false,
      "line": {
       "G": 12,
-      "A": 22,
-      "+/-": 28,
+      "A": 24,
+      "+/-": 29,
       "GWG": 4,
-      "PIM": 4,
-      "SOG": 54
+      "PIM": 6,
+      "SOG": 55
      }
     },
     {
@@ -414,14 +407,14 @@
      "slot": "D",
      "nhlTeam": "ANA",
      "pos": "D",
-     "gp": 20,
-     "points": 22.0,
+     "gp": 21,
+     "points": 23.0,
      "counting": true,
      "missing": false,
      "line": {
       "G": 1,
       "A": 21,
-      "+/-": -2,
+      "+/-": 0,
       "GWG": 0,
       "PIM": 14,
       "SOG": 15
@@ -468,16 +461,16 @@
      "slot": "G",
      "nhlTeam": "NSH",
      "pos": "G",
-     "gp": 14,
-     "points": 82.9,
+     "gp": 15,
+     "points": 85.0,
      "counting": true,
      "missing": false,
      "line": {
       "W": 7,
       "OTL": 4,
-      "SV": 399,
-      "GAA": 2.37947,
-      "SV%": 0.92147,
+      "SV": 420,
+      "GAA": 2.49362,
+      "SV%": 0.91703,
       "SO": 1,
       "GAA Bonus": 25
      }
@@ -522,17 +515,17 @@
      "slot": "ROOKIE",
      "nhlTeam": "SJS",
      "pos": "L",
-     "gp": 22,
-     "points": 12.5,
+     "gp": 23,
+     "points": 18.0,
      "counting": true,
      "missing": false,
      "line": {
-      "G": 6,
-      "A": 6,
-      "+/-": -11,
-      "GWG": 0,
+      "G": 7,
+      "A": 7,
+      "+/-": -8,
+      "GWG": 1,
       "PIM": 8,
-      "SOG": 38
+      "SOG": 39
      }
     }
    ],
@@ -541,9 +534,9 @@
   {
    "id": "wolfe",
    "name": "Wolfe",
-   "total": 330.4,
+   "total": 335.9,
    "breakdown": {
-    "forwards": 181.5,
+    "forwards": 187.0,
     "defense": 42.5,
     "goalie": 75.4,
     "goon": 9.0,
@@ -555,17 +548,17 @@
      "slot": "F",
      "nhlTeam": "EDM",
      "pos": "C",
-     "gp": 21,
-     "points": 74.0,
+     "gp": 22,
+     "points": 79.5,
      "counting": true,
      "missing": false,
      "line": {
-      "G": 11,
-      "A": 39,
-      "+/-": 26,
+      "G": 12,
+      "A": 41,
+      "+/-": 29,
       "GWG": 0,
-      "PIM": 4,
-      "SOG": 58
+      "PIM": 6,
+      "SOG": 62
      }
     },
     {
@@ -755,15 +748,15 @@
      "nhlTeam": "NJD",
      "pos": "G",
      "gp": 7,
-     "points": 56.4,
+     "points": 56.3,
      "counting": false,
      "missing": false,
      "line": {
       "W": 7,
       "OTL": 0,
-      "SV": 174,
+      "SV": 173,
       "GAA": 2.25378,
-      "SV%": 0.91578,
+      "SV%": 0.91534,
       "SO": 1,
       "GAA Bonus": 25
      }
@@ -808,10 +801,10 @@
   {
    "id": "rock",
    "name": "Rock",
-   "total": 316.35,
+   "total": 317.85,
    "breakdown": {
-    "forwards": 167.0,
-    "defense": 72.5,
+    "forwards": 168.0,
+    "defense": 73.0,
     "goalie": 56.1,
     "goon": 11.25,
     "rookie": 9.5
@@ -840,17 +833,17 @@
      "slot": "F",
      "nhlTeam": "VGK",
      "pos": "C",
-     "gp": 21,
+     "gp": 22,
      "points": 40.5,
      "counting": true,
      "missing": false,
      "line": {
       "G": 9,
-      "A": 17,
-      "+/-": 7,
+      "A": 18,
+      "+/-": 5,
       "GWG": 2,
       "PIM": 2,
-      "SOG": 56
+      "SOG": 61
      }
     },
     {
@@ -858,17 +851,17 @@
      "slot": "F",
      "nhlTeam": "FLA",
      "pos": "C",
-     "gp": 21,
-     "points": 35.5,
+     "gp": 22,
+     "points": 36.5,
      "counting": true,
      "missing": false,
      "line": {
       "G": 12,
-      "A": 9,
+      "A": 10,
       "+/-": 5,
       "GWG": 0,
       "PIM": 6,
-      "SOG": 68
+      "SOG": 70
      }
     },
     {
@@ -912,17 +905,17 @@
      "slot": "F",
      "nhlTeam": "NSH",
      "pos": "L",
-     "gp": 20,
-     "points": 34.5,
+     "gp": 21,
+     "points": 36.0,
      "counting": false,
      "missing": false,
      "line": {
       "G": 7,
-      "A": 15,
-      "+/-": 9,
+      "A": 16,
+      "+/-": 10,
       "GWG": 1,
       "PIM": 8,
-      "SOG": 49
+      "SOG": 56
      }
     },
     {
@@ -948,17 +941,17 @@
      "slot": "D",
      "nhlTeam": "NSH",
      "pos": "D",
-     "gp": 20,
-     "points": 29.5,
+     "gp": 21,
+     "points": 28.0,
      "counting": true,
      "missing": false,
      "line": {
       "G": 2,
       "A": 21,
-      "+/-": 7,
+      "+/-": 4,
       "GWG": 1,
       "PIM": 12,
-      "SOG": 54
+      "SOG": 57
      }
     },
     {
@@ -984,17 +977,17 @@
      "slot": "D",
      "nhlTeam": "DAL",
      "pos": "D",
-     "gp": 19,
-     "points": 17.5,
+     "gp": 20,
+     "points": 19.5,
      "counting": true,
      "missing": false,
      "line": {
       "G": 2,
-      "A": 11,
-      "+/-": 1,
+      "A": 12,
+      "+/-": 3,
       "GWG": 2,
       "PIM": 12,
-      "SOG": 35
+      "SOG": 38
      }
     },
     {
@@ -1075,9 +1068,9 @@
   {
    "id": "slobbin",
    "name": "Slobbin",
-   "total": 304.6,
+   "total": 308.1,
    "breakdown": {
-    "forwards": 155.0,
+    "forwards": 158.5,
     "defense": 45.0,
     "goalie": 70.1,
     "goon": 19.5,
@@ -1099,7 +1092,7 @@
       "+/-": 10,
       "GWG": 1,
       "PIM": 6,
-      "SOG": 63
+      "SOG": 64
      }
     },
     {
@@ -1143,17 +1136,17 @@
      "slot": "F",
      "nhlTeam": "ANA",
      "pos": "L",
-     "gp": 19,
-     "points": 45.0,
+     "gp": 20,
+     "points": 48.5,
      "counting": true,
      "missing": false,
      "line": {
-      "G": 17,
+      "G": 18,
       "A": 7,
-      "+/-": 0,
-      "GWG": 4,
+      "+/-": 1,
+      "GWG": 5,
       "PIM": 6,
-      "SOG": 82
+      "SOG": 87
      }
     },
     {
@@ -1446,17 +1439,17 @@
      "slot": "F",
      "nhlTeam": "EDM",
      "pos": "L",
-     "gp": 10,
-     "points": 6.0,
+     "gp": 11,
+     "points": 9.5,
      "counting": false,
      "missing": false,
      "line": {
-      "G": 3,
+      "G": 4,
       "A": 1,
-      "+/-": -2,
-      "GWG": 0,
+      "+/-": -1,
+      "GWG": 1,
       "PIM": 2,
-      "SOG": 21
+      "SOG": 24
      }
     },
     {
@@ -1518,17 +1511,17 @@
      "slot": "D",
      "nhlTeam": "PHI",
      "pos": "D",
-     "gp": 22,
-     "points": 9.0,
+     "gp": 23,
+     "points": 8.0,
      "counting": false,
      "missing": false,
      "line": {
       "G": 3,
       "A": 6,
-      "+/-": -6,
+      "+/-": -8,
       "GWG": 0,
       "PIM": 12,
-      "SOG": 39
+      "SOG": 41
      }
     },
     {
@@ -1609,11 +1602,11 @@
   {
    "id": "lints",
    "name": "Linton",
-   "total": 274.8,
+   "total": 274.7,
    "breakdown": {
     "forwards": 148.0,
     "defense": 50.0,
-    "goalie": 61.8,
+    "goalie": 61.7,
     "goon": 7.5,
     "rookie": 7.5
    },
@@ -1804,15 +1797,15 @@
      "nhlTeam": "TBL",
      "pos": "G",
      "gp": 15,
-     "points": 61.8,
+     "points": 61.7,
      "counting": true,
      "missing": false,
      "line": {
       "W": 9,
       "OTL": 1,
-      "SV": 328,
+      "SV": 327,
       "GAA": 2.73931,
-      "SV%": 0.88888,
+      "SV%": 0.88858,
       "SO": 0,
       "GAA Bonus": 10
      }
@@ -1908,17 +1901,17 @@
      "slot": "F",
      "nhlTeam": "FLA",
      "pos": "L",
-     "gp": 21,
-     "points": 34.0,
+     "gp": 22,
+     "points": 33.5,
      "counting": true,
      "missing": false,
      "line": {
       "G": 11,
       "A": 12,
-      "+/-": -2,
+      "+/-": -3,
       "GWG": 1,
       "PIM": 56,
-      "SOG": 75
+      "SOG": 79
      }
     },
     {
@@ -1944,17 +1937,17 @@
      "slot": "F",
      "nhlTeam": "DAL",
      "pos": "R",
-     "gp": 19,
-     "points": 34.5,
+     "gp": 20,
+     "points": 35.0,
      "counting": true,
      "missing": false,
      "line": {
       "G": 9,
       "A": 13,
-      "+/-": 5,
+      "+/-": 6,
       "GWG": 1,
       "PIM": 16,
-      "SOG": 35
+      "SOG": 38
      }
     },
     {
@@ -2016,11 +2009,18 @@
      "slot": "D",
      "nhlTeam": "CAR",
      "pos": "D",
-     "gp": 0,
-     "points": 0,
+     "gp": 21,
+     "points": 7.0,
      "counting": false,
      "missing": false,
-     "line": {}
+     "line": {
+      "G": 0,
+      "A": 4,
+      "+/-": 6,
+      "GWG": 0,
+      "PIM": 0,
+      "SOG": 34
+     }
     },
     {
      "name": "Devon Toews",
@@ -2136,9 +2136,9 @@
   {
    "id": "marlin",
    "name": "Marlin",
-   "total": 248.1,
+   "total": 257.6,
    "breakdown": {
-    "forwards": 158.5,
+    "forwards": 168.0,
     "defense": 40.5,
     "goalie": 39.1,
     "goon": 0,
@@ -2168,17 +2168,17 @@
      "slot": "F",
      "nhlTeam": "DAL",
      "pos": "L",
-     "gp": 19,
-     "points": 34.5,
+     "gp": 20,
+     "points": 39.5,
      "counting": true,
      "missing": false,
      "line": {
-      "G": 9,
-      "A": 11,
-      "+/-": 7,
-      "GWG": 2,
+      "G": 10,
+      "A": 12,
+      "+/-": 9,
+      "GWG": 3,
       "PIM": 6,
-      "SOG": 62
+      "SOG": 65
      }
     },
     {
@@ -2186,17 +2186,17 @@
      "slot": "F",
      "nhlTeam": "DAL",
      "pos": "C",
-     "gp": 17,
-     "points": 22.0,
+     "gp": 18,
+     "points": 24.5,
      "counting": true,
      "missing": false,
      "line": {
-      "G": 4,
+      "G": 5,
       "A": 13,
-      "+/-": 0,
+      "+/-": 1,
       "GWG": 1,
       "PIM": 2,
-      "SOG": 47
+      "SOG": 50
      }
     },
     {
@@ -2204,17 +2204,17 @@
      "slot": "F",
      "nhlTeam": "FLA",
      "pos": "L",
-     "gp": 21,
-     "points": 35.0,
+     "gp": 22,
+     "points": 37.0,
      "counting": true,
      "missing": false,
      "line": {
-      "G": 4,
+      "G": 5,
       "A": 25,
       "+/-": 2,
       "GWG": 1,
       "PIM": 32,
-      "SOG": 44
+      "SOG": 47
      }
     },
     {
@@ -2312,14 +2312,14 @@
      "slot": "D",
      "nhlTeam": "VAN",
      "pos": "D",
-     "gp": 21,
-     "points": 0.0,
+     "gp": 22,
+     "points": 0.5,
      "counting": false,
      "missing": false,
      "line": {
       "G": 0,
       "A": 5,
-      "+/-": -10,
+      "+/-": -9,
       "GWG": 0,
       "PIM": 6,
       "SOG": 18
@@ -2379,7 +2379,7 @@
      "slot": "ROOKIE",
      "nhlTeam": "PHI",
      "pos": "R",
-     "gp": 22,
+     "gp": 23,
      "points": 10.0,
      "counting": true,
      "missing": false,
@@ -2389,7 +2389,7 @@
       "+/-": -4,
       "GWG": 0,
       "PIM": 20,
-      "SOG": 30
+      "SOG": 32
      }
     }
    ],
@@ -2410,9 +2410,27 @@
    "name": "Juuse Saros",
    "slot": "G",
    "nhlTeam": "NSH",
-   "gp": 14,
-   "points": 82.9,
+   "gp": 15,
+   "points": 85.0,
    "owner": "Miller",
+   "counting": true
+  },
+  {
+   "name": "Connor McDavid",
+   "slot": "F",
+   "nhlTeam": "EDM",
+   "gp": 22,
+   "points": 79.5,
+   "owner": "Wolfe",
+   "counting": true
+  },
+  {
+   "name": "Leon Draisaitl",
+   "slot": "F",
+   "nhlTeam": "EDM",
+   "gp": 22,
+   "points": 76.0,
+   "owner": "Wookie",
    "counting": true
   },
   {
@@ -2421,15 +2439,6 @@
    "nhlTeam": "DAL",
    "gp": 15,
    "points": 75.4,
-   "owner": "Wolfe",
-   "counting": true
-  },
-  {
-   "name": "Connor McDavid",
-   "slot": "F",
-   "nhlTeam": "EDM",
-   "gp": 21,
-   "points": 74.0,
    "owner": "Wolfe",
    "counting": true
   },
@@ -2443,21 +2452,21 @@
    "counting": true
   },
   {
-   "name": "Leon Draisaitl",
-   "slot": "F",
-   "nhlTeam": "EDM",
-   "gp": 21,
-   "points": 69.5,
-   "owner": "Wookie",
-   "counting": true
-  },
-  {
    "name": "Kirill Kaprizov",
    "slot": "F",
    "nhlTeam": "MIN",
    "gp": 22,
    "points": 67.0,
    "owner": "Marlin",
+   "counting": true
+  },
+  {
+   "name": "Evan Bouchard",
+   "slot": "D",
+   "nhlTeam": "EDM",
+   "gp": 22,
+   "points": 66.5,
+   "owner": "Miller",
    "counting": true
   },
   {
@@ -2470,24 +2479,6 @@
    "counting": false
   },
   {
-   "name": "Evan Bouchard",
-   "slot": "D",
-   "nhlTeam": "EDM",
-   "gp": 21,
-   "points": 64.0,
-   "owner": "Miller",
-   "counting": true
-  },
-  {
-   "name": "Andrei Vasilevskiy",
-   "slot": "G",
-   "nhlTeam": "TBL",
-   "gp": 15,
-   "points": 61.8,
-   "owner": "Linton",
-   "counting": true
-  },
-  {
    "name": "Ilya Sorokin",
    "slot": "G",
    "nhlTeam": "NYI",
@@ -2497,11 +2488,20 @@
    "counting": true
   },
   {
+   "name": "Andrei Vasilevskiy",
+   "slot": "G",
+   "nhlTeam": "TBL",
+   "gp": 15,
+   "points": 61.7,
+   "owner": "Linton",
+   "counting": true
+  },
+  {
    "name": "Connor Hellebuyck",
    "slot": "G",
    "nhlTeam": "NJD",
    "gp": 7,
-   "points": 56.4,
+   "points": 56.3,
    "owner": "Wolfe",
    "counting": false
   },
@@ -2542,6 +2542,15 @@
    "counting": true
   },
   {
+   "name": "Cutter Gauthier",
+   "slot": "F",
+   "nhlTeam": "ANA",
+   "gp": 20,
+   "points": 48.5,
+   "owner": "Slobbin",
+   "counting": true
+  },
+  {
    "name": "Jack Hughes",
    "slot": "F",
    "nhlTeam": "NJD",
@@ -2566,15 +2575,6 @@
    "gp": 21,
    "points": 45.5,
    "owner": "Wolfe",
-   "counting": true
-  },
-  {
-   "name": "Cutter Gauthier",
-   "slot": "F",
-   "nhlTeam": "ANA",
-   "gp": 19,
-   "points": 45.0,
-   "owner": "Slobbin",
    "counting": true
   },
   {
@@ -2680,9 +2680,18 @@
    "name": "Jack Eichel",
    "slot": "F",
    "nhlTeam": "VGK",
-   "gp": 21,
+   "gp": 22,
    "points": 40.5,
    "owner": "Rock",
+   "counting": true
+  },
+  {
+   "name": "Jason Robertson",
+   "slot": "F",
+   "nhlTeam": "DAL",
+   "gp": 20,
+   "points": 39.5,
+   "owner": "Marlin",
    "counting": true
   },
   {
@@ -2713,6 +2722,15 @@
    "counting": true
   },
   {
+   "name": "Macklin Celebrini",
+   "slot": "F",
+   "nhlTeam": "SJS",
+   "gp": 21,
+   "points": 37.0,
+   "owner": "Wookie",
+   "counting": true
+  },
+  {
    "name": "Cole Caufield",
    "slot": "F",
    "nhlTeam": "MTL",
@@ -2728,6 +2746,24 @@
    "gp": 20,
    "points": 37.0,
    "owner": "Slobbin",
+   "counting": true
+  },
+  {
+   "name": "Matthew Tkachuk",
+   "slot": "F",
+   "nhlTeam": "FLA",
+   "gp": 22,
+   "points": 37.0,
+   "owner": "Marlin",
+   "counting": true
+  },
+  {
+   "name": "Sam Reinhart",
+   "slot": "F",
+   "nhlTeam": "FLA",
+   "gp": 22,
+   "points": 36.5,
+   "owner": "Rock",
    "counting": true
   },
   {
@@ -2749,29 +2785,11 @@
    "counting": true
   },
   {
-   "name": "Sam Reinhart",
-   "slot": "F",
-   "nhlTeam": "FLA",
-   "gp": 21,
-   "points": 35.5,
-   "owner": "Rock",
-   "counting": true
-  },
-  {
-   "name": "Matthew Tkachuk",
-   "slot": "F",
-   "nhlTeam": "FLA",
-   "gp": 21,
-   "points": 35.0,
-   "owner": "Marlin",
-   "counting": true
-  },
-  {
    "name": "Filip Forsberg",
    "slot": "F",
    "nhlTeam": "NSH",
-   "gp": 20,
-   "points": 34.5,
+   "gp": 21,
+   "points": 36.0,
    "owner": "Rock",
    "counting": false
   },
@@ -2779,26 +2797,17 @@
    "name": "Mikko Rantanen",
    "slot": "F",
    "nhlTeam": "DAL",
-   "gp": 19,
-   "points": 34.5,
+   "gp": 20,
+   "points": 35.0,
    "owner": "Greedo",
-   "counting": true
-  },
-  {
-   "name": "Jason Robertson",
-   "slot": "F",
-   "nhlTeam": "DAL",
-   "gp": 19,
-   "points": 34.5,
-   "owner": "Marlin",
    "counting": true
   },
   {
    "name": "Brady Tkachuk",
    "slot": "F",
    "nhlTeam": "FLA",
-   "gp": 21,
-   "points": 34.0,
+   "gp": 22,
+   "points": 33.5,
    "owner": "Greedo",
    "counting": true
   },
@@ -2806,7 +2815,7 @@
    "name": "Leo Carlsson",
    "slot": "F",
    "nhlTeam": "ANA",
-   "gp": 20,
+   "gp": 21,
    "points": 33.0,
    "owner": "Miller",
    "counting": false
@@ -2827,15 +2836,6 @@
    "gp": 21,
    "points": 33.0,
    "owner": "Greedo",
-   "counting": true
-  },
-  {
-   "name": "Macklin Celebrini",
-   "slot": "F",
-   "nhlTeam": "SJS",
-   "gp": 20,
-   "points": 31.5,
-   "owner": "Wookie",
    "counting": true
   },
   {
@@ -2866,13 +2866,13 @@
    "counting": true
   },
   {
-   "name": "Roman Josi",
-   "slot": "D",
-   "nhlTeam": "NSH",
+   "name": "Mitch Marner",
+   "slot": "F",
+   "nhlTeam": "VGK",
    "gp": 20,
-   "points": 29.5,
-   "owner": "Rock",
-   "counting": true
+   "points": 29.0,
+   "owner": "Wookie",
+   "counting": false
   },
   {
    "name": "William Nylander",
@@ -2902,13 +2902,13 @@
    "counting": true
   },
   {
-   "name": "Mitch Marner",
-   "slot": "F",
-   "nhlTeam": "VGK",
-   "gp": 19,
+   "name": "Roman Josi",
+   "slot": "D",
+   "nhlTeam": "NSH",
+   "gp": 21,
    "points": 28.0,
-   "owner": "Wookie",
-   "counting": false
+   "owner": "Rock",
+   "counting": true
   },
   {
    "name": "Mikhail Sergachev",
@@ -2983,6 +2983,15 @@
    "counting": true
   },
   {
+   "name": "Wyatt Johnston",
+   "slot": "F",
+   "nhlTeam": "DAL",
+   "gp": 18,
+   "points": 24.5,
+   "owner": "Marlin",
+   "counting": true
+  },
+  {
    "name": "Mika Zibanejad",
    "slot": "F",
    "nhlTeam": "NYR",
@@ -3001,6 +3010,24 @@
    "counting": true
   },
   {
+   "name": "Jackson LaCombe",
+   "slot": "D",
+   "nhlTeam": "ANA",
+   "gp": 21,
+   "points": 23.0,
+   "owner": "Miller",
+   "counting": true
+  },
+  {
+   "name": "Will Smith",
+   "slot": "F",
+   "nhlTeam": "SJS",
+   "gp": 23,
+   "points": 22.5,
+   "owner": "Wookie",
+   "counting": false
+  },
+  {
    "name": "Cole Hutson",
    "slot": "ROOKIE",
    "nhlTeam": "WSH",
@@ -3010,30 +3037,12 @@
    "counting": true
   },
   {
-   "name": "Jackson LaCombe",
-   "slot": "D",
-   "nhlTeam": "ANA",
-   "gp": 20,
-   "points": 22.0,
-   "owner": "Miller",
-   "counting": true
-  },
-  {
    "name": "Victor Eklund",
    "slot": "ROOKIE",
    "nhlTeam": "NYI",
    "gp": 19,
    "points": 22.0,
    "owner": "Wolfe",
-   "counting": true
-  },
-  {
-   "name": "Wyatt Johnston",
-   "slot": "F",
-   "nhlTeam": "DAL",
-   "gp": 17,
-   "points": 22.0,
-   "owner": "Marlin",
    "counting": true
   },
   {
@@ -3073,6 +3082,15 @@
    "counting": true
   },
   {
+   "name": "Thomas Harley",
+   "slot": "D",
+   "nhlTeam": "DAL",
+   "gp": 20,
+   "points": 19.5,
+   "owner": "Rock",
+   "counting": true
+  },
+  {
    "name": "Nikita Zadorov",
    "slot": "GOON",
    "nhlTeam": "BOS",
@@ -3100,6 +3118,15 @@
    "counting": false
   },
   {
+   "name": "Ivar Stenberg",
+   "slot": "ROOKIE",
+   "nhlTeam": "SJS",
+   "gp": 23,
+   "points": 18.0,
+   "owner": "Miller",
+   "counting": true
+  },
+  {
    "name": "Scott Wedgewood",
    "slot": "G",
    "nhlTeam": "COL",
@@ -3107,15 +3134,6 @@
    "points": 17.9,
    "owner": "Marlin",
    "counting": false
-  },
-  {
-   "name": "Thomas Harley",
-   "slot": "D",
-   "nhlTeam": "DAL",
-   "gp": 19,
-   "points": 17.5,
-   "owner": "Rock",
-   "counting": true
   },
   {
    "name": "Adrian Kempe",
@@ -3134,15 +3152,6 @@
    "points": 17.5,
    "owner": "Greedo",
    "counting": true
-  },
-  {
-   "name": "Will Smith",
-   "slot": "F",
-   "nhlTeam": "SJS",
-   "gp": 22,
-   "points": 17.0,
-   "owner": "Wookie",
-   "counting": false
   },
   {
    "name": "Erik Karlsson",
@@ -3262,24 +3271,6 @@
    "counting": false
   },
   {
-   "name": "Justin Faulk",
-   "slot": "D",
-   "nhlTeam": "DET",
-   "gp": 21,
-   "points": 12.5,
-   "owner": "Wookie",
-   "counting": false
-  },
-  {
-   "name": "Ivar Stenberg",
-   "slot": "ROOKIE",
-   "nhlTeam": "SJS",
-   "gp": 22,
-   "points": 12.5,
-   "owner": "Miller",
-   "counting": true
-  },
-  {
    "name": "Seth Jarvis",
    "slot": "F",
    "nhlTeam": "CAR",
@@ -3319,7 +3310,7 @@
    "name": "Porter Martone",
    "slot": "ROOKIE",
    "nhlTeam": "PHI",
-   "gp": 22,
+   "gp": 23,
    "points": 10.0,
    "owner": "Marlin",
    "counting": true
@@ -3334,6 +3325,15 @@
    "counting": true
   },
   {
+   "name": "Zach Hyman",
+   "slot": "F",
+   "nhlTeam": "EDM",
+   "gp": 11,
+   "points": 9.5,
+   "owner": "Bizzed",
+   "counting": false
+  },
+  {
    "name": "Mark Kastelic",
    "slot": "GOON",
    "nhlTeam": "BOS",
@@ -3341,15 +3341,6 @@
    "points": 9.0,
    "owner": "Wolfe",
    "counting": true
-  },
-  {
-   "name": "Travis Sanheim",
-   "slot": "D",
-   "nhlTeam": "PHI",
-   "gp": 22,
-   "points": 9.0,
-   "owner": "Bizzed",
-   "counting": false
   },
   {
    "name": "Logan Stanley",
@@ -3379,6 +3370,15 @@
    "counting": true
   },
   {
+   "name": "Travis Sanheim",
+   "slot": "D",
+   "nhlTeam": "PHI",
+   "gp": 23,
+   "points": 8.0,
+   "owner": "Bizzed",
+   "counting": false
+  },
+  {
    "name": "Josh Morrissey",
    "slot": "D",
    "nhlTeam": "WPG",
@@ -3406,6 +3406,15 @@
    "counting": true
   },
   {
+   "name": "Jaccob Slavin",
+   "slot": "D",
+   "nhlTeam": "CAR",
+   "gp": 21,
+   "points": 7.0,
+   "owner": "Greedo",
+   "counting": false
+  },
+  {
    "name": "MacKenzie Weegar",
    "slot": "D",
    "nhlTeam": "UTA",
@@ -3413,15 +3422,6 @@
    "points": 6.0,
    "owner": "Wolfe",
    "counting": true
-  },
-  {
-   "name": "Zach Hyman",
-   "slot": "F",
-   "nhlTeam": "EDM",
-   "gp": 10,
-   "points": 6.0,
-   "owner": "Bizzed",
-   "counting": false
   },
   {
    "name": "Brent Burns",
@@ -3487,21 +3487,21 @@
    "counting": true
   },
   {
+   "name": "Zeev Buium",
+   "slot": "D",
+   "nhlTeam": "VAN",
+   "gp": 22,
+   "points": 0.5,
+   "owner": "Marlin",
+   "counting": false
+  },
+  {
    "name": "Aleksander Barkov",
    "slot": "F",
    "nhlTeam": "FLA",
    "gp": 2,
    "points": 0.0,
    "owner": "Greedo",
-   "counting": false
-  },
-  {
-   "name": "Zeev Buium",
-   "slot": "D",
-   "nhlTeam": "VAN",
-   "gp": 21,
-   "points": 0.0,
-   "owner": "Marlin",
    "counting": false
   },
   {
@@ -3523,6 +3523,13 @@
    "points": 45.0
   },
   {
+   "name": "Beckett Sennecke",
+   "nhlTeam": "ANA",
+   "pos": "R",
+   "gp": 21,
+   "points": 42.5
+  },
+  {
    "name": "Andrei Svechnikov",
    "nhlTeam": "CAR",
    "pos": "R",
@@ -3537,31 +3544,31 @@
    "points": 39.5
   },
   {
-   "name": "Carter Verhaeghe",
-   "nhlTeam": "FLA",
-   "pos": "C",
-   "gp": 21,
-   "points": 36.5
-  },
-  {
-   "name": "Beckett Sennecke",
-   "nhlTeam": "ANA",
-   "pos": "R",
-   "gp": 20,
-   "points": 36.0
-  },
-  {
    "name": "Mark Stone",
    "nhlTeam": "VGK",
    "pos": "R",
-   "gp": 21,
-   "points": 35.5
+   "gp": 22,
+   "points": 36.5
+  },
+  {
+   "name": "Carter Verhaeghe",
+   "nhlTeam": "FLA",
+   "pos": "C",
+   "gp": 22,
+   "points": 36.0
   },
   {
    "name": "Vasily Podkolzin",
    "nhlTeam": "EDM",
    "pos": "R",
-   "gp": 21,
+   "gp": 22,
+   "points": 36.0
+  },
+  {
+   "name": "Roope Hintz",
+   "nhlTeam": "DAL",
+   "pos": "C",
+   "gp": 20,
    "points": 33.5
   },
   {
@@ -3579,18 +3586,18 @@
    "points": 33.0
   },
   {
-   "name": "Roope Hintz",
-   "nhlTeam": "DAL",
+   "name": "Mikael Granlund",
+   "nhlTeam": "ANA",
    "pos": "C",
-   "gp": 19,
-   "points": 32.0
+   "gp": 20,
+   "points": 33.0
   },
   {
    "name": "Steven Stamkos",
    "nhlTeam": "NSH",
    "pos": "C",
-   "gp": 20,
-   "points": 32.0
+   "gp": 21,
+   "points": 32.5
   },
   {
    "name": "Joel Eriksson Ek",
@@ -3656,13 +3663,6 @@
    "points": 29.5
   },
   {
-   "name": "Tomas Hertl",
-   "nhlTeam": "VGK",
-   "pos": "C",
-   "gp": 21,
-   "points": 29.0
-  },
-  {
    "name": "Simon Holmstrom",
    "nhlTeam": "NYI",
    "pos": "R",
@@ -3670,18 +3670,11 @@
    "points": 28.5
   },
   {
-   "name": "Mikael Granlund",
-   "nhlTeam": "ANA",
+   "name": "Tomas Hertl",
+   "nhlTeam": "VGK",
    "pos": "C",
-   "gp": 19,
+   "gp": 22,
    "points": 28.5
-  },
-  {
-   "name": "Ryan O'Reilly",
-   "nhlTeam": "NSH",
-   "pos": "C",
-   "gp": 20,
-   "points": 28.0
   },
   {
    "name": "Nico Hischier",
@@ -3691,11 +3684,25 @@
    "points": 28.0
   },
   {
+   "name": "Ryan O'Reilly",
+   "nhlTeam": "NSH",
+   "pos": "C",
+   "gp": 21,
+   "points": 27.5
+  },
+  {
    "name": "Kent Johnson",
    "nhlTeam": "CBJ",
    "pos": "C",
    "gp": 18,
    "points": 27.5
+  },
+  {
+   "name": "Seth Jones",
+   "nhlTeam": "FLA",
+   "pos": "D",
+   "gp": 22,
+   "points": 27.0
   },
   {
    "name": "Shane Pinto",
@@ -3712,17 +3719,17 @@
    "points": 27.0
   },
   {
-   "name": "Seth Jones",
-   "nhlTeam": "FLA",
+   "name": "Luke Hughes",
+   "nhlTeam": "NJD",
    "pos": "D",
    "gp": 21,
    "points": 26.5
   },
   {
-   "name": "Luke Hughes",
-   "nhlTeam": "NJD",
+   "name": "Mattias Ekholm",
+   "nhlTeam": "EDM",
    "pos": "D",
-   "gp": 21,
+   "gp": 20,
    "points": 26.5
   },
   {
@@ -3731,6 +3738,13 @@
    "pos": "R",
    "gp": 20,
    "points": 26.5
+  },
+  {
+   "name": "Elias Pettersson",
+   "nhlTeam": "VAN",
+   "pos": "C",
+   "gp": 22,
+   "points": 26.0
   },
   {
    "name": "Nick Schmaltz",
@@ -3743,7 +3757,7 @@
    "name": "Ivan Barbashev",
    "nhlTeam": "VGK",
    "pos": "L",
-   "gp": 21,
+   "gp": 22,
    "points": 26.0
   },
   {
@@ -3751,13 +3765,6 @@
    "nhlTeam": "TOR",
    "pos": "R",
    "gp": 22,
-   "points": 26.0
-  },
-  {
-   "name": "Mattias Ekholm",
-   "nhlTeam": "EDM",
-   "pos": "D",
-   "gp": 19,
    "points": 26.0
   },
   {
@@ -3831,13 +3838,6 @@
    "points": 23.5
   },
   {
-   "name": "Elias Pettersson",
-   "nhlTeam": "VAN",
-   "pos": "C",
-   "gp": 21,
-   "points": 23.0
-  },
-  {
    "name": "Michael Amadio",
    "nhlTeam": "OTT",
    "pos": "R",
@@ -3852,25 +3852,25 @@
    "points": 23.0
   },
   {
-   "name": "Evgeni Malkin",
-   "nhlTeam": "PIT",
-   "pos": "C",
-   "gp": 18,
-   "points": 22.5
+   "name": "Matvei Michkov",
+   "nhlTeam": "PHI",
+   "pos": "R",
+   "gp": 23,
+   "points": 23.0
   },
   {
-   "name": "Pavel Zacha",
-   "nhlTeam": "BOS",
-   "pos": "C",
-   "gp": 19,
+   "name": "Zach Benson",
+   "nhlTeam": "BUF",
+   "pos": "L",
+   "gp": 20,
    "points": 22.5
   }
  ],
  "unmatched": [],
  "notPlayed": [
   {
-   "team": "Greedo",
-   "name": "Jaccob Slavin",
+   "team": "Wookie",
+   "name": "Justin Faulk",
    "slot": "D"
   },
   {
