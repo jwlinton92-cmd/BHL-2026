@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:13:39+00:00",
+ "updated": "2026-11-21T18:09:33+00:00",
  "seasonId": 20262027,
  "seasonLabel": "2026-27",
  "gamesPlayedMax": 25,
@@ -1804,15 +1804,15 @@
      "nhlTeam": "COL",
      "pos": "G",
      "gp": 7,
-     "points": 22.4,
+     "points": 22.6,
      "counting": false,
      "missing": false,
      "line": {
       "W": 2,
       "OTL": 2,
-      "SV": 164,
+      "SV": 166,
       "GAA": 3.38114,
-      "SV%": 0.88172,
+      "SV%": 0.88297,
       "SO": 1,
       "GAA Bonus": 0
      }
@@ -1839,12 +1839,11 @@
     {
      "name": "Max Domi",
      "slot": "GOON",
-     "nhlTeam": "TOR",
-     "pos": "C",
+     "nhlTeam": "\u2014",
      "gp": 0,
      "points": 0,
      "counting": true,
-     "missing": false,
+     "missing": true,
      "line": {}
     },
     {
@@ -3053,6 +3052,15 @@
    "counting": false
   },
   {
+   "name": "Scott Wedgewood",
+   "slot": "G",
+   "nhlTeam": "COL",
+   "gp": 7,
+   "points": 22.6,
+   "owner": "Marlin",
+   "counting": false
+  },
+  {
    "name": "Connor Bedard",
    "slot": "F",
    "nhlTeam": "CHI",
@@ -3068,15 +3076,6 @@
    "gp": 22,
    "points": 22.5,
    "owner": "Linton",
-   "counting": false
-  },
-  {
-   "name": "Scott Wedgewood",
-   "slot": "G",
-   "nhlTeam": "COL",
-   "gp": 7,
-   "points": 22.4,
-   "owner": "Marlin",
    "counting": false
   },
   {
@@ -3784,13 +3783,6 @@
    "points": 26.5
   },
   {
-   "name": "JJ Peterka",
-   "nhlTeam": "BOS",
-   "pos": "R",
-   "gp": 22,
-   "points": 26.5
-  },
-  {
    "name": "Pavel Zacha",
    "nhlTeam": "BOS",
    "pos": "C",
@@ -3880,16 +3872,23 @@
    "pos": "L",
    "gp": 22,
    "points": 24.0
+  },
+  {
+   "name": "Josh Anderson",
+   "nhlTeam": "MTL",
+   "pos": "R",
+   "gp": 19,
+   "points": 24.0
   }
  ],
- "unmatched": [],
- "notPlayed": [
+ "unmatched": [
   {
    "team": "Marlin",
    "name": "Max Domi",
    "slot": "GOON"
   }
  ],
+ "notPlayed": [],
  "scoring": {
   "skater": {
    "goal": 2,
