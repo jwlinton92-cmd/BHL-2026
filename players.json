@@ -1,6 +1,6 @@
 {
  "seasonId": 20262027,
- "updated": "2026-11-26T20:27:08+00:00",
+ "updated": "2026-11-27T20:11:37+00:00",
  "players": [
   {
    "name": "Jesper Wallstedt",
@@ -3031,6 +3031,20 @@
    "goonFp": 3.0
   },
   {
+   "name": "Evan Rodrigues",
+   "team": "NJD",
+   "pos": "C",
+   "slot": "F",
+   "gp": 25,
+   "g": 8,
+   "a": 6,
+   "pm": -2,
+   "pim": 12,
+   "gwg": 0,
+   "fp": 21.0,
+   "goonFp": 3.0
+  },
+  {
    "name": "Jaden Schwartz",
    "team": "COL",
    "pos": "L",
@@ -3717,20 +3731,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Neal Pionk",
-   "team": "WPG",
-   "pos": "D",
-   "slot": "D",
-   "gp": 26,
-   "g": 4,
-   "a": 10,
-   "pm": 0,
-   "pim": 12,
-   "gwg": 0,
-   "fp": 18.0,
-   "goonFp": 3.0
-  },
-  {
    "name": "Ryan Strome",
    "team": "CGY",
    "pos": "C",
@@ -3741,6 +3741,20 @@
    "pm": -2,
    "pim": 12,
    "gwg": 1,
+   "fp": 18.0,
+   "goonFp": 3.0
+  },
+  {
+   "name": "Neal Pionk",
+   "team": "WPG",
+   "pos": "D",
+   "slot": "D",
+   "gp": 26,
+   "g": 4,
+   "a": 10,
+   "pm": 0,
+   "pim": 12,
+   "gwg": 0,
    "fp": 18.0,
    "goonFp": 3.0
   },
@@ -4486,20 +4500,6 @@
    "goonFp": 2.5
   },
   {
-   "name": "Jeff Malott",
-   "team": "ANA",
-   "pos": "L",
-   "slot": "F",
-   "gp": 25,
-   "g": 4,
-   "a": 4,
-   "pm": 5,
-   "pim": 38,
-   "gwg": 0,
-   "fp": 14.5,
-   "goonFp": 9.5
-  },
-  {
    "name": "Brayden McNabb",
    "team": "VGK",
    "pos": "D",
@@ -4512,6 +4512,20 @@
    "gwg": 0,
    "fp": 14.5,
    "goonFp": 2.5
+  },
+  {
+   "name": "Jeff Malott",
+   "team": "ANA",
+   "pos": "L",
+   "slot": "F",
+   "gp": 25,
+   "g": 4,
+   "a": 4,
+   "pm": 5,
+   "pim": 38,
+   "gwg": 0,
+   "fp": 14.5,
+   "goonFp": 9.5
   },
   {
    "name": "T.J. Hughes",
@@ -6371,18 +6385,18 @@
    "goonFp": 1.0
   },
   {
-   "name": "Oliver Kapanen",
-   "team": "MTL",
-   "pos": "C",
-   "slot": "F",
-   "gp": 19,
+   "name": "Zayne Parekh",
+   "team": "CGY",
+   "pos": "D",
+   "slot": "D",
+   "gp": 26,
    "g": 2,
-   "a": 2,
-   "pm": 5,
-   "pim": 8,
-   "gwg": 0,
+   "a": 9,
+   "pm": -11,
+   "pim": 24,
+   "gwg": 1,
    "fp": 8.5,
-   "goonFp": 2.0
+   "goonFp": 6.0
   },
   {
    "name": "Nick Foligno",
@@ -6399,18 +6413,18 @@
    "goonFp": 2.25
   },
   {
-   "name": "Zayne Parekh",
-   "team": "CGY",
-   "pos": "D",
-   "slot": "D",
-   "gp": 26,
+   "name": "Oliver Kapanen",
+   "team": "MTL",
+   "pos": "C",
+   "slot": "F",
+   "gp": 19,
    "g": 2,
-   "a": 9,
-   "pm": -11,
-   "pim": 24,
-   "gwg": 1,
+   "a": 2,
+   "pm": 5,
+   "pim": 8,
+   "gwg": 0,
    "fp": 8.5,
-   "goonFp": 6.0
+   "goonFp": 2.0
   },
   {
    "name": "Jason Dickinson",
@@ -7405,20 +7419,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Mathieu Olivier",
-   "team": "CBJ",
-   "pos": "R",
-   "slot": "F",
-   "gp": 22,
-   "g": 3,
-   "a": 3,
-   "pm": -6,
-   "pim": 32,
-   "gwg": 0,
-   "fp": 6.0,
-   "goonFp": 8.0
-  },
-  {
    "name": "Brady Skjei",
    "team": "NSH",
    "pos": "D",
@@ -7431,6 +7431,20 @@
    "gwg": 0,
    "fp": 6.0,
    "goonFp": 0.5
+  },
+  {
+   "name": "Mathieu Olivier",
+   "team": "CBJ",
+   "pos": "R",
+   "slot": "F",
+   "gp": 22,
+   "g": 3,
+   "a": 3,
+   "pm": -6,
+   "pim": 32,
+   "gwg": 0,
+   "fp": 6.0,
+   "goonFp": 8.0
   },
   {
    "name": "Noah Dobson",
@@ -7783,20 +7797,6 @@
    "goonFp": 0.5
   },
   {
-   "name": "Mathew Barzal",
-   "team": "NYI",
-   "pos": "C",
-   "slot": "F",
-   "gp": 6,
-   "g": 1,
-   "a": 3,
-   "pm": 0,
-   "pim": 0,
-   "gwg": 0,
-   "fp": 5.0,
-   "goonFp": 0.0
-  },
-  {
    "name": "Roger McQueen",
    "team": "ANA",
    "pos": "C",
@@ -7809,6 +7809,20 @@
    "gwg": 0,
    "fp": 5.0,
    "goonFp": 4.25
+  },
+  {
+   "name": "Mathew Barzal",
+   "team": "NYI",
+   "pos": "C",
+   "slot": "F",
+   "gp": 6,
+   "g": 1,
+   "a": 3,
+   "pm": 0,
+   "pim": 0,
+   "gwg": 0,
+   "fp": 5.0,
+   "goonFp": 0.0
   },
   {
    "name": "Noah Laba",
@@ -9013,20 +9027,6 @@
    "goonFp": 1.0
   },
   {
-   "name": "Otto Stenberg",
-   "team": "STL",
-   "pos": "C",
-   "slot": "F",
-   "gp": 4,
-   "g": 0,
-   "a": 2,
-   "pm": 1,
-   "pim": 0,
-   "gwg": 0,
-   "fp": 2.5,
-   "goonFp": 0.0
-  },
-  {
    "name": "Brandon Duhaime",
    "team": "TOR",
    "pos": "L",
@@ -9039,6 +9039,20 @@
    "gwg": 0,
    "fp": 2.5,
    "goonFp": 5.5
+  },
+  {
+   "name": "Otto Stenberg",
+   "team": "STL",
+   "pos": "C",
+   "slot": "F",
+   "gp": 4,
+   "g": 0,
+   "a": 2,
+   "pm": 1,
+   "pim": 0,
+   "gwg": 0,
+   "fp": 2.5,
+   "goonFp": 0.0
   },
   {
    "name": "Blake Lizotte",
@@ -10326,34 +10340,6 @@
    "goonFp": 1.0
   },
   {
-   "name": "Sam Morton",
-   "team": "CGY",
-   "pos": "C",
-   "slot": "F",
-   "gp": 1,
-   "g": 0,
-   "a": 0,
-   "pm": 0,
-   "pim": 2,
-   "gwg": 0,
-   "fp": 0.0,
-   "goonFp": 0.5
-  },
-  {
-   "name": "Tyler Pitlick",
-   "team": "MIN",
-   "pos": "C",
-   "slot": "F",
-   "gp": 12,
-   "g": 0,
-   "a": 0,
-   "pm": 0,
-   "pim": 4,
-   "gwg": 0,
-   "fp": 0.0,
-   "goonFp": 1.0
-  },
-  {
    "name": "Jason Zucker",
    "team": "BUF",
    "pos": "L",
@@ -10380,6 +10366,34 @@
    "gwg": 0,
    "fp": 0.0,
    "goonFp": 0.0
+  },
+  {
+   "name": "Tyler Pitlick",
+   "team": "MIN",
+   "pos": "C",
+   "slot": "F",
+   "gp": 12,
+   "g": 0,
+   "a": 0,
+   "pm": 0,
+   "pim": 4,
+   "gwg": 0,
+   "fp": 0.0,
+   "goonFp": 1.0
+  },
+  {
+   "name": "Sam Morton",
+   "team": "CGY",
+   "pos": "C",
+   "slot": "F",
+   "gp": 1,
+   "g": 0,
+   "a": 0,
+   "pm": 0,
+   "pim": 2,
+   "gwg": 0,
+   "fp": 0.0,
+   "goonFp": 0.5
   },
   {
    "name": "Cole Beaudoin",
@@ -11628,20 +11642,6 @@
    "goonFp": 4.0
   },
   {
-   "name": "Mason Appleton",
-   "team": "DET",
-   "pos": "C",
-   "slot": "F",
-   "gp": 6,
-   "g": 0,
-   "a": 0,
-   "pm": -3,
-   "pim": 0,
-   "gwg": 0,
-   "fp": -1.5,
-   "goonFp": 0.0
-  },
-  {
    "name": "Trevor van Riemsdyk",
    "team": "PIT",
    "pos": "D",
@@ -11654,6 +11654,20 @@
    "gwg": 0,
    "fp": -1.5,
    "goonFp": 2.0
+  },
+  {
+   "name": "Mason Appleton",
+   "team": "DET",
+   "pos": "C",
+   "slot": "F",
+   "gp": 6,
+   "g": 0,
+   "a": 0,
+   "pm": -3,
+   "pim": 0,
+   "gwg": 0,
+   "fp": -1.5,
+   "goonFp": 0.0
   },
   {
    "name": "Luke Schenn",
